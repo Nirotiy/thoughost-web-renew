@@ -1,0 +1,1554 @@
+{
+  "retrieved": "2026-09-06",
+  "label": "https://www.discogs.com/label/2154487-Thoughost",
+  "releases": [
+    {
+      "id": 33877926,
+      "status": 200,
+      "title": "Asteria",
+      "uri": "https://www.discogs.com/release/33877926-Joulez-Asteria",
+      "artists": [
+        {
+          "name": "Joulez",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 7471563,
+          "resource_url": "https://api.discogs.com/artists/7471563"
+        }
+      ],
+      "tracklist": [
+        {
+          "position": "1",
+          "type_": "track",
+          "title": "Tessarect Of Light And Stars",
+          "duration": "5:13"
+        },
+        {
+          "position": "2",
+          "type_": "track",
+          "title": "Asteria ",
+          "duration": "5:35"
+        },
+        {
+          "position": "3",
+          "type_": "track",
+          "title": "宙知らぬ星",
+          "extraartists": [
+            {
+              "name": "Himawari (7)",
+              "anv": "",
+              "join": "",
+              "role": "Vocals, Lyrics By",
+              "tracks": "",
+              "id": 16183783,
+              "resource_url": "https://api.discogs.com/artists/16183783"
+            }
+          ],
+          "duration": "3:45"
+        },
+        {
+          "position": "4",
+          "type_": "track",
+          "title": "欠片都市 -The Shattered Past-",
+          "extraartists": [
+            {
+              "name": "Himawari (7)",
+              "anv": "",
+              "join": "",
+              "role": "Vocals, Lyrics By",
+              "tracks": "",
+              "id": 16183783,
+              "resource_url": "https://api.discogs.com/artists/16183783"
+            }
+          ],
+          "duration": "6:12"
+        },
+        {
+          "position": "5",
+          "type_": "track",
+          "title": "Asteria (AiSS Piano Quartet Arr.) ",
+          "extraartists": [
+            {
+              "name": "AiSS",
+              "anv": "",
+              "join": "",
+              "role": "Remix",
+              "tracks": "",
+              "id": 12923123,
+              "resource_url": "https://api.discogs.com/artists/12923123"
+            }
+          ],
+          "duration": "3:48"
+        },
+        {
+          "position": "6",
+          "type_": "track",
+          "title": "Asteria (wheatfox's Neural Botany Mix)",
+          "extraartists": [
+            {
+              "name": "wheatfox",
+              "anv": "",
+              "join": "",
+              "role": "Remix",
+              "tracks": "",
+              "id": 12356662,
+              "resource_url": "https://api.discogs.com/artists/12356662"
+            }
+          ],
+          "duration": "3:02"
+        },
+        {
+          "position": "7",
+          "type_": "track",
+          "title": "Asteria (望月真白's Jungle Mixed Up)",
+          "extraartists": [
+            {
+              "name": "望月真白",
+              "anv": "",
+              "join": "",
+              "role": "Remix",
+              "tracks": "",
+              "id": 11135093,
+              "resource_url": "https://api.discogs.com/artists/11135093"
+            }
+          ],
+          "duration": "5:28"
+        },
+        {
+          "position": "8",
+          "type_": "track",
+          "title": "Asteria (Nirotiy's 'Call Of Hecate' Ver.)",
+          "extraartists": [
+            {
+              "name": "Nirotiy",
+              "anv": "",
+              "join": "",
+              "role": "Remix",
+              "tracks": "",
+              "id": 9091978,
+              "resource_url": "https://api.discogs.com/artists/9091978"
+            }
+          ],
+          "duration": "6:24"
+        }
+      ],
+      "extraartists": [
+        {
+          "name": "Konseki Takane",
+          "anv": "",
+          "join": "",
+          "role": "Art Direction, Design",
+          "tracks": "",
+          "id": 11135084,
+          "resource_url": "https://api.discogs.com/artists/11135084"
+        },
+        {
+          "name": "Joulez",
+          "anv": "",
+          "join": "",
+          "role": "Composed By, Producer, Mixed By, Mastered By",
+          "tracks": "",
+          "id": 7471563,
+          "resource_url": "https://api.discogs.com/artists/7471563"
+        },
+        {
+          "name": "Himawari (7)",
+          "anv": "",
+          "join": "",
+          "role": "Vocals, Lyrics By, Composed By",
+          "tracks": "2, 3",
+          "id": 16183783,
+          "resource_url": "https://api.discogs.com/artists/16183783"
+        }
+      ],
+      "notes": "Tr03 is a free released track.\nFirst released at M3-55, soon afterwards released during DM02 event. (03/05/2025 - 04/05/2025)\n\nTrack Romanization:\n03. Chū shiranu hoshi\n04. Kakera toshi -The Shattered Past-"
+    },
+    {
+      "id": 32238003,
+      "status": 200,
+      "title": "Palette Of Clouds",
+      "uri": "https://www.discogs.com/release/32238003-Nirotiy-Palette-Of-Clouds",
+      "artists": [
+        {
+          "name": "Nirotiy",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 9091978,
+          "resource_url": "https://api.discogs.com/artists/9091978"
+        }
+      ],
+      "tracklist": [
+        {
+          "position": "1",
+          "type_": "track",
+          "title": "Cirrostratus Fibratus",
+          "duration": "2:38"
+        },
+        {
+          "position": "2",
+          "type_": "track",
+          "title": "Stratocumulus Undulatus ",
+          "duration": "5:36"
+        },
+        {
+          "position": "3",
+          "type_": "track",
+          "title": "Cumulonimbus ",
+          "duration": "6:11"
+        },
+        {
+          "position": "4",
+          "type_": "track",
+          "title": "Noctilucent Clouds ",
+          "duration": "4:12"
+        },
+        {
+          "position": "5",
+          "type_": "track",
+          "title": "Nimbostratus (2024) ",
+          "duration": "4:10"
+        }
+      ],
+      "extraartists": [
+        {
+          "name": "Nirotiy",
+          "anv": "",
+          "join": "",
+          "role": "Producer",
+          "tracks": "",
+          "id": 9091978,
+          "resource_url": "https://api.discogs.com/artists/9091978"
+        }
+      ],
+      "notes": "[a9091978] 1st EP, released at M3-54."
+    },
+    {
+      "id": 27506943,
+      "status": 200,
+      "title": "16:48",
+      "uri": "https://www.discogs.com/release/27506943-Joulez-1648",
+      "artists": [
+        {
+          "name": "Joulez",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 7471563,
+          "resource_url": "https://api.discogs.com/artists/7471563"
+        }
+      ],
+      "tracklist": [
+        {
+          "position": "1",
+          "type_": "track",
+          "title": "To Introduce…",
+          "duration": "3:20"
+        },
+        {
+          "position": "2",
+          "type_": "track",
+          "title": "I Love U／Hate Myself ",
+          "duration": "4:44"
+        },
+        {
+          "position": "3",
+          "type_": "track",
+          "title": "A.ll The Things I Love(d)",
+          "duration": "13:16"
+        },
+        {
+          "position": "4",
+          "type_": "track",
+          "title": "Continuous Deep Imagination",
+          "duration": "6:20"
+        },
+        {
+          "position": "5",
+          "type_": "track",
+          "title": "Sunset (Another Time)",
+          "duration": "4:28"
+        },
+        {
+          "position": "6",
+          "type_": "track",
+          "title": "Mermaid Of Crystal Cave ",
+          "duration": "5:32"
+        },
+        {
+          "position": "7",
+          "type_": "track",
+          "title": "Just Like Glass",
+          "duration": "4:32"
+        },
+        {
+          "position": "8",
+          "type_": "track",
+          "title": "Unmarked Trace ",
+          "duration": "4:00"
+        },
+        {
+          "position": "9",
+          "type_": "track",
+          "title": "Forget.bat",
+          "duration": "5:28"
+        },
+        {
+          "position": "10",
+          "type_": "track",
+          "title": "P229 (An Interlude)",
+          "duration": "5:28"
+        },
+        {
+          "position": "11",
+          "type_": "track",
+          "title": "22-46 November 4th",
+          "duration": "3:52"
+        },
+        {
+          "position": "12",
+          "type_": "track",
+          "title": "Or？",
+          "duration": "5:36"
+        }
+      ],
+      "extraartists": [
+        {
+          "name": "Konseki Takane",
+          "anv": "",
+          "join": "",
+          "role": "Design",
+          "tracks": "",
+          "id": 11135084,
+          "resource_url": "https://api.discogs.com/artists/11135084"
+        },
+        {
+          "name": "Joulez",
+          "anv": "",
+          "join": "",
+          "role": "Producer, Composed By, Arranged By, Mastered By",
+          "tracks": "",
+          "id": 7471563,
+          "resource_url": "https://api.discogs.com/artists/7471563"
+        },
+        {
+          "name": "Lola螺旯",
+          "anv": "",
+          "join": "",
+          "role": "Vocals",
+          "tracks": "9,12",
+          "id": 13188648,
+          "resource_url": "https://api.discogs.com/artists/13188648"
+        },
+        {
+          "name": "除名システム",
+          "anv": "",
+          "join": "",
+          "role": "Vocals",
+          "tracks": "2,9",
+          "id": 13188651,
+          "resource_url": "https://api.discogs.com/artists/13188651"
+        }
+      ],
+      "notes": "经历了6年的创作生涯后，电子音乐人Joulez在Thoughost推出了他的第一张个人专辑《16:48》，这是他3年来的结晶。\n《16:48》是一张音乐、诗歌和摄影作品集，情感在其中流动和驻留。\n在十二首乐曲里，我们一起聆听属于他内心的故事。\n\n听，焦耳。"
+    },
+    {
+      "id": 38159658,
+      "status": 200,
+      "title": "Kakusatsu Shoujo 4",
+      "uri": "https://www.discogs.com/release/38159658-Various-Kakusatsu-Shoujo-4",
+      "artists": [
+        {
+          "name": "Various",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 194,
+          "resource_url": "https://api.discogs.com/artists/194"
+        }
+      ],
+      "tracklist": [
+        {
+          "position": "1",
+          "type_": "track",
+          "artists": [
+            {
+              "name": "Actually (2)",
+              "anv": "",
+              "join": "",
+              "role": "",
+              "tracks": "",
+              "id": 18137292,
+              "resource_url": "https://api.discogs.com/artists/18137292"
+            }
+          ],
+          "title": "Please Warm Me Up!",
+          "duration": "2:52"
+        },
+        {
+          "position": "2",
+          "type_": "track",
+          "artists": [
+            {
+              "name": "七森中☆でんぱ部",
+              "anv": "",
+              "join": "",
+              "role": "",
+              "tracks": "",
+              "id": 18137295,
+              "resource_url": "https://api.discogs.com/artists/18137295"
+            }
+          ],
+          "title": "Chaoin Kitsune Is A Fake Moebuta He Hasnt Even Watched Yuruyuri",
+          "duration": "4:06"
+        },
+        {
+          "position": "3",
+          "type_": "track",
+          "artists": [
+            {
+              "name": "Denpa-Sampler",
+              "anv": "",
+              "join": "",
+              "role": "",
+              "tracks": "",
+              "id": 4178873,
+              "resource_url": "https://api.discogs.com/artists/4178873"
+            }
+          ],
+          "title": "Paradigm Shift",
+          "duration": "4:41"
+        },
+        {
+          "position": "4",
+          "type_": "track",
+          "artists": [
+            {
+              "name": "DazzEdgh",
+              "anv": "",
+              "join": "",
+              "role": "",
+              "tracks": "",
+              "id": 16918012,
+              "resource_url": "https://api.discogs.com/artists/16918012"
+            }
+          ],
+          "title": "・２０８８~Planetary Video⭐Star~",
+          "duration": "5:13"
+        },
+        {
+          "position": "5",
+          "type_": "track",
+          "artists": [
+            {
+              "name": "Nirotiy",
+              "anv": "",
+              "join": "",
+              "role": "",
+              "tracks": "",
+              "id": 9091978,
+              "resource_url": "https://api.discogs.com/artists/9091978"
+            }
+          ],
+          "title": "#We_Love_Perfume_Forever",
+          "duration": "4:54"
+        },
+        {
+          "position": "6",
+          "type_": "track",
+          "artists": [
+            {
+              "name": "Pencil (2)",
+              "anv": "",
+              "join": "",
+              "role": "",
+              "tracks": "",
+              "id": 1817817,
+              "resource_url": "https://api.discogs.com/artists/1817817"
+            }
+          ],
+          "title": "Double Bind",
+          "duration": "4:15"
+        },
+        {
+          "position": "7",
+          "type_": "track",
+          "artists": [
+            {
+              "name": "Project-G",
+              "anv": "",
+              "join": "",
+              "role": "",
+              "tracks": "",
+              "id": 6458040,
+              "resource_url": "https://api.discogs.com/artists/6458040"
+            }
+          ],
+          "title": "33122promptz",
+          "duration": "2:45"
+        },
+        {
+          "position": "8",
+          "type_": "track",
+          "artists": [
+            {
+              "name": "Uet",
+              "anv": "",
+              "join": "",
+              "role": "",
+              "tracks": "",
+              "id": 4834780,
+              "resource_url": "https://api.discogs.com/artists/4834780"
+            }
+          ],
+          "title": "Heroine Lose, Cum To Daddies",
+          "duration": "5:12"
+        },
+        {
+          "position": "9",
+          "type_": "track",
+          "artists": [
+            {
+              "name": "Copyright Joker",
+              "anv": "",
+              "join": "",
+              "role": "",
+              "tracks": "",
+              "id": 15532149,
+              "resource_url": "https://api.discogs.com/artists/15532149"
+            }
+          ],
+          "title": "Yowa-Yowa-Style",
+          "duration": "6:01"
+        },
+        {
+          "position": "10",
+          "type_": "track",
+          "artists": [
+            {
+              "name": "Yakumo (4)",
+              "anv": "",
+              "join": "",
+              "role": "",
+              "tracks": "",
+              "id": 12078004,
+              "resource_url": "https://api.discogs.com/artists/12078004"
+            }
+          ],
+          "title": "Mode: Crimson Eye",
+          "duration": "3:52"
+        },
+        {
+          "position": "11",
+          "type_": "track",
+          "artists": [
+            {
+              "name": "Kiralitch",
+              "anv": "",
+              "join": "",
+              "role": "",
+              "tracks": "",
+              "id": 15385605,
+              "resource_url": "https://api.discogs.com/artists/15385605"
+            }
+          ],
+          "title": "Blight Flower",
+          "duration": "4:17"
+        },
+        {
+          "position": "12",
+          "type_": "track",
+          "artists": [
+            {
+              "name": "Mqs_T",
+              "anv": "",
+              "join": "",
+              "role": "",
+              "tracks": "",
+              "id": 18042561,
+              "resource_url": "https://api.discogs.com/artists/18042561"
+            }
+          ],
+          "title": "第1話：ニャル子、征服す",
+          "duration": "3:46"
+        },
+        {
+          "position": "13",
+          "type_": "track",
+          "artists": [
+            {
+              "name": "Broken Nerdz",
+              "anv": "",
+              "join": "",
+              "role": "",
+              "tracks": "",
+              "id": 13334652,
+              "resource_url": "https://api.discogs.com/artists/13334652"
+            }
+          ],
+          "title": "Zunda Terror ~ずんだもんの声を265回以上サンプリングしたのだ~",
+          "duration": "3:59"
+        },
+        {
+          "position": "14",
+          "type_": "track",
+          "artists": [
+            {
+              "name": "望月真白",
+              "anv": "",
+              "join": "",
+              "role": "",
+              "tracks": "",
+              "id": 11135093,
+              "resource_url": "https://api.discogs.com/artists/11135093"
+            }
+          ],
+          "title": "Fractured Sequencer",
+          "duration": "4:59"
+        },
+        {
+          "position": "15",
+          "type_": "track",
+          "artists": [
+            {
+              "name": "潮音きつね",
+              "anv": "",
+              "join": "",
+              "role": "",
+              "tracks": "",
+              "id": 9092047,
+              "resource_url": "https://api.discogs.com/artists/9092047"
+            }
+          ],
+          "title": "こんるる復活祭",
+          "duration": "4:08"
+        }
+      ],
+      "extraartists": [
+        {
+          "name": "Konseki Takane",
+          "anv": "",
+          "join": "",
+          "role": "Design",
+          "tracks": "",
+          "id": 11135084,
+          "resource_url": "https://api.discogs.com/artists/11135084"
+        },
+        {
+          "name": "だんごむし",
+          "anv": "",
+          "join": "",
+          "role": "Illustration",
+          "tracks": "",
+          "id": 3095964,
+          "resource_url": "https://api.discogs.com/artists/3095964"
+        },
+        {
+          "name": "Joulez",
+          "anv": "",
+          "join": "",
+          "role": "Mastered By",
+          "tracks": "",
+          "id": 7471563,
+          "resource_url": "https://api.discogs.com/artists/7471563"
+        }
+      ],
+      "notes": "First released at Comiket 108.\n"
+    },
+    {
+      "id": 26943137,
+      "status": 200,
+      "title": "After The Forerunner E​.​p.",
+      "uri": "https://www.discogs.com/release/26943137-Various-After-The-Forerunner-Ep",
+      "artists": [
+        {
+          "name": "Various",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 194,
+          "resource_url": "https://api.discogs.com/artists/194"
+        }
+      ],
+      "extraartists": [
+        {
+          "name": "Konseki Takane",
+          "anv": "",
+          "join": "",
+          "role": "Design",
+          "tracks": "",
+          "id": 11135084,
+          "resource_url": "https://api.discogs.com/artists/11135084"
+        },
+        {
+          "name": "Joulez",
+          "anv": "",
+          "join": "",
+          "role": "Mastered By",
+          "tracks": "",
+          "id": 7471563,
+          "resource_url": "https://api.discogs.com/artists/7471563"
+        }
+      ],
+      "trackCredits": []
+    },
+    {
+      "id": 21951265,
+      "status": 200,
+      "title": "Trixxck",
+      "uri": "https://www.discogs.com/release/21951265-Various-Trixxck",
+      "artists": [
+        {
+          "name": "Various",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 194,
+          "resource_url": "https://api.discogs.com/artists/194"
+        }
+      ],
+      "extraartists": [
+        {
+          "name": "Konseki Takane",
+          "anv": "",
+          "join": "",
+          "role": "Design",
+          "tracks": "",
+          "id": 11135084,
+          "resource_url": "https://api.discogs.com/artists/11135084"
+        },
+        {
+          "name": "SCAF",
+          "anv": "",
+          "join": "",
+          "role": "Illustration",
+          "tracks": "",
+          "id": 11124371,
+          "resource_url": "https://api.discogs.com/artists/11124371"
+        },
+        {
+          "name": "BlueWind",
+          "anv": "",
+          "join": "",
+          "role": "Mastered By",
+          "tracks": "",
+          "id": 6860768,
+          "resource_url": "https://api.discogs.com/artists/6860768"
+        }
+      ],
+      "trackCredits": [
+        {
+          "position": "7",
+          "title": "Fish_man",
+          "extraartists": [
+            {
+              "name": "Nirotiy",
+              "anv": "",
+              "join": "",
+              "role": "Featuring",
+              "tracks": "",
+              "id": 9091978,
+              "resource_url": "https://api.discogs.com/artists/9091978"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 18162766,
+      "status": 200,
+      "title": "Kakusatsu Shoujo",
+      "uri": "https://www.discogs.com/release/18162766-Various-Kakusatsu-Shoujo",
+      "artists": [
+        {
+          "name": "Various",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 194,
+          "resource_url": "https://api.discogs.com/artists/194"
+        }
+      ],
+      "trackCredits": []
+    },
+    {
+      "id": 35666869,
+      "status": 200,
+      "title": "2000% Invasion",
+      "uri": "https://www.discogs.com/release/35666869-Various-2000-Invasion",
+      "artists": [
+        {
+          "name": "Various",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 194,
+          "resource_url": "https://api.discogs.com/artists/194"
+        }
+      ],
+      "extraartists": [
+        {
+          "name": "Konseki Takane",
+          "anv": "",
+          "join": "",
+          "role": "Art Direction, Design",
+          "tracks": "",
+          "id": 11135084,
+          "resource_url": "https://api.discogs.com/artists/11135084"
+        },
+        {
+          "name": "TARA#376",
+          "anv": "",
+          "join": "",
+          "role": "Illustration",
+          "tracks": "",
+          "id": 14660580,
+          "resource_url": "https://api.discogs.com/artists/14660580"
+        },
+        {
+          "name": "Joulez",
+          "anv": "",
+          "join": "",
+          "role": "Mastered By",
+          "tracks": "",
+          "id": 7471563,
+          "resource_url": "https://api.discogs.com/artists/7471563"
+        }
+      ],
+      "trackCredits": [
+        {
+          "position": "7",
+          "title": "New Player Adventure",
+          "extraartists": [
+            {
+              "name": "FreshP",
+              "anv": "",
+              "join": "",
+              "role": "Composed By, Arranged By",
+              "tracks": "",
+              "id": 14660685,
+              "resource_url": "https://api.discogs.com/artists/14660685"
+            },
+            {
+              "name": "Black201",
+              "anv": "",
+              "join": "",
+              "role": "Lyrics By",
+              "tracks": "",
+              "id": 9092038,
+              "resource_url": "https://api.discogs.com/artists/9092038"
+            },
+            {
+              "name": "Juzim",
+              "anv": "",
+              "join": "",
+              "role": "Lyrics By",
+              "tracks": "",
+              "id": 18198738,
+              "resource_url": "https://api.discogs.com/artists/18198738"
+            }
+          ]
+        },
+        {
+          "position": "8",
+          "title": "Catch The Fire ",
+          "extraartists": [
+            {
+              "name": "Haseko",
+              "anv": "",
+              "join": "",
+              "role": "Composed By, Arranged By, Edited By [Vocal]",
+              "tracks": "",
+              "id": 5306998,
+              "resource_url": "https://api.discogs.com/artists/5306998"
+            },
+            {
+              "name": "Konseki Takane",
+              "anv": "",
+              "join": "",
+              "role": "Featuring, Vocals, Lyrics By",
+              "tracks": "",
+              "id": 11135084,
+              "resource_url": "https://api.discogs.com/artists/11135084"
+            }
+          ]
+        },
+        {
+          "position": "11",
+          "title": "Surf The Ravenet ",
+          "extraartists": [
+            {
+              "name": "Hazecat",
+              "anv": "",
+              "join": "",
+              "role": "Composed By, Arranged By, Lyrics By",
+              "tracks": "",
+              "id": 6860766,
+              "resource_url": "https://api.discogs.com/artists/6860766"
+            }
+          ]
+        },
+        {
+          "position": "12",
+          "title": "Exhausting Mind",
+          "extraartists": [
+            {
+              "name": "板烧鹅尼子",
+              "anv": "",
+              "join": "",
+              "role": "Composed By, Arranged By",
+              "tracks": "",
+              "id": 16918018,
+              "resource_url": "https://api.discogs.com/artists/16918018"
+            },
+            {
+              "name": "柳",
+              "anv": "",
+              "join": "",
+              "role": "Edited By [Vocal]",
+              "tracks": "",
+              "id": 1713923,
+              "resource_url": "https://api.discogs.com/artists/1713923"
+            },
+            {
+              "name": "Rin★",
+              "anv": "",
+              "join": "",
+              "role": "Featuring, Vocals",
+              "tracks": "",
+              "id": 6007016,
+              "resource_url": "https://api.discogs.com/artists/6007016"
+            },
+            {
+              "name": "奇异甜食",
+              "anv": "",
+              "join": "",
+              "role": "Guitar",
+              "tracks": "",
+              "id": 18198741,
+              "resource_url": "https://api.discogs.com/artists/18198741"
+            },
+            {
+              "name": "Mr.skY01",
+              "anv": "",
+              "join": "",
+              "role": "Lyrics By",
+              "tracks": "",
+              "id": 18198744,
+              "resource_url": "https://api.discogs.com/artists/18198744"
+            }
+          ]
+        },
+        {
+          "position": "13",
+          "title": "Music Is My Savior",
+          "extraartists": [
+            {
+              "name": "Supa7onyz",
+              "anv": "",
+              "join": "",
+              "role": "Composed By, Arranged By, Lyrics By",
+              "tracks": "",
+              "id": 7958717,
+              "resource_url": "https://api.discogs.com/artists/7958717"
+            }
+          ]
+        },
+        {
+          "position": "14",
+          "title": "Dream So Real ",
+          "extraartists": [
+            {
+              "name": "Valtrax",
+              "anv": "",
+              "join": "",
+              "role": "Composed By, Arranged By",
+              "tracks": "",
+              "id": 12970818,
+              "resource_url": "https://api.discogs.com/artists/12970818"
+            },
+            {
+              "name": "Hazecat",
+              "anv": "",
+              "join": "",
+              "role": "Lyrics By",
+              "tracks": "",
+              "id": 6860766,
+              "resource_url": "https://api.discogs.com/artists/6860766"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 37319517,
+      "status": 200,
+      "title": "Thoughts 2",
+      "uri": "https://www.discogs.com/release/37319517-Various-Thoughts-2",
+      "artists": [
+        {
+          "name": "Various",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 194,
+          "resource_url": "https://api.discogs.com/artists/194"
+        }
+      ],
+      "extraartists": [
+        {
+          "name": "Konseki Takane",
+          "anv": "",
+          "join": "",
+          "role": "Art Direction, Design",
+          "tracks": "",
+          "id": 11135084,
+          "resource_url": "https://api.discogs.com/artists/11135084"
+        },
+        {
+          "name": "TARA#376",
+          "anv": "",
+          "join": "",
+          "role": "Illustration",
+          "tracks": "",
+          "id": 14660580,
+          "resource_url": "https://api.discogs.com/artists/14660580"
+        },
+        {
+          "name": "Joulez",
+          "anv": "",
+          "join": "",
+          "role": "Mastered By",
+          "tracks": "",
+          "id": 7471563,
+          "resource_url": "https://api.discogs.com/artists/7471563"
+        }
+      ],
+      "trackCredits": []
+    },
+    {
+      "id": 18163126,
+      "status": 200,
+      "title": "Ground Attack!!!",
+      "uri": "https://www.discogs.com/release/18163126-Various-Ground-Attack",
+      "artists": [
+        {
+          "name": "Various",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 194,
+          "resource_url": "https://api.discogs.com/artists/194"
+        }
+      ],
+      "trackCredits": []
+    },
+    {
+      "id": 25732348,
+      "status": 200,
+      "title": "S​.​L​.​V​.​T: MIXTURE",
+      "uri": "https://www.discogs.com/release/25732348-Nirotiy-望月真白-SLVT-MIXTURE",
+      "artists": [
+        {
+          "name": "Nirotiy",
+          "anv": "",
+          "join": ",",
+          "role": "",
+          "tracks": "",
+          "id": 9091978,
+          "resource_url": "https://api.discogs.com/artists/9091978"
+        },
+        {
+          "name": "望月真白",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 11135093,
+          "resource_url": "https://api.discogs.com/artists/11135093",
+          "thumbnail_url": "https://i.discogs.com/PUNO860bfXNvkAlUd5S1xXeEY_ggx1xTPekWXiO5L6Q/rs:fit/g:sm/q:90/h:457/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTExMTM1/MDkzLTE2NTU1Njgx/MjYtMjY0Ny5qcGVn.jpeg"
+        }
+      ],
+      "extraartists": [
+        {
+          "name": "Nirotiy",
+          "anv": "",
+          "join": "",
+          "role": "Artwork",
+          "tracks": "",
+          "id": 9091978,
+          "resource_url": "https://api.discogs.com/artists/9091978"
+        },
+        {
+          "name": "Konseki Takane",
+          "anv": "",
+          "join": "",
+          "role": "Design",
+          "tracks": "",
+          "id": 11135084,
+          "resource_url": "https://api.discogs.com/artists/11135084"
+        },
+        {
+          "name": "Coredump_Breaks",
+          "anv": "Coredump Breaks",
+          "join": "",
+          "role": "Guest",
+          "tracks": "",
+          "id": 7976024,
+          "resource_url": "https://api.discogs.com/artists/7976024"
+        },
+        {
+          "name": "空読無 白眼",
+          "anv": "",
+          "join": "",
+          "role": "Guest",
+          "tracks": "",
+          "id": 7819796,
+          "resource_url": "https://api.discogs.com/artists/7819796"
+        },
+        {
+          "name": "Joulez",
+          "anv": "",
+          "join": "",
+          "role": "Mastered By",
+          "tracks": "",
+          "id": 7471563,
+          "resource_url": "https://api.discogs.com/artists/7471563"
+        },
+        {
+          "name": "Nirotiy",
+          "anv": "",
+          "join": "",
+          "role": "Producer",
+          "tracks": "",
+          "id": 9091978,
+          "resource_url": "https://api.discogs.com/artists/9091978"
+        },
+        {
+          "name": "望月真白",
+          "anv": "",
+          "join": "",
+          "role": "Producer",
+          "tracks": "",
+          "id": 11135093,
+          "resource_url": "https://api.discogs.com/artists/11135093"
+        }
+      ],
+      "trackCredits": [
+        {
+          "position": "7",
+          "title": "Verwirrung - 空読無 白眼 REMIX ",
+          "extraartists": [
+            {
+              "name": "空読無 白眼",
+              "anv": "",
+              "join": "",
+              "role": "Remix",
+              "tracks": "",
+              "id": 7819796,
+              "resource_url": "https://api.discogs.com/artists/7819796"
+            }
+          ]
+        },
+        {
+          "position": "8",
+          "title": "INFERNAL AFFAIRS - Coredump Breaks REMIX",
+          "extraartists": [
+            {
+              "name": "Coredump_Breaks",
+              "anv": "Coredump Breaks",
+              "join": "",
+              "role": "Remix",
+              "tracks": "",
+              "id": 7976024,
+              "resource_url": "https://api.discogs.com/artists/7976024"
+            }
+          ]
+        },
+        {
+          "position": "10",
+          "title": "Jiehkki (Glacier) - D3llketa MaxhIro REMIXXX",
+          "extraartists": [
+            {
+              "name": "D3llketa MaxhIro",
+              "anv": "",
+              "join": "",
+              "role": "Remix",
+              "tracks": "",
+              "id": 13334703,
+              "resource_url": "https://api.discogs.com/artists/13334703"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 22994846,
+      "status": 200,
+      "title": "Kakusatsu Shoujo 2",
+      "uri": "https://www.discogs.com/release/22994846-Various-Kakusatsu-Shoujo-2",
+      "artists": [
+        {
+          "name": "Various",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 194,
+          "resource_url": "https://api.discogs.com/artists/194"
+        }
+      ],
+      "extraartists": [
+        {
+          "name": "Konseki Takane",
+          "anv": "",
+          "join": "",
+          "role": "Design",
+          "tracks": "",
+          "id": 11135084,
+          "resource_url": "https://api.discogs.com/artists/11135084"
+        },
+        {
+          "name": "だんごむし",
+          "anv": "",
+          "join": "",
+          "role": "Illustration",
+          "tracks": "",
+          "id": 3095964,
+          "resource_url": "https://api.discogs.com/artists/3095964"
+        },
+        {
+          "name": "Joulez",
+          "anv": "",
+          "join": "",
+          "role": "Mastered By",
+          "tracks": "",
+          "id": 7471563,
+          "resource_url": "https://api.discogs.com/artists/7471563"
+        }
+      ],
+      "trackCredits": []
+    },
+    {
+      "id": 25723279,
+      "status": 200,
+      "title": "蒼 -Depressive & Emotional Compilation-",
+      "uri": "https://www.discogs.com/release/25723279-Various-蒼-Depressive-Emotional-Compilation-",
+      "artists": [
+        {
+          "name": "Various",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 194,
+          "resource_url": "https://api.discogs.com/artists/194"
+        }
+      ],
+      "extraartists": [
+        {
+          "name": "Konseki Takane",
+          "anv": "",
+          "join": "",
+          "role": "Design",
+          "tracks": "",
+          "id": 11135084,
+          "resource_url": "https://api.discogs.com/artists/11135084"
+        },
+        {
+          "name": "枝乃間",
+          "anv": "",
+          "join": "",
+          "role": "Illustration",
+          "tracks": "",
+          "id": 9461206,
+          "resource_url": "https://api.discogs.com/artists/9461206"
+        },
+        {
+          "name": "Joulez",
+          "anv": "",
+          "join": "",
+          "role": "Mastered By",
+          "tracks": "2,18",
+          "id": 7471563,
+          "resource_url": "https://api.discogs.com/artists/7471563"
+        },
+        {
+          "name": "望月真白",
+          "anv": "",
+          "join": "",
+          "role": "Producer",
+          "tracks": "1",
+          "id": 11135093,
+          "resource_url": "https://api.discogs.com/artists/11135093"
+        }
+      ],
+      "trackCredits": []
+    },
+    {
+      "id": 30611173,
+      "status": 200,
+      "title": "Ephemanent",
+      "uri": "https://www.discogs.com/release/30611173-Various-Ephemanent",
+      "artists": [
+        {
+          "name": "Various",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 194,
+          "resource_url": "https://api.discogs.com/artists/194"
+        }
+      ],
+      "extraartists": [
+        {
+          "name": "Konseki Takane",
+          "anv": "",
+          "join": "",
+          "role": "Design",
+          "tracks": "",
+          "id": 11135084,
+          "resource_url": "https://api.discogs.com/artists/11135084"
+        },
+        {
+          "name": "铫",
+          "anv": "",
+          "join": "",
+          "role": "Illustration",
+          "tracks": "",
+          "id": 12824738,
+          "resource_url": "https://api.discogs.com/artists/12824738"
+        },
+        {
+          "name": "Joulez",
+          "anv": "",
+          "join": "",
+          "role": "Mastered By",
+          "tracks": "9",
+          "id": 7471563,
+          "resource_url": "https://api.discogs.com/artists/7471563"
+        },
+        {
+          "name": "除名システム",
+          "anv": "",
+          "join": "",
+          "role": "Remix",
+          "tracks": "13",
+          "id": 13188651,
+          "resource_url": "https://api.discogs.com/artists/13188651"
+        }
+      ],
+      "trackCredits": [
+        {
+          "position": "13",
+          "title": "Erotomania (除名システム Recover) ",
+          "extraartists": [
+            {
+              "name": "除名システム",
+              "anv": "",
+              "join": "",
+              "role": "Remix",
+              "tracks": "",
+              "id": 13188651,
+              "resource_url": "https://api.discogs.com/artists/13188651"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 31469984,
+      "status": 200,
+      "title": "Kakusatsu Shoujo 3",
+      "uri": "https://www.discogs.com/release/31469984-Various-Kakusatsu-Shoujo-3",
+      "artists": [
+        {
+          "name": "Various",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 194,
+          "resource_url": "https://api.discogs.com/artists/194"
+        }
+      ],
+      "extraartists": [
+        {
+          "name": "だんごむし",
+          "anv": "",
+          "join": "",
+          "role": "Artwork",
+          "tracks": "",
+          "id": 3095964,
+          "resource_url": "https://api.discogs.com/artists/3095964"
+        },
+        {
+          "name": "Konseki Takane",
+          "anv": "",
+          "join": "",
+          "role": "Design",
+          "tracks": "",
+          "id": 11135084,
+          "resource_url": "https://api.discogs.com/artists/11135084"
+        },
+        {
+          "name": "Joulez",
+          "anv": "",
+          "join": "",
+          "role": "Mastered By",
+          "tracks": "",
+          "id": 7471563,
+          "resource_url": "https://api.discogs.com/artists/7471563"
+        }
+      ],
+      "trackCredits": [
+        {
+          "position": "3",
+          "title": "DJ Momo Is Nothing Without Her Tek",
+          "extraartists": [
+            {
+              "name": "The Operation (4)",
+              "anv": "",
+              "join": "",
+              "role": "Featuring",
+              "tracks": "",
+              "id": 13334598,
+              "resource_url": "https://api.discogs.com/artists/13334598"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 33994830,
+      "status": 200,
+      "title": "Thoughts",
+      "uri": "https://www.discogs.com/release/33994830-Various-Thoughts",
+      "artists": [
+        {
+          "name": "Various",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 194,
+          "resource_url": "https://api.discogs.com/artists/194"
+        }
+      ],
+      "extraartists": [
+        {
+          "name": "Konseki Takane",
+          "anv": "",
+          "join": "",
+          "role": "Art Direction, Design",
+          "tracks": "",
+          "id": 11135084,
+          "resource_url": "https://api.discogs.com/artists/11135084"
+        },
+        {
+          "name": "TARA#376",
+          "anv": "",
+          "join": "",
+          "role": "Illustration [Character & Cover Art]",
+          "tracks": "",
+          "id": 14660580,
+          "resource_url": "https://api.discogs.com/artists/14660580"
+        },
+        {
+          "name": "Valtrax",
+          "anv": "",
+          "join": "",
+          "role": "Mastered By",
+          "tracks": "",
+          "id": 12970818,
+          "resource_url": "https://api.discogs.com/artists/12970818"
+        },
+        {
+          "name": "Joulez",
+          "anv": "",
+          "join": "",
+          "role": "Vocals",
+          "tracks": "2",
+          "id": 7471563,
+          "resource_url": "https://api.discogs.com/artists/7471563"
+        }
+      ],
+      "trackCredits": [
+        {
+          "position": "2",
+          "title": "Awake ",
+          "extraartists": [
+            {
+              "name": "Joulez",
+              "anv": "",
+              "join": "",
+              "role": "Vocals",
+              "tracks": "",
+              "id": 7471563,
+              "resource_url": "https://api.discogs.com/artists/7471563"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 35846662,
+      "status": 200,
+      "title": "Moonshine #001",
+      "uri": "https://www.discogs.com/release/35846662-Various-Moonshine-001",
+      "artists": [
+        {
+          "name": "Various",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 194,
+          "resource_url": "https://api.discogs.com/artists/194"
+        }
+      ],
+      "extraartists": [
+        {
+          "name": "豆腐",
+          "anv": "",
+          "join": "",
+          "role": "Illustration, Design",
+          "tracks": "",
+          "id": 16918081,
+          "resource_url": "https://api.discogs.com/artists/16918081"
+        },
+        {
+          "name": "火烧",
+          "anv": "",
+          "join": "",
+          "role": "Mastered By",
+          "tracks": "",
+          "id": 16918084,
+          "resource_url": "https://api.discogs.com/artists/16918084"
+        }
+      ],
+      "trackCredits": []
+    }
+  ],
+  "conflicts": [
+    {
+      "release": 33877926,
+      "field": "Himawari vocals and lyrics track numbers",
+      "status": "pending",
+      "note": "Discogs release-level credits specify 2,3; track-level credits specify 3,4. Bandcamp specifies 2,3. Preserve existing 2,3 attribution; do not add Himawari to track 4."
+    }
+  ],
+  "policy": "Fill missing artists from the solo release artist. Remix rows retain the original artist and add the credited remixer in the same artist field. Existing artist values and original prose are preserved. Discogs additions remain pending editorial review."
+}
