@@ -4,11 +4,9 @@
   inset: 0;
   pointer-events: none;
   background: #000;
-  animation: page-transition-wipe 760ms cubic-bezier(.76, 0, .24, 1) both;
+  transform: translateX(0);
 }
-
-@keyframes page-transition-wipe {
-  0% { transform: translateX(-100%); }
-  42% { transform: translateX(0); }
-  100% { transform: translateX(100%); }
-}
+.page-transition[data-phase="covering"] { animation: page-cover-in 260ms cubic-bezier(.76,0,.24,1) both; }
+.page-transition[data-phase="finishing"] { animation: page-cover-out 620ms cubic-bezier(.76,0,.24,1) both; }
+@keyframes page-cover-in { from { transform: translateX(-100%); } to { transform: translateX(0); } }
+@keyframes page-cover-out { from { transform: translateX(0); } to { transform: translateX(100%); } }

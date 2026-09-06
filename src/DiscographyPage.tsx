@@ -6,6 +6,8 @@ import { SiteFooter, SiteHeader, useSiteInteraction } from './SiteChrome';
 import { discographyCategories, discographyReleases, parseDiscographyCategory, selectDiscography, releasesPerPage } from './content/discography';
 import type { DiscographyCategory, DiscographyRelease } from './content/discography';
 import type { Locale } from './i18n/locale';
+import { albumDetailPath } from './i18n/locale';
+import { TransitionLink } from './TransitionLink';
 import './DiscographyPage.css';
 import { useSiteTheme } from './theme/ThemeProvider';
 
@@ -138,11 +140,13 @@ export function DiscographyPage({ locale }: { locale: Locale }) {
           </nav>
           <ul className="disc-wall" aria-label={text.wall}>
             {discographyReleases.map(release => <ReleaseTile key={release.id} slot={releases.findIndex(item => item.id === release.id)}>
-              <a className="disc-cover" href={release.href} aria-label={release.title}
+              {release.id.startsWith('album/') ? <TransitionLink className="disc-cover" to={albumDetailPath(locale, release.id.slice(6))} aria-label={release.title}
                 onMouseEnter={() => setHovered(release.href)} onMouseLeave={() => setHovered(null)}
                 onFocus={() => setFocused(release.href)} onBlur={() => setFocused(null)}>
                 <ReleaseCover release={release} colored={active === null || active === release.href} unavailable={text.unavailable} />
-              </a>
+              </TransitionLink> : <a className="disc-cover" href={release.href} aria-label={release.title}
+                onMouseEnter={() => setHovered(release.href)} onMouseLeave={() => setHovered(null)}
+                onFocus={() => setFocused(release.href)} onBlur={() => setFocused(null)}><ReleaseCover release={release} colored={active === null || active === release.href} unavailable={text.unavailable} /></a>}
             </ReleaseTile>)}
           </ul>
           <p className="disc-release-title" aria-live="polite">{releases.find(release => release.href === active)?.title ?? ''}</p>

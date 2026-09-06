@@ -1,23 +1,22 @@
-import { useEffect, useRef, useState } from 'react';
-import { useLocation } from 'react-router';
+import { useLayoutEffect, useSyncExternalStore } from 'react';
+import { pageTransition } from './transition';
 import './PageTransition.css';
 
-const transitionDuration = 760;
-
 export function PageTransition() {
-  const location = useLocation();
-  const [visible, setVisible] = useState(false);
-  const mounted = useRef(false);
-
-  useEffect(() => {
-    if (!mounted.current) {
-      mounted.current = true;
-      return;
-    }
-    setVisible(true);
-    const timeout = window.setTimeout(() => setVisible(false), transitionDuration);
-    return () => window.clearTimeout(timeout);
-  }, [location.pathname, location.search, location.hash]);
-
-  return visible ? <div className="page-transition" aria-hidden="true" /> : null;
+  const state = useSyncExternalStore(pageTransition.subscribe, pageTransition.getSnapshot);
+  useLayoutEffect(() => {
+    if (state.phase !== 'covered' || state.covered) return;
+    let secondFrame = 0;
+    const frame = requestAnimationFrame(() => {
+      secondFrame = requestAnimationFrame(() => pageTransition.covered(state.id));
+    });
+    return () => { cancelAnimationFrame(frame); cancelAnimationFrame(secondFrame); };
+  }, [state.id, state.phase, state.covered]);
+  if (state.phase === 'idle') return null;
+  return <div key={state.id} className="page-transition" data-phase={state.phase} data-navigation-id={state.id}
+    aria-hidden="true" onAnimationEnd={event => {
+      if (event.target !== event.currentTarget) return;
+      if (event.animationName === 'page-cover-in') pageTransition.covered(state.id);
+      if (event.animationName === 'page-cover-out') pageTransition.finish(state.id);
+    }} />;
 }

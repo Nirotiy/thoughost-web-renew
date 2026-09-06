@@ -1,7 +1,7 @@
 import type { Locale } from './locale';
 
 type Messages = {
-  pageTitles: { home: string; about: string; discography: string };
+  pageTitles: { home: string; about: string; discography: string; album?: string };
   navigation: { about: string; news: string; discography: string; contact: string };
 };
 

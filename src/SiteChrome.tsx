@@ -1,5 +1,4 @@
 import { motion } from 'motion/react';
-import { Link } from 'react-router';
 import type { Locale, SitePage } from './i18n/locale';
 import { pagePath } from './i18n/locale';
 import logo from './assets/thoughost.svg';
@@ -8,8 +7,9 @@ import soundcloud from './assets/soundcloud.svg';
 import xLogo from './assets/x.svg';
 import './AboutPage.css';
 import { useSiteTheme } from './theme/ThemeProvider';
+import { TransitionLink } from './TransitionLink';
 
-const MotionLink = motion.create(Link);
+const MotionLink = motion.create(TransitionLink);
 
 const labelMotion = {
   rest: { x: 0, scale: 1 },
@@ -49,12 +49,12 @@ export function SiteHeader({ locale, page }: { locale: Locale; page: SitePage })
       <header className="about-header">
         <div className="about-brand">
           <motion.button className="about-theme-toggle" type="button" onClick={toggleTheme} aria-label={themeLabel} title={themeLabel} aria-pressed={theme === 'dark'} whileHover={{ opacity: .7 }} transition={{ duration: .18 }}><img src={logo} alt="" /></motion.button>
-          <Link className="about-wordmark" to={pagePath(locale)} aria-label="Thoughost home"><img src={logo} alt="Thoughost" /></Link>
+          <TransitionLink className="about-wordmark" to={pagePath(locale)} aria-label="Thoughost home"><img src={logo} alt="Thoughost" /></TransitionLink>
         </div>
         <nav aria-label="Primary">
-          <MotionLink {...interaction} to={pagePath(locale, 'about')} aria-current={page === 'about' ? 'page' : undefined}><motion.span className="about-action-label" variants={labelMotion} transition={interaction.transition}>ABOUT</motion.span> <span className="about-action-arrow" aria-hidden="true" /></MotionLink>
-          <MotionLink {...interaction} to={pagePath(locale, 'discography')} aria-current={page === 'discography' ? 'page' : undefined}><motion.span className="about-action-label" variants={labelMotion} transition={interaction.transition}>DISCOGRAPHY</motion.span> <span className="about-action-arrow" aria-hidden="true" /></MotionLink>
-          <MotionLink {...interaction} to={pagePath(locale) + '#news'}><motion.span className="about-action-label" variants={labelMotion} transition={interaction.transition}>NEWS</motion.span> <span className="about-action-arrow" aria-hidden="true" /></MotionLink>
+          <MotionLink {...interaction} to={pagePath(locale, 'about')} aria-current={page === 'about' ? 'page' : undefined}><motion.span className="about-action-label" variants={labelMotion}>ABOUT</motion.span> <span className="about-action-arrow" aria-hidden="true" /></MotionLink>
+          <MotionLink {...interaction} to={pagePath(locale, 'discography')} aria-current={page === 'discography' ? 'page' : undefined}><motion.span className="about-action-label" variants={labelMotion}>DISCOGRAPHY</motion.span> <span className="about-action-arrow" aria-hidden="true" /></MotionLink>
+          <MotionLink {...interaction} to={pagePath(locale) + '#news'}><motion.span className="about-action-label" variants={labelMotion}>NEWS</motion.span> <span className="about-action-arrow" aria-hidden="true" /></MotionLink>
           <motion.a {...interaction} href="#contact"><motion.span className="about-action-label" variants={labelMotion} transition={interaction.transition}>CONTACT</motion.span> <span className="about-action-arrow" aria-hidden="true" /></motion.a>
         </nav>
         <div className="about-social"><motion.a {...interaction} href="https://thoughost.bandcamp.com/" aria-label="Thoughost Bandcamp"><motion.img variants={labelMotion} transition={interaction.transition} src={bandcamp} alt="" /></motion.a><motion.span {...interaction} tabIndex={0} title="SoundCloud 地址待补"><motion.img variants={labelMotion} transition={interaction.transition} src={soundcloud} alt="SoundCloud" /></motion.span><motion.span {...interaction} tabIndex={0} title="X 地址待补"><motion.img variants={labelMotion} transition={interaction.transition} src={xLogo} alt="X" /></motion.span></div>

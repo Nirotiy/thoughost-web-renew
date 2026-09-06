@@ -1,0 +1,3585 @@
+[
+  {
+    "id": "album/kakusatsu-shoujo",
+    "catalog": "THGO-001",
+    "title": {
+      "value": "KAKUSATSU SHOUJO",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo"
+    },
+    "artist": {
+      "value": "Thoughost",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo"
+    },
+    "releaseDate": {
+      "value": "2020.06.05",
+      "originalFormat": "05 Jun 2020 00:00:00 GMT",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo"
+    },
+    "cover": {
+      "url": "https://f4.bcbits.com/img/a1091052231_0.jpg",
+      "dims": "2000x2000",
+      "format": "JPEG",
+      "bandcamp700px": "https://f4.bcbits.com/img/a1091052231_10.jpg",
+      "dizzylab": "https://cdn.dizzylab.net/media/cover/THGO-001.jpg",
+      "status": "approved",
+      "source": "https://f4.bcbits.com/img/a1091052231_0.jpg",
+      "verified": "2026.09.06"
+    },
+    "summary": [
+      {
+        "language": "原文",
+        "value": "LOLICORE COMPILATION ALBUM",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo",
+        "status": "summary"
+      },
+      {
+        "language": "zh-CN",
+        "value": "来自Thoughost的KAKUSATSU SHOUJO:“可爱，暴力，采样”\r\n『KAKUSATSU SHOUJO』\r\n凶暴而又可爱的专辑，终于完成了\r\n我们邀请到了几位日本友人参与制作，同时也有国内第一时间赶来参加的冶炼大师\r\n最令我们开心的，还是邀请到了曾为m1dy，扑杀少女工坊等人绘制封面的『桜都あるす』\r\n也许是国内第一张(?)萝莉核合辑专辑，希望所有热衷LOLICORE的冶炼大师喜欢",
+        "source": "https://www.dizzylab.net/d/THGO-001/",
+        "status": "summary"
+      },
+      {
+        "language": "en",
+        "value": "LOLICORE COMPILATION ALBUM",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo",
+        "status": "summary"
+      }
+    ],
+    "tracks": [
+      {
+        "number": 1,
+        "title": "潮音きつね_H - DigDigすぴーど243.4⁉︎_管人の闇a.k.a.ナカノヒト",
+        "artist": "潮音きつね_H",
+        "duration": "3:42",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo"
+      },
+      {
+        "number": 2,
+        "title": "uet - 家族会議",
+        "artist": "uet",
+        "duration": "5:15",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo"
+      },
+      {
+        "number": 3,
+        "title": "Nirotiy - Senpai , I want your amen break!!!!♡",
+        "artist": "Nirotiy",
+        "duration": "2:51",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo"
+      },
+      {
+        "number": 4,
+        "title": "蛇壊乃音 - アーメンとペトラ",
+        "artist": "蛇壊乃音",
+        "duration": "3:12",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo"
+      },
+      {
+        "number": 5,
+        "title": "Dz'Xa - HITENSION+",
+        "artist": "Dz'Xa",
+        "duration": "3:36",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo"
+      },
+      {
+        "number": 6,
+        "title": "かたぎり - STRONG 280",
+        "artist": "かたぎり",
+        "duration": "4:18",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo"
+      },
+      {
+        "number": 7,
+        "title": "Davidsan as hino_amane - Miu Gakuen Tennis",
+        "artist": "Davidsan as hino_amane",
+        "duration": "3:51",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo"
+      },
+      {
+        "number": 8,
+        "title": "Lzie - Warp A null",
+        "artist": "Lzie",
+        "duration": "2:51",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo"
+      },
+      {
+        "number": 9,
+        "title": "citybridge - Never Ends",
+        "artist": "citybridge",
+        "duration": "4:23",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo"
+      }
+    ],
+    "credits": {
+      "value": "Artist: 潮音きつね_H, uet, Nirotiy, 蛇壊乃音, Dz'Xa, かたぎり, Davidsan as hino_amane, Lzie, citybridge, DJ Mashiro (2)\r\nMastering: iOM\r\nIllustrator: 桜都あるす\r\nDesigner: Konseki Takane",
+      "structured": [
+        {
+          "name": "MASTERING",
+          "value": "iOM"
+        },
+        {
+          "name": "ILLUSTRATOR",
+          "value": "桜都あるす"
+        },
+        {
+          "name": "DESIGN",
+          "value": "Konseki Takane"
+        }
+      ],
+      "language": "原文",
+      "status": "pending",
+      "source": "https://thoughost.com/（官方站 bundle 内 release info.json）+ https://thoughost.bandcamp.com/album/kakusatsu-shoujo"
+    },
+    "releaseInfo": {
+      "value": [
+        {
+          "name": "MODEL NUMBER",
+          "value": "THGO-001"
+        },
+        {
+          "name": "PRICE",
+          "value": "800 YEN (bandcamp) / 50 RMB (dizzylab)"
+        },
+        {
+          "name": "STORE",
+          "value": "bandcamp, dizzylab"
+        },
+        {
+          "name": "RELEASE DATE",
+          "value": "2020.06.07"
+        }
+      ],
+      "source": "https://thoughost.com/（官方站 bundle 内 release info.json）",
+      "status": "pending"
+    },
+    "media": [
+      {
+        "kind": "player",
+        "url": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo",
+        "note": "Bandcamp 内嵌播放器（官方页面 public_embeddable: true）",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo"
+      },
+      {
+        "kind": "xfd",
+        "note": "官方站记载 XFD：KAKUSATSU SHOUJO - CROSSFADE DEMO / Thoughost；官网媒体链接为占位符（#），未提供可访问 URL",
+        "status": "pending",
+        "source": "https://thoughost.com/"
+      }
+    ],
+    "purchaseLinks": [
+      {
+        "kind": "bandcamp",
+        "url": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo",
+        "price": "¥800 JPY or more (name your price)",
+        "status": "approved",
+        "verified": "2026.09.06"
+      },
+      {
+        "kind": "dizzylab",
+        "url": "https://www.dizzylab.net/d/THGO-001/",
+        "status": "approved",
+        "verified": "2026.09.06"
+      }
+    ],
+    "sources": [
+      "https://thoughost.bandcamp.com/album/kakusatsu-shoujo",
+      "https://www.dizzylab.net/d/THGO-001/",
+      "https://thoughost.com/"
+    ],
+    "accessed": "2026.09.06"
+  },
+  {
+    "id": "album/track-miranda",
+    "catalog": "TGSG-001",
+    "title": {
+      "value": "Series Planet Exploration - Miranda -",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/track/series-planet-exploration-miranda"
+    },
+    "artist": {
+      "value": "Nirotiy",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/track/series-planet-exploration-miranda"
+    },
+    "releaseDate": {
+      "value": "2020.07.10",
+      "originalFormat": "10 Jul 2020 00:00:00 GMT",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/track/series-planet-exploration-miranda"
+    },
+    "cover": {
+      "format": "JPEG",
+      "bandcamp700px": "https://f4.bcbits.com/img/a2789864379_10.jpg",
+      "dizzylab": "https://cdn.dizzylab.net/media/cover/TGSG-001.jpg",
+      "status": "approved",
+      "verified": "2026.09.06"
+    },
+    "summary": [
+      {
+        "language": "原文",
+        "value": "English\nMiranda.\nThe fifth satellite of Uranus.\nFar far away from planet earth,With the highest cliff in solar system,Verona Rupes.\nAs human discovered the magnificence of the endless universe surround themselves,a sense of exploration is growing in their minds.\nFor me though,I'm no amateur astronomer.But when I think about the depth of that cliff about 5-10 kilometers and the explosion and shattering that formed it,I started to.wondering how to make those thing into a sensation and a song.\nAnd here it is. \nA series of different planets will be explored through a number of songs.\nI hope you can enjoy it.\n\nJapanese\nミランダ\n\n天王星の第5衛星。\n\n地球から遠く離れ、太陽系で最も高い崖、ヴェローナ・ルーペスがあります。\n\n無限に広がる宇宙の壮大さを発見した人類の心の中には、探究心が芽生えていた。\n\n私は天文学の素人ではありませんが、その深さ約5〜10kmの断崖絶壁の深さと、それを形成した爆発と粉々になった様子を考えると、それをどうやって感覚や歌にしたらいいのかと考えていました。\n\nそして、それがここにあります。\n \nいくつもの曲を通して、様々な惑星を探っていきます。\n\n楽しんでもらえれば幸いです。\n\n——From Nirotiy.",
+        "source": "https://thoughost.bandcamp.com/track/series-planet-exploration-miranda",
+        "status": "summary"
+      },
+      {
+        "language": "zh-CN",
+        "value": "来自Thoughost的Series Planet Exploration - Miranda -:米兰达\r\n天王星第五卫星。\r\n离地球很远，有太阳系最高的悬崖，维罗纳断崖。\r\n人类发现了无限广阔的宇宙之宏大，心中萌生了探究心。\r\n我虽然是天文学的外行，但一想到其深度约为5～10km的悬崖绝壁的深度以及其形成的爆炸和粉末的样子，我就在思考如何将其作为感觉和歌曲来表现。\r\n而这首歌便是如此。\r\n通过几首曲子，探索各种各样的行星。\r\n如果您能听得开心就太好了。\r\n\r\n——From Nirotiy.",
+        "source": "https://www.dizzylab.net/d/TGSG-001/",
+        "status": "summary"
+      },
+      {
+        "language": "en",
+        "value": "Miranda.\nThe fifth satellite of Uranus.\nFar far away from planet earth,With the highest cliff in solar system,Verona Rupes.\nAs human discovered the magnificence of the endless universe surround themselves,a sense of exploration is growing in their minds.\nFor me though,I'm no amateur astronomer.But when I think about the depth of that cliff about 5-10 kilometers and the explosion and shattering that formed it,I started to.wondering how to make those thing into a sensation and a song.\nAnd here it is. \nA series of different planets will be explored through a number of songs.\nI hope you can enjoy it.\n\nFrom Nirotiy.",
+        "source": "https://thoughost.bandcamp.com/track/series-planet-exploration-miranda",
+        "status": "summary"
+      }
+    ],
+    "tracks": [
+      {
+        "number": 1,
+        "title": "Nirotiy - Series Planet Exploration - Miranda -",
+        "artist": "Nirotiy",
+        "duration": "5:07",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/track/series-planet-exploration-miranda"
+      }
+    ],
+    "credits": null,
+    "releaseInfo": {
+      "value": [
+        {
+          "name": "RELEASE DATE",
+          "value": "2020.07.10"
+        },
+        {
+          "name": "MODEL NUMBER",
+          "value": "TGSG-001"
+        }
+      ],
+      "source": "https://thoughost.com/（官方站 bundle 内 release info.json）",
+      "status": "pending"
+    },
+    "media": [
+      {
+        "kind": "player",
+        "url": "https://thoughost.bandcamp.com/track/series-planet-exploration-miranda",
+        "note": "Bandcamp 内嵌播放器（官方页面 public_embeddable: true）",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/track/series-planet-exploration-miranda"
+      }
+    ],
+    "purchaseLinks": [
+      {
+        "kind": "bandcamp",
+        "url": "https://thoughost.bandcamp.com/track/series-planet-exploration-miranda",
+        "price": "",
+        "status": "approved",
+        "verified": "2026.09.06"
+      },
+      {
+        "kind": "dizzylab",
+        "url": "https://www.dizzylab.net/d/TGSG-001/",
+        "status": "approved",
+        "verified": "2026.09.06"
+      }
+    ],
+    "sources": [
+      "https://thoughost.bandcamp.com/track/series-planet-exploration-miranda",
+      "https://www.dizzylab.net/d/TGSG-001/",
+      "https://thoughost.com/"
+    ],
+    "accessed": "2026.09.06"
+  },
+  {
+    "id": "album/track-perpetual-status",
+    "catalog": "待核对",
+    "title": {
+      "value": "Perpetual Status -転生する天使-",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/track/perpetual-status"
+    },
+    "artist": {
+      "value": "DJ Mashiro (2)",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/track/perpetual-status"
+    },
+    "releaseDate": {
+      "value": "2020.09.09",
+      "originalFormat": "09 Sep 2020 00:00:00 GMT",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/track/perpetual-status"
+    },
+    "cover": {
+      "url": "https://f4.bcbits.com/img/a2231313451_0.jpg",
+      "dims": "2000x2000",
+      "format": "JPEG",
+      "bandcamp700px": "https://f4.bcbits.com/img/a2231313451_10.jpg",
+      "dizzylab": null,
+      "status": "approved",
+      "source": "https://f4.bcbits.com/img/a2231313451_0.jpg",
+      "verified": "2026.09.06"
+    },
+    "summary": [
+      {
+        "language": "原文",
+        "value": "For one of the three craziest Doku-Denpa Galgames——さよならを教えて～comment te dire adieu～\r\nComposed by 望月真白 aka DJ Mashiro (2)\r\nhttps://twitter.com/Dazzletek_",
+        "source": "https://thoughost.bandcamp.com/track/perpetual-status",
+        "status": "summary"
+      },
+      {
+        "language": "en",
+        "value": "For one of the three craziest Doku-Denpa Galgames——さよならを教えて～comment te dire adieu～\r\nComposed by 望月真白 aka DJ Mashiro (2)\r\nhttps://twitter.com/Dazzletek_",
+        "source": "https://thoughost.bandcamp.com/track/perpetual-status",
+        "status": "summary"
+      }
+    ],
+    "tracks": [
+      {
+        "number": 1,
+        "title": "DJ Mashiro (2) - Perpetual Status -転生する天使-",
+        "artist": "DJ Mashiro (2)",
+        "duration": "",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/track/perpetual-status"
+      }
+    ],
+    "credits": null,
+    "releaseInfo": null,
+    "media": [
+      {
+        "kind": "player",
+        "url": "https://thoughost.bandcamp.com/track/perpetual-status",
+        "note": "Bandcamp 内嵌播放器（官方页面 public_embeddable: true）",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/track/perpetual-status"
+      }
+    ],
+    "purchaseLinks": [
+      {
+        "kind": "bandcamp",
+        "url": "https://thoughost.bandcamp.com/track/perpetual-status",
+        "price": "",
+        "status": "approved",
+        "verified": "2026.09.06"
+      }
+    ],
+    "sources": [
+      "https://thoughost.bandcamp.com/track/perpetual-status"
+    ],
+    "accessed": "2026.09.06"
+  },
+  {
+    "id": "album/ground-attack",
+    "catalog": "THGO-002",
+    "title": {
+      "value": "GROUND ATTACK!!!",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/ground-attack"
+    },
+    "artist": {
+      "value": "Thoughost",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/ground-attack"
+    },
+    "releaseDate": {
+      "value": "2021.04.05",
+      "originalFormat": "05 Apr 2021 00:00:00 GMT",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/ground-attack"
+    },
+    "cover": {
+      "url": "https://f4.bcbits.com/img/a58421280_0.jpg",
+      "dims": "1423x1423",
+      "format": "JPEG",
+      "bandcamp700px": "https://f4.bcbits.com/img/a58421280_10.jpg",
+      "dizzylab": "https://cdn.dizzylab.net/media/cover/THGO-002.jpg",
+      "status": "approved",
+      "source": "https://f4.bcbits.com/img/a58421280_0.jpg",
+      "verified": "2026.09.06"
+    },
+    "summary": [
+      {
+        "language": "原文",
+        "value": "Funkot/Hard bass/Donk/Tribecore Compilation Album",
+        "source": "https://thoughost.bandcamp.com/album/ground-attack",
+        "status": "summary"
+      },
+      {
+        "language": "zh-CN",
+        "value": "来自Thoughost的GROUND ATTACK!!!:以Funkot / Hard bass / Donk / Tribecore为创作主轴的想灵第二张合辑专辑\r\n『GROUND ATTACK!!!』\r\nFunkot在国内被戏称为敲木鱼音乐，而Hard Bass和Donk又以标志性的Donkbass音色而被戏称为敲水管音乐，加上我们一直都很着迷于Tribecore那股原始的冲劲，于是就有了这张专辑的企划灵感\r\n除了社团成员和公开募集入选者以外，我们还邀请了几位来自日本的Funkot好手『Aki, hayato87b, Liet NRC和totsumal』，以及tekno制作人『4nzu』，最后是我们的老朋友『citybridge』\r\n让这张“土嗨大碟”带给你无穷的能量",
+        "source": "https://www.dizzylab.net/d/THGO-002/",
+        "status": "summary"
+      },
+      {
+        "language": "en",
+        "value": "Funkot/Hard bass/Donk/Tribecore Compilation Album",
+        "source": "https://thoughost.bandcamp.com/album/ground-attack",
+        "status": "summary"
+      }
+    ],
+    "tracks": [
+      {
+        "number": 1,
+        "title": "jakka - quick intro to 2021 mashup meta",
+        "artist": "jakka",
+        "duration": "2:52",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/ground-attack"
+      },
+      {
+        "number": 2,
+        "title": "Black201 - massage seat",
+        "artist": "Black201",
+        "duration": "3:42",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/ground-attack"
+      },
+      {
+        "number": 3,
+        "title": "Aki - Barbie Disco Tribe",
+        "artist": "Aki",
+        "duration": "7:55",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/ground-attack"
+      },
+      {
+        "number": 4,
+        "title": "hayato87b - BF",
+        "artist": "hayato87b",
+        "duration": "5:26",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/ground-attack"
+      },
+      {
+        "number": 5,
+        "title": "Liet NRC - Vertigo",
+        "artist": "Liet NRC",
+        "duration": "9:37",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/ground-attack"
+      },
+      {
+        "number": 6,
+        "title": "totsumal - Wrench Mind",
+        "artist": "totsumal",
+        "duration": "6:58",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/ground-attack"
+      },
+      {
+        "number": 7,
+        "title": "★Lolitwinx★ - ロシア Donky Rave",
+        "artist": "★Lolitwinx★",
+        "duration": "4:40",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/ground-attack"
+      },
+      {
+        "number": 8,
+        "title": "ELECTR - Cherrylike",
+        "artist": "ELECTR",
+        "duration": "4:08",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/ground-attack"
+      },
+      {
+        "number": 9,
+        "title": "4nzu - TWINS",
+        "artist": "4nzu",
+        "duration": "4:44",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/ground-attack"
+      },
+      {
+        "number": 10,
+        "title": "Moetek - Yarasete Yuri Girl",
+        "artist": "Moetek",
+        "duration": "4:28",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/ground-attack"
+      },
+      {
+        "number": 11,
+        "title": "citybridge - fallen",
+        "artist": "citybridge",
+        "duration": "3:30",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/ground-attack"
+      },
+      {
+        "number": 12,
+        "title": "潮音きつね - Hypoxia_Mrs.SYR",
+        "artist": "潮音きつね",
+        "duration": "4:54",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/ground-attack"
+      }
+    ],
+    "credits": {
+      "value": "Artist:jakka, Black201, Aki, hayato87b, Liet NRC, totsumal, ★Lolitwinx★, ELECTR, 4nzu, Moetek, citybridge, 潮音きつね, Mrskey\r\nMastering: Joulez, Project Nirvana\r\nIllustrator: SHIKA\r\nDesigner: Konseki Takane\r\n\r\nSpecial Thanks:\r\n2020 Mandarin Funkot Relay Mix by Japan DJs",
+      "structured": [
+        {
+          "name": "MASTERING",
+          "value": "Joulez, Project Nirvana"
+        },
+        {
+          "name": "ILLUSTRATOR",
+          "value": "SHIKA"
+        },
+        {
+          "name": "DESIGN",
+          "value": "Konseki Takane"
+        }
+      ],
+      "language": "原文",
+      "status": "pending",
+      "source": "https://thoughost.com/（官方站 bundle 内 release info.json）+ https://thoughost.bandcamp.com/album/ground-attack"
+    },
+    "releaseInfo": {
+      "value": [
+        {
+          "name": "MODEL NUMBER",
+          "value": "THGO-002"
+        },
+        {
+          "name": "PRICE",
+          "value": "1000 YEN (bandcamp) / 60 RMB (dizzylab)"
+        },
+        {
+          "name": "STORE",
+          "value": "bandcamp, dizzylab"
+        },
+        {
+          "name": "RELEASE DATE",
+          "value": "2021.04.05"
+        }
+      ],
+      "source": "https://thoughost.com/（官方站 bundle 内 release info.json）",
+      "status": "pending"
+    },
+    "media": [
+      {
+        "kind": "player",
+        "url": "https://thoughost.bandcamp.com/album/ground-attack",
+        "note": "Bandcamp 内嵌播放器（官方页面 public_embeddable: true）",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/ground-attack"
+      },
+      {
+        "kind": "xfd",
+        "note": "官方站记载 XFD：GROUND ATTACK!!! - CROSSFADE DEMO / Thoughost；官网媒体链接为占位符（#），未提供可访问 URL",
+        "status": "pending",
+        "source": "https://thoughost.com/"
+      }
+    ],
+    "purchaseLinks": [
+      {
+        "kind": "bandcamp",
+        "url": "https://thoughost.bandcamp.com/album/ground-attack",
+        "price": "¥1,000 JPY or more (name your price)",
+        "status": "approved",
+        "verified": "2026.09.06"
+      },
+      {
+        "kind": "dizzylab",
+        "url": "https://www.dizzylab.net/d/THGO-002/",
+        "status": "approved",
+        "verified": "2026.09.06"
+      }
+    ],
+    "sources": [
+      "https://thoughost.bandcamp.com/album/ground-attack",
+      "https://www.dizzylab.net/d/THGO-002/",
+      "https://thoughost.com/"
+    ],
+    "accessed": "2026.09.06"
+  },
+  {
+    "id": "album/trixxck",
+    "catalog": "TGSP-001",
+    "title": {
+      "value": "TRIXXCK",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/trixxck"
+    },
+    "artist": {
+      "value": "Thoughost; Silent Xords",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/trixxck"
+    },
+    "releaseDate": {
+      "value": "2021.11.03",
+      "originalFormat": "03 Nov 2021 00:00:00 GMT",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/trixxck"
+    },
+    "cover": {
+      "url": "https://f4.bcbits.com/img/a898066633_0.jpg",
+      "dims": "1417x1417",
+      "format": "JPEG",
+      "bandcamp700px": "https://f4.bcbits.com/img/a898066633_10.jpg",
+      "dizzylab": "https://cdn.dizzylab.net/media/cover/TGSP-001.jpg",
+      "status": "approved",
+      "source": "https://f4.bcbits.com/img/a898066633_0.jpg",
+      "verified": "2026.09.06"
+    },
+    "summary": [
+      {
+        "language": "原文",
+        "value": "Thoughost × Silent Xords Special Halloween EP",
+        "source": "https://thoughost.bandcamp.com/album/trixxck",
+        "status": "summary"
+      },
+      {
+        "language": "zh-CN",
+        "value": "来自Thoughost的TRIXXCK:Thoughost × Silent Xords特别合作万圣节EP\r\n『TRIXXCK』",
+        "source": "https://www.dizzylab.net/d/TGSP-001/",
+        "status": "summary"
+      },
+      {
+        "language": "en",
+        "value": "Thoughost × Silent Xords Special Halloween EP",
+        "source": "https://thoughost.bandcamp.com/album/trixxck",
+        "status": "summary"
+      }
+    ],
+    "tracks": [
+      {
+        "number": 1,
+        "title": "Nirotiy - Intro",
+        "artist": "Nirotiy",
+        "duration": "0:59",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/trixxck"
+      },
+      {
+        "number": 2,
+        "title": "Nirotiy - MADCINE",
+        "artist": "Nirotiy",
+        "duration": "4:28",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/trixxck"
+      },
+      {
+        "number": 3,
+        "title": "BlueWind - The Blood Spitted On Me",
+        "artist": "BlueWind",
+        "duration": "4:50",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/trixxck"
+      },
+      {
+        "number": 4,
+        "title": "DJ Mashiro (2) - ジレンマと枯れ葉",
+        "artist": "DJ Mashiro (2)",
+        "duration": "6:32",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/trixxck"
+      },
+      {
+        "number": 5,
+        "title": "Nirotiy - Verdammnis",
+        "artist": "Nirotiy",
+        "duration": "4:13",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/trixxck"
+      },
+      {
+        "number": 6,
+        "title": "Black201 - Nothing but escape",
+        "artist": "Black201",
+        "duration": "4:29",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/trixxck"
+      },
+      {
+        "number": 7,
+        "title": "潮音きつね_H - fish_man feat. Nirotiy",
+        "artist": "潮音きつね_H",
+        "duration": "5:20",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/trixxck"
+      }
+    ],
+    "credits": {
+      "value": "Artist: Nirotiy, BlueWind, DJ Mashiro (2), Black201, 潮音きつね_H\r\nMastering: BlueWind\r\nIllustrator: SCAF\r\nDesigner: Konseki Takane\r\nFeaturing: Nirotiy (track 7)",
+      "structured": [
+        {
+          "name": "MASTERING",
+          "value": "BlueWind"
+        },
+        {
+          "name": "ILLUSTRATOR",
+          "value": "SCAF"
+        },
+        {
+          "name": "DESIGN",
+          "value": "Konseki Takane"
+        }
+      ],
+      "language": "原文",
+      "status": "pending",
+      "source": "https://thoughost.com/（官方站 bundle 内 release info.json）+ https://thoughost.bandcamp.com/album/trixxck + https://www.discogs.com/release/21951265-Various-Trixxck"
+    },
+    "releaseInfo": {
+      "value": [
+        {
+          "name": "MODEL NUMBER",
+          "value": "TGSP-001"
+        },
+        {
+          "name": "PRICE",
+          "value": "500 YEN (bandcamp) / 30 RMB (dizzylab)"
+        },
+        {
+          "name": "STORE",
+          "value": "bandcamp, dizzylab"
+        },
+        {
+          "name": "RELEASE DATE",
+          "value": "2021.11.03"
+        }
+      ],
+      "source": "https://thoughost.com/（官方站 bundle 内 release info.json）",
+      "status": "pending"
+    },
+    "media": [
+      {
+        "kind": "player",
+        "url": "https://thoughost.bandcamp.com/album/trixxck",
+        "note": "Bandcamp 内嵌播放器（官方页面 public_embeddable: true）",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/trixxck"
+      },
+      {
+        "kind": "xfd",
+        "note": "官方站记载 XFD：TRIXXCK - CROSSFADE DEMO / Thoughost；官网媒体链接为占位符（#），未提供可访问 URL",
+        "status": "pending",
+        "source": "https://thoughost.com/"
+      }
+    ],
+    "purchaseLinks": [
+      {
+        "kind": "bandcamp",
+        "url": "https://thoughost.bandcamp.com/album/trixxck",
+        "price": "¥500 JPY or more (name your price)",
+        "status": "approved",
+        "verified": "2026.09.06"
+      },
+      {
+        "kind": "dizzylab",
+        "url": "https://www.dizzylab.net/d/TGSP-001/",
+        "status": "approved",
+        "verified": "2026.09.06"
+      }
+    ],
+    "sources": [
+      "https://thoughost.bandcamp.com/album/trixxck",
+      "https://www.dizzylab.net/d/TGSP-001/",
+      "https://thoughost.com/"
+    ],
+    "accessed": "2026.09.06"
+  },
+  {
+    "id": "album/s-l-v-t-mixture",
+    "catalog": "THGO-003",
+    "title": {
+      "value": "S.L.V.T: MIXTURE",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/s-l-v-t-mixture"
+    },
+    "artist": {
+      "value": "Nirotiy & 望月真白",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/s-l-v-t-mixture"
+    },
+    "releaseDate": {
+      "value": "2022.03.12",
+      "originalFormat": "12 Mar 2022 00:00:00 GMT",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/s-l-v-t-mixture"
+    },
+    "cover": {
+      "url": "https://f4.bcbits.com/img/a3663708238_0.jpg",
+      "dims": "1600x1600",
+      "format": "JPEG",
+      "bandcamp700px": "https://f4.bcbits.com/img/a3663708238_10.jpg",
+      "dizzylab": "https://cdn.dizzylab.net/media/cover/THGO-003.jpg",
+      "status": "approved",
+      "source": "https://f4.bcbits.com/img/a3663708238_0.jpg",
+      "verified": "2026.09.06"
+    },
+    "summary": [
+      {
+        "language": "原文",
+        "value": "流れの中で誤作動の色にハレーションを起こした、深く暗い無機質な塊。\r\nそれをデコードしよう。このMIXTRUEに含まれる全てを垣間見る。\r\n\r\nNirotiy x 望月真白 Split Album",
+        "source": "https://thoughost.bandcamp.com/album/s-l-v-t-mixture",
+        "status": "summary"
+      },
+      {
+        "language": "zh-CN",
+        "value": "来自Thoughost的S.L.V.T: MIXTURE:深暗色的无机质的流动中，晕染上故障般的颜色。\r\n解码它吧。一窥其中。\r\n由Thoughost的成员Nirotiy、望月真白制作的合作专辑【S.L.V.T: MIXTURE】\r\n本次特别邀请到了: 空読無 白眼, Coredump Breaks参与",
+        "source": "https://www.dizzylab.net/d/THGO-003/",
+        "status": "summary"
+      },
+      {
+        "language": "en",
+        "value": "A deep, dark, inorganic mass, its flow haloed in the colors of a malfunction.\nLet us decode it. Glimpse everything contained in this MIXTURE.\n\nNirotiy x 望月真白 Split Album",
+        "source": "English translation prepared by Codex at the user's request from https://thoughost.bandcamp.com/album/s-l-v-t-mixture",
+        "status": "summary"
+      }
+    ],
+    "tracks": [
+      {
+        "number": 1,
+        "title": "Nirotiy - Verwirrung (Confusion) - Club Edit",
+        "artist": "Nirotiy",
+        "duration": "6:53",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/s-l-v-t-mixture"
+      },
+      {
+        "number": 2,
+        "title": "DJ MASHIRO (2) - CHAOSHAN WISEGUYS",
+        "artist": "DJ MASHIRO (2)",
+        "duration": "6:25",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/s-l-v-t-mixture"
+      },
+      {
+        "number": 3,
+        "title": "Nirotiy - Jiehkki (Glacier)",
+        "artist": "Nirotiy",
+        "duration": "4:53",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/s-l-v-t-mixture"
+      },
+      {
+        "number": 4,
+        "title": "望月真白 - INFERNAL AFFAIRS",
+        "artist": "望月真白",
+        "duration": "7:43",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/s-l-v-t-mixture"
+      },
+      {
+        "number": 5,
+        "title": "望月真白 ft. Nirotiy - Hollow Heaven Underneath",
+        "artist": "望月真白 ft. Nirotiy",
+        "duration": "6:55",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/s-l-v-t-mixture"
+      },
+      {
+        "number": 6,
+        "title": "Nirotiy - Bluntungen (Blood)",
+        "artist": "Nirotiy",
+        "duration": "6:07",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/s-l-v-t-mixture"
+      },
+      {
+        "number": 7,
+        "title": "Nirotiy - Verwirrung - 空読無 白眼 REMIX",
+        "artist": "Nirotiy",
+        "duration": "4:26",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/s-l-v-t-mixture"
+      },
+      {
+        "number": 8,
+        "title": "望月真白 - INFERNAL AFFAIRS - Coredump Breaks REMIX",
+        "artist": "望月真白",
+        "duration": "6:39",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/s-l-v-t-mixture"
+      },
+      {
+        "number": 9,
+        "title": "The DJ 白手 Producer (2) - MEGA BANGiN TUNES BATT1E",
+        "artist": "The DJ 白手 Producer (2)",
+        "duration": "6:43",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/s-l-v-t-mixture"
+      },
+      {
+        "number": 10,
+        "title": "Nirotiy - Jiehkki (Glacier) - D3llketa MaxhIro REMIXXX",
+        "artist": "Nirotiy",
+        "duration": "4:15",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/s-l-v-t-mixture"
+      }
+    ],
+    "credits": {
+      "value": "Produced&Artist: Nirotiy, 望月真白\r\nSpecial Guest: 空読無 白眼, Coredump Breaks\r\nMastering: Joulez\r\nCover Artwork : Nirotiy\r\nCo-Designer: Konseki Takane",
+      "structured": [
+        {
+          "name": "MASTERING",
+          "value": "Joulez"
+        },
+        {
+          "name": "ILLUSTRATOR",
+          "value": "(None)"
+        },
+        {
+          "name": "DESIGN",
+          "value": "Nirotiy, Konseki Takane"
+        }
+      ],
+      "language": "原文",
+      "status": "pending",
+      "source": "https://thoughost.com/（官方站 bundle 内 release info.json）+ https://thoughost.bandcamp.com/album/s-l-v-t-mixture"
+    },
+    "releaseInfo": {
+      "value": [
+        {
+          "name": "MODEL NUMBER",
+          "value": "THGO-003"
+        },
+        {
+          "name": "PRICE",
+          "value": "800 YEN (bandcamp) / 40 RMB (dizzylab)"
+        },
+        {
+          "name": "STORE",
+          "value": "bandcamp, dizzylab"
+        },
+        {
+          "name": "RELEASE DATE",
+          "value": "2022.03.12"
+        }
+      ],
+      "source": "https://thoughost.com/（官方站 bundle 内 release info.json）",
+      "status": "pending"
+    },
+    "media": [
+      {
+        "kind": "player",
+        "url": "https://thoughost.bandcamp.com/album/s-l-v-t-mixture",
+        "note": "Bandcamp 内嵌播放器（官方页面 public_embeddable: true）",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/s-l-v-t-mixture"
+      },
+      {
+        "kind": "xfd",
+        "note": "官方站记载 XFD：S.L.V.T: MIXTURE- CROSSFADE DEMO / Thoughost；官网媒体链接为占位符（#），未提供可访问 URL",
+        "status": "pending",
+        "source": "https://thoughost.com/"
+      }
+    ],
+    "purchaseLinks": [
+      {
+        "kind": "bandcamp",
+        "url": "https://thoughost.bandcamp.com/album/s-l-v-t-mixture",
+        "price": "¥800 JPY or more (name your price)",
+        "status": "approved",
+        "verified": "2026.09.06"
+      },
+      {
+        "kind": "dizzylab",
+        "url": "https://www.dizzylab.net/d/THGO-003/",
+        "status": "approved",
+        "verified": "2026.09.06"
+      }
+    ],
+    "sources": [
+      "https://thoughost.bandcamp.com/album/s-l-v-t-mixture",
+      "https://www.dizzylab.net/d/THGO-003/",
+      "https://thoughost.com/"
+    ],
+    "accessed": "2026.09.06"
+  },
+  {
+    "id": "album/kakusatsu-shoujo-2",
+    "catalog": "THGO-004",
+    "title": {
+      "value": "KAKUSATSU SHOUJO 2",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-2"
+    },
+    "artist": {
+      "value": "Thoughost",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-2"
+    },
+    "releaseDate": {
+      "value": "2022.04.24",
+      "originalFormat": "24 Apr 2022 00:00:00 GMT",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-2"
+    },
+    "cover": {
+      "url": "https://f4.bcbits.com/img/a230682000_0.jpg",
+      "dims": "1418x1418",
+      "format": "JPEG",
+      "bandcamp700px": "https://f4.bcbits.com/img/a230682000_10.jpg",
+      "dizzylab": "https://cdn.dizzylab.net/media/cover/THGO-004.jpg",
+      "status": "approved",
+      "source": "https://f4.bcbits.com/img/a230682000_0.jpg",
+      "verified": "2026.09.06"
+    },
+    "summary": [
+      {
+        "language": "zh-CN",
+        "value": "来自Thoughost的KAKUSATSU SHOUJO 2:KAKUSATSU SHOUJO、归来。\r\n在“Kawaii, Bouryoku, Sampling.”的基础上更进一步，“更混乱和暴力的声音”是本次的主题。\r\n不仅 Dz‘Xa、かたぎり、citybridge 回归，更有 pencil、Null Specification 作为新Guest加入。\r\n全14曲的「KAKUSATSU SHOUJO 2」将在春M3 2022首次颁布。\r\n请欣赏，“狂气”的一册。",
+        "source": "https://www.dizzylab.net/d/THGO-004/",
+        "status": "summary"
+      },
+      {
+        "language": "en",
+        "value": "KAKUSATSU SHOUJO returns.\nBuilding on \"Kawaii, Bouryoku, Sampling,\" this time the theme is \"even more chaotic and violent sounds.\"\nDz'Xa, かたぎり, and citybridge return, joined by new guests pencil and Null Specification.\nThe 14-track KAKUSATSU SHOUJO 2 will debut at Spring M3 2022.\nEnjoy this volume of madness.",
+        "source": "English translation prepared by Codex at the user's request from https://www.dizzylab.net/d/THGO-004/",
+        "status": "summary"
+      }
+    ],
+    "tracks": [
+      {
+        "number": 1,
+        "title": "潮音きつね_H - うに娘二次創作ガイドライン違反作品",
+        "artist": "潮音きつね_H",
+        "duration": "3:24",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-2"
+      },
+      {
+        "number": 2,
+        "title": "Lax1u57 - physching",
+        "artist": "Lax1u57",
+        "duration": "3:02",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-2"
+      },
+      {
+        "number": 3,
+        "title": "Null Specification - Cannibal Cooker",
+        "artist": "Null Specification",
+        "duration": "6:00",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-2"
+      },
+      {
+        "number": 4,
+        "title": "pencil - Roppongi Crisis",
+        "artist": "pencil",
+        "duration": "4:26",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-2"
+      },
+      {
+        "number": 5,
+        "title": "Dz‘Xa - REGETNI",
+        "artist": "Dz‘Xa",
+        "duration": "3:04",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-2"
+      },
+      {
+        "number": 6,
+        "title": "四度月白 - 天井から見ると",
+        "artist": "四度月白",
+        "duration": "5:00",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-2"
+      },
+      {
+        "number": 7,
+        "title": "Aki - Secrets",
+        "artist": "Aki",
+        "duration": "3:37",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-2"
+      },
+      {
+        "number": 8,
+        "title": "かたぎり - #WE_STILL_LOVE_PERFUME",
+        "artist": "かたぎり",
+        "duration": "4:41",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-2"
+      },
+      {
+        "number": 9,
+        "title": "GoldenEggs - Iconos Del Anime",
+        "artist": "GoldenEggs",
+        "duration": "3:04",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-2"
+      },
+      {
+        "number": 10,
+        "title": "Nirotiy - Aria'Grief Seed'",
+        "artist": "Nirotiy",
+        "duration": "3:56",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-2"
+      },
+      {
+        "number": 11,
+        "title": "望月真白 - 殻殺 -Instant Bullet-",
+        "artist": "望月真白",
+        "duration": "4:04",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-2"
+      },
+      {
+        "number": 12,
+        "title": "M9RVEN - Succubus Gabber",
+        "artist": "M9RVEN",
+        "duration": "3:20",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-2"
+      },
+      {
+        "number": 13,
+        "title": "citybridge - There's no reality",
+        "artist": "citybridge",
+        "duration": "3:33",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-2"
+      },
+      {
+        "number": 14,
+        "title": "二重死後磁場 - LET ME SAY SANK YOU",
+        "artist": "二重死後磁場",
+        "duration": "3:46",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-2"
+      }
+    ],
+    "credits": {
+      "value": "Artist: Dz'Xa, Null Specification, pencil, GoldenEggs, Lax1u57, Aki, かたぎり, citybridge, Nirotiy, 二重死後磁場, 望月真白, 四度夜 靈, 潮音きつね_H, M9RVEN\r\nMastering: Joulez\r\nIllustrator: だんごむし\r\nDesigner: Konseki Takane",
+      "structured": [
+        {
+          "name": "MASTERING",
+          "value": "Joulez"
+        },
+        {
+          "name": "ILLUSTRATOR",
+          "value": "だんごむし"
+        },
+        {
+          "name": "DESIGN",
+          "value": "Konseki Takane"
+        }
+      ],
+      "language": "原文",
+      "status": "pending",
+      "source": "https://thoughost.com/（官方站 bundle 内 release info.json）+ https://thoughost.bandcamp.com/album/kakusatsu-shoujo-2"
+    },
+    "releaseInfo": {
+      "value": [
+        {
+          "name": "MODEL NUMBER",
+          "value": "THGO-004"
+        },
+        {
+          "name": "PRICE",
+          "value": "1200 YEN (bandcamp) / 60 RMB (dizzylab)"
+        },
+        {
+          "name": "STORE",
+          "value": "bandcamp, dizzylab"
+        },
+        {
+          "name": "RELEASE DATE",
+          "value": "2022.04.24"
+        }
+      ],
+      "source": "https://thoughost.com/（官方站 bundle 内 release info.json）",
+      "status": "pending"
+    },
+    "media": [
+      {
+        "kind": "player",
+        "url": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-2",
+        "note": "Bandcamp 内嵌播放器（官方页面 public_embeddable: true）",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-2"
+      },
+      {
+        "kind": "xfd",
+        "note": "官方站记载 XFD：KAKUSATSU SHOUJO 2 - CROSSFADE DEMO / Thoughost；官网媒体链接为占位符（#），未提供可访问 URL",
+        "status": "pending",
+        "source": "https://thoughost.com/"
+      }
+    ],
+    "purchaseLinks": [
+      {
+        "kind": "bandcamp",
+        "url": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-2",
+        "price": "¥1,200 JPY or more (name your price)",
+        "status": "approved",
+        "verified": "2026.09.06"
+      },
+      {
+        "kind": "dizzylab",
+        "url": "https://www.dizzylab.net/d/THGO-004/",
+        "status": "approved",
+        "verified": "2026.09.06"
+      }
+    ],
+    "sources": [
+      "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-2",
+      "https://www.dizzylab.net/d/THGO-004/",
+      "https://thoughost.com/"
+    ],
+    "accessed": "2026.09.06"
+  },
+  {
+    "id": "album/depressive-emotional-compilation",
+    "catalog": "THGO-005",
+    "title": {
+      "value": "蒼 -depressive & emotional compilation-",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/depressive-emotional-compilation"
+    },
+    "artist": {
+      "value": "Thoughost",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/depressive-emotional-compilation"
+    },
+    "releaseDate": {
+      "value": "2022.10.30",
+      "originalFormat": "30 Oct 2022 00:00:00 GMT",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/depressive-emotional-compilation"
+    },
+    "cover": {
+      "url": "https://f4.bcbits.com/img/a4267324310_0.jpg",
+      "dims": "1418x1418",
+      "format": "JPEG",
+      "bandcamp700px": "https://f4.bcbits.com/img/a4267324310_10.jpg",
+      "dizzylab": "https://cdn.dizzylab.net/media/cover/THGO-005.jpg",
+      "status": "approved",
+      "source": "https://f4.bcbits.com/img/a4267324310_0.jpg",
+      "verified": "2026.09.06"
+    },
+    "summary": [
+      {
+        "language": "原文",
+        "value": "生き続けることは、罪を重ねることだ。産まれることは呪いではないか？\r\n\r\n蒼い鳥が飛んでいる。\r\nずっと、ずっと遠くの空へ、たゆまず飛んでいる\r\n眩しい太陽を遮って自ら眩しい存在になるようだ\r\n\r\nもし、あの空へ飛べるなら\r\n勝手な思い込み、足元が無意識的に運ぶ\r\n落下するまで何秒かかるのかな、知らず知らずに\r\nこの肉体は既にボロボロ",
+        "source": "https://thoughost.bandcamp.com/album/depressive-emotional-compilation",
+        "status": "summary"
+      },
+      {
+        "language": "zh-CN",
+        "value": "来自Thoughost的蒼 -depressive & emotional compilation-:先人说苟且而活此事，就是罪孽的堆积。\r\n那我们被生下来这件事，是否是一场诅咒？\r\n\r\n一只青鸟展翅。\r\n向着极高、极高的天空，不知疲倦地飞翔\r\n遮断那太阳，仿佛自己也要变成耀眼的存在\r\n\r\n如果，我也能向那片天空飞去...\r\n情不自禁想入非非、抬起了脚\r\n抵达地面还需要花多久呢，\r\n殊不知这副肉体已然支离破碎\r\n\r\n以中国为起点，日本、英国、法国、俄罗斯……世界各处活跃于互联网中的音乐人相遇于此，用音乐描述心中的那一抹灰色的独特情感。",
+        "source": "https://www.dizzylab.net/d/THGO-005/",
+        "status": "summary"
+      },
+      {
+        "language": "en",
+        "value": "To go on living is to add to one's sins. Is being born itself a curse?\n\nA blue bird is flying.\nOn and on, tirelessly, toward the distant sky.\nIt eclipses the dazzling sun, as though becoming a dazzling presence itself.\n\nIf only I could fly into that sky.\nLost in a fanciful thought, my feet move of their own accord.\nHow many seconds will the fall take? Before I know it,\nthis body is already in tatters.",
+        "source": "English translation prepared by Codex at the user's request from https://thoughost.bandcamp.com/album/depressive-emotional-compilation",
+        "status": "summary"
+      }
+    ],
+    "tracks": [
+      {
+        "number": 1,
+        "title": "望月真白 - 蒼~track 1 lost~",
+        "artist": "望月真白",
+        "duration": "2:18",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/depressive-emotional-compilation"
+      },
+      {
+        "number": 2,
+        "title": "Joulez - I love u hate myself",
+        "artist": "Joulez",
+        "duration": "4:42",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/depressive-emotional-compilation"
+      },
+      {
+        "number": 3,
+        "title": "f1d31 - Não me lembro da última vez, que eu sai do meu quarto",
+        "artist": "f1d31",
+        "duration": "6:46",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/depressive-emotional-compilation"
+      },
+      {
+        "number": 4,
+        "title": "l!a - Mnemosyne",
+        "artist": "l!a",
+        "duration": "3:27",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/depressive-emotional-compilation"
+      },
+      {
+        "number": 5,
+        "title": "terminus - Stale Incense",
+        "artist": "terminus",
+        "duration": "5:06",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/depressive-emotional-compilation"
+      },
+      {
+        "number": 6,
+        "title": "Uhp1QVQ - Payphone",
+        "artist": "Uhp1QVQ",
+        "duration": "3:42",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/depressive-emotional-compilation"
+      },
+      {
+        "number": 7,
+        "title": "Kawaii amen girl - kiss in october",
+        "artist": "Kawaii amen girl",
+        "duration": "6:44",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/depressive-emotional-compilation"
+      },
+      {
+        "number": 8,
+        "title": "Holly - Dementia",
+        "artist": "Holly",
+        "duration": "4:09",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/depressive-emotional-compilation"
+      },
+      {
+        "number": 9,
+        "title": "Ultima Aevum - Core of Ascension [Single Vers.]",
+        "artist": "Ultima Aevum",
+        "duration": "3:23",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/depressive-emotional-compilation"
+      },
+      {
+        "number": 10,
+        "title": "Urtica_Ferox_ - 私",
+        "artist": "Urtica_Ferox_",
+        "duration": "3:16",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/depressive-emotional-compilation"
+      },
+      {
+        "number": 11,
+        "title": "rbZodiacX - Solitray World",
+        "artist": "rbZodiacX",
+        "duration": "4:24",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/depressive-emotional-compilation"
+      },
+      {
+        "number": 12,
+        "title": "zot!k - fun^10 x int^40",
+        "artist": "zot!k",
+        "duration": "3:10",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/depressive-emotional-compilation"
+      },
+      {
+        "number": 13,
+        "title": "Nirotiy - 死声",
+        "artist": "Nirotiy",
+        "duration": "3:29",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/depressive-emotional-compilation"
+      },
+      {
+        "number": 14,
+        "title": "ELECTR - Obelisk",
+        "artist": "ELECTR",
+        "duration": "5:19",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/depressive-emotional-compilation"
+      },
+      {
+        "number": 15,
+        "title": "wheatfox - zexistenze",
+        "artist": "wheatfox",
+        "duration": "4:21",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/depressive-emotional-compilation"
+      },
+      {
+        "number": 16,
+        "title": "oblivious - Endlessly Colorless",
+        "artist": "oblivious",
+        "duration": "5:04",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/depressive-emotional-compilation"
+      },
+      {
+        "number": 17,
+        "title": "illness liquor - SAD_POETRY",
+        "artist": "illness liquor",
+        "duration": "3:42",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/depressive-emotional-compilation"
+      },
+      {
+        "number": 18,
+        "title": "Joulez - Or from July 24th",
+        "artist": "Joulez",
+        "duration": "5:30",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/depressive-emotional-compilation"
+      },
+      {
+        "number": 19,
+        "title": "CarameL. - MeaningLess",
+        "artist": "CarameL.",
+        "duration": "5:02",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/depressive-emotional-compilation"
+      },
+      {
+        "number": 20,
+        "title": "Laxeno57 - Anthropocene",
+        "artist": "Laxeno57",
+        "duration": "8:47",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/depressive-emotional-compilation"
+      },
+      {
+        "number": 21,
+        "title": "BLUE NOISE - l'espoire  en",
+        "artist": "BLUE NOISE",
+        "duration": "5:51",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/depressive-emotional-compilation"
+      }
+    ],
+    "credits": {
+      "value": "Artist: 望月真白, Joulez, f1d31, l!a, terminus, Uhp1QVQ, Kawaii amen girl, Holly, Ultima Aevum, Urtica_Ferox_, rbZodiacX, zot!k, Nirotiy, ELECTR, wheatfox, oblivious, illness liquor, CarameL., Laxeno57, BLUE NOISE\r\nMastering: Joulez\r\nIllustrator: 枝乃間\r\nDesigner: Konseki Takane",
+      "structured": [
+        {
+          "name": "MASTERING",
+          "value": "Joulez"
+        },
+        {
+          "name": "ILLUSTRATOR",
+          "value": "枝乃間"
+        },
+        {
+          "name": "DESIGN",
+          "value": "Konseki Takane"
+        }
+      ],
+      "language": "原文",
+      "status": "pending",
+      "source": "https://thoughost.com/（官方站 bundle 内 release info.json）+ https://thoughost.bandcamp.com/album/depressive-emotional-compilation"
+    },
+    "releaseInfo": {
+      "value": [
+        {
+          "name": "MODEL NUMBER",
+          "value": "THGO-005"
+        },
+        {
+          "name": "PRICE",
+          "value": "1500 YEN (bandcamp) / 75 RMB (dizzylab)"
+        },
+        {
+          "name": "STORE",
+          "value": "bandcamp, dizzylab"
+        },
+        {
+          "name": "RELEASE DATE",
+          "value": "2022.10.30"
+        }
+      ],
+      "source": "https://thoughost.com/（官方站 bundle 内 release info.json）",
+      "status": "pending"
+    },
+    "media": [
+      {
+        "kind": "player",
+        "url": "https://thoughost.bandcamp.com/album/depressive-emotional-compilation",
+        "note": "Bandcamp 内嵌播放器（官方页面 public_embeddable: true）",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/depressive-emotional-compilation"
+      },
+      {
+        "kind": "xfd",
+        "note": "官方站记载 XFD：蒼 -depressive & emotional compilation- CROSSFADE DEMO / Thoughost；官网媒体链接为占位符（#），未提供可访问 URL",
+        "status": "pending",
+        "source": "https://thoughost.com/"
+      }
+    ],
+    "purchaseLinks": [
+      {
+        "kind": "bandcamp",
+        "url": "https://thoughost.bandcamp.com/album/depressive-emotional-compilation",
+        "price": "¥1,500 JPY or more (name your price)",
+        "status": "approved",
+        "verified": "2026.09.06"
+      },
+      {
+        "kind": "dizzylab",
+        "url": "https://www.dizzylab.net/d/THGO-005/",
+        "status": "approved",
+        "verified": "2026.09.06"
+      }
+    ],
+    "sources": [
+      "https://thoughost.bandcamp.com/album/depressive-emotional-compilation",
+      "https://www.dizzylab.net/d/THGO-005/",
+      "https://thoughost.com/"
+    ],
+    "accessed": "2026.09.06"
+  },
+  {
+    "id": "album/after-the-forerunner-e-p",
+    "catalog": "TGEP-001",
+    "title": {
+      "value": "After the Forerunner e.p.",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/after-the-forerunner-e-p"
+    },
+    "artist": {
+      "value": "Thoughost",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/after-the-forerunner-e-p"
+    },
+    "releaseDate": {
+      "value": "2023.04.30",
+      "originalFormat": "30 Apr 2023 00:00:00 GMT",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/after-the-forerunner-e-p"
+    },
+    "cover": {
+      "url": "https://f4.bcbits.com/img/a402384760_0.jpg",
+      "dims": "1418x1418",
+      "format": "JPEG",
+      "bandcamp700px": "https://f4.bcbits.com/img/a402384760_10.jpg",
+      "dizzylab": "https://cdn.dizzylab.net/media/cover/TGEP-001.jpg",
+      "status": "approved",
+      "source": "https://f4.bcbits.com/img/a402384760_0.jpg",
+      "verified": "2026.09.06"
+    },
+    "summary": [
+      {
+        "language": "原文",
+        "value": "道を示したこそ、先駆者である。影響を与えられるこそ、音楽活動が始まる。\r\n先駆者の足跡を追随し、私たちがこの道で歩き続くのでしょう。\r\n\r\nThey have opened a way for us to be inspired, motivated, and dedicated. That's why we state them as the forerunner.\r\nAfter the forerunner, we started our journey of liberation, emotion, and realization.",
+        "source": "https://thoughost.bandcamp.com/album/after-the-forerunner-e-p",
+        "status": "summary"
+      },
+      {
+        "language": "zh-CN",
+        "value": "来自Thoughost的After the Forerunner e​.​p.:正是因为他们的启发，我们才会开始音乐创作，因此称呼他们为“先驱者”。\r\n在先驱者后，我们将继续沿着这条路走下去。",
+        "source": "https://www.dizzylab.net/d/TGEP-001/",
+        "status": "summary"
+      },
+      {
+        "language": "en",
+        "value": "They have opened a way for us to be inspired, motivated, and dedicated. That's why we state them as the forerunner.\r\nAfter the forerunner, we started our journey of liberation, emotion, and realization.",
+        "source": "https://thoughost.bandcamp.com/album/after-the-forerunner-e-p",
+        "status": "summary"
+      }
+    ],
+    "tracks": [
+      {
+        "number": 1,
+        "title": "Joulez - rotfeldzestroerer",
+        "artist": "Joulez",
+        "duration": "10:27",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/after-the-forerunner-e-p"
+      },
+      {
+        "number": 2,
+        "title": "Laxeno57 - Lumos",
+        "artist": "Laxeno57",
+        "duration": "6:05",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/after-the-forerunner-e-p"
+      },
+      {
+        "number": 3,
+        "title": "Nirotiy - zentrifugale",
+        "artist": "Nirotiy",
+        "duration": "4:02",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/after-the-forerunner-e-p"
+      },
+      {
+        "number": 4,
+        "title": "DJ Momo - No Excuse",
+        "artist": "DJ Momo",
+        "duration": "6:20",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/after-the-forerunner-e-p"
+      },
+      {
+        "number": 5,
+        "title": "Irish Kappa - You Are The One",
+        "artist": "Irish Kappa",
+        "duration": "5:16",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/after-the-forerunner-e-p"
+      },
+      {
+        "number": 6,
+        "title": "AiSS - 白华",
+        "artist": "AiSS",
+        "duration": "4:49",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/after-the-forerunner-e-p"
+      }
+    ],
+    "credits": {
+      "value": "Artist: Joulez, Laxeno57, Nirotiy, DJ Momo, Irish Kappa, AiSS\r\nMastering: Joulez\r\nDesigner: Konseki Takane",
+      "language": "原文（英文为主，含日文署名）",
+      "status": "pending",
+      "source": "https://thoughost.bandcamp.com/album/after-the-forerunner-e-p"
+    },
+    "releaseInfo": null,
+    "media": [
+      {
+        "kind": "player",
+        "url": "https://thoughost.bandcamp.com/album/after-the-forerunner-e-p",
+        "note": "Bandcamp 内嵌播放器（官方页面 public_embeddable: true）",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/after-the-forerunner-e-p"
+      }
+    ],
+    "purchaseLinks": [
+      {
+        "kind": "bandcamp",
+        "url": "https://thoughost.bandcamp.com/album/after-the-forerunner-e-p",
+        "price": "¥500 JPY or more (name your price)",
+        "status": "approved",
+        "verified": "2026.09.06"
+      },
+      {
+        "kind": "dizzylab",
+        "url": "https://www.dizzylab.net/d/TGEP-001/",
+        "status": "approved",
+        "verified": "2026.09.06"
+      }
+    ],
+    "sources": [
+      "https://thoughost.bandcamp.com/album/after-the-forerunner-e-p",
+      "https://www.dizzylab.net/d/TGEP-001/"
+    ],
+    "accessed": "2026.09.06"
+  },
+  {
+    "id": "album/16-48",
+    "catalog": "TGSL-001",
+    "title": {
+      "value": "16:48",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/16-48"
+    },
+    "artist": {
+      "value": "Joulez",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/16-48"
+    },
+    "releaseDate": {
+      "value": "2023.05.02",
+      "originalFormat": "02 May 2023 00:00:00 GMT",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/16-48"
+    },
+    "cover": {
+      "url": "https://f4.bcbits.com/img/a494011467_0.jpg",
+      "dims": "1418x1418",
+      "format": "JPEG",
+      "bandcamp700px": "https://f4.bcbits.com/img/a494011467_10.jpg",
+      "dizzylab": "https://cdn.dizzylab.net/media/cover/TGSL-001.jpg",
+      "status": "approved",
+      "source": "https://f4.bcbits.com/img/a494011467_0.jpg",
+      "verified": "2026.09.06"
+    },
+    "summary": [
+      {
+        "language": "原文",
+        "value": "Electronic music artist Joulez debuts his first solo album “16:48” at Thoughost. The album is the culmination of his work over a period of three years. “16:48” is a collection of music，poetry，and photography where emotions flow and reside.",
+        "source": "https://thoughost.bandcamp.com/album/16-48",
+        "status": "summary"
+      },
+      {
+        "language": "zh-CN",
+        "value": "来自Thoughost的16:48:经历了6年的创作生涯后，电子音乐人Joulez在Thoughost推出了他的第一张个人专辑《16:48》，这是他3年来的结晶。\r\n《16:48》是一张音乐、诗歌和摄影作品集，情感在其中流动和驻留。\r\n在十二首乐曲里，我们一起聆听属于他内心的故事。\r\n\r\n听，焦耳。",
+        "source": "https://www.dizzylab.net/d/TGSL-001/",
+        "status": "summary"
+      },
+      {
+        "language": "en",
+        "value": "Electronic music artist Joulez debuts his first solo album “16:48” at Thoughost. The album is the culmination of his work over a period of three years. “16:48” is a collection of music，poetry，and photography where emotions flow and reside.",
+        "source": "https://thoughost.bandcamp.com/album/16-48",
+        "status": "summary"
+      }
+    ],
+    "tracks": [
+      {
+        "number": 1,
+        "title": "to Introduce…",
+        "artist": "Joulez",
+        "duration": "3:20",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/16-48",
+        "artistSource": "https://www.discogs.com/release/27506943-Joulez-1648",
+        "artistStatus": "pending"
+      },
+      {
+        "number": 2,
+        "title": "i love u / hate myself",
+        "artist": "Joulez",
+        "duration": "4:44",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/16-48",
+        "artistSource": "https://www.discogs.com/release/27506943-Joulez-1648",
+        "artistStatus": "pending"
+      },
+      {
+        "number": 3,
+        "title": "a.ll the things I love(d)",
+        "artist": "Joulez",
+        "duration": "13:16",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/16-48",
+        "artistSource": "https://www.discogs.com/release/27506943-Joulez-1648",
+        "artistStatus": "pending"
+      },
+      {
+        "number": 4,
+        "title": "continuous deep imagination",
+        "artist": "Joulez",
+        "duration": "6:20",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/16-48",
+        "artistSource": "https://www.discogs.com/release/27506943-Joulez-1648",
+        "artistStatus": "pending"
+      },
+      {
+        "number": 5,
+        "title": "sunset (another time)",
+        "artist": "Joulez",
+        "duration": "4:28",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/16-48",
+        "artistSource": "https://www.discogs.com/release/27506943-Joulez-1648",
+        "artistStatus": "pending"
+      },
+      {
+        "number": 6,
+        "title": "mermaid of crystal cave",
+        "artist": "Joulez",
+        "duration": "5:32",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/16-48",
+        "artistSource": "https://www.discogs.com/release/27506943-Joulez-1648",
+        "artistStatus": "pending"
+      },
+      {
+        "number": 7,
+        "title": "just like glass",
+        "artist": "Joulez",
+        "duration": "4:32",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/16-48",
+        "artistSource": "https://www.discogs.com/release/27506943-Joulez-1648",
+        "artistStatus": "pending"
+      },
+      {
+        "number": 8,
+        "title": "unmarked trace",
+        "artist": "Joulez",
+        "duration": "4:00",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/16-48",
+        "artistSource": "https://www.discogs.com/release/27506943-Joulez-1648",
+        "artistStatus": "pending"
+      },
+      {
+        "number": 9,
+        "title": "forget.bat",
+        "artist": "Joulez",
+        "duration": "5:28",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/16-48",
+        "artistSource": "https://www.discogs.com/release/27506943-Joulez-1648",
+        "artistStatus": "pending"
+      },
+      {
+        "number": 10,
+        "title": "p229 (an interlude)",
+        "artist": "Joulez",
+        "duration": "5:28",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/16-48",
+        "artistSource": "https://www.discogs.com/release/27506943-Joulez-1648",
+        "artistStatus": "pending"
+      },
+      {
+        "number": 11,
+        "title": "22-46 november 4th",
+        "artist": "Joulez",
+        "duration": "3:52",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/16-48",
+        "artistSource": "https://www.discogs.com/release/27506943-Joulez-1648",
+        "artistStatus": "pending"
+      },
+      {
+        "number": 12,
+        "title": "Or?",
+        "artist": "Joulez",
+        "duration": "5:36",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/16-48",
+        "artistSource": "https://www.discogs.com/release/27506943-Joulez-1648",
+        "artistStatus": "pending"
+      }
+    ],
+    "credits": {
+      "value": "Produce / Compose / Arrange / Mastering: Joulez\r\nPoetry: Joulez, odoriin, lola螺旯\r\nVocal: lola螺旯 (9 & 12), 除名システム (2 & 9)\r\nDesign: 紺 aka Konseki Takane",
+      "language": "原文（英文为主，含日文署名）",
+      "status": "pending",
+      "source": "https://thoughost.bandcamp.com/album/16-48"
+    },
+    "releaseInfo": null,
+    "media": [
+      {
+        "kind": "player",
+        "url": "https://thoughost.bandcamp.com/album/16-48",
+        "note": "Bandcamp 内嵌播放器（官方页面 public_embeddable: true）",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/16-48"
+      }
+    ],
+    "purchaseLinks": [
+      {
+        "kind": "bandcamp",
+        "url": "https://thoughost.bandcamp.com/album/16-48",
+        "price": "¥1,500 JPY or more (name your price)",
+        "status": "approved",
+        "verified": "2026.09.06"
+      },
+      {
+        "kind": "dizzylab",
+        "url": "https://www.dizzylab.net/d/TGSL-001/",
+        "status": "approved",
+        "verified": "2026.09.06"
+      }
+    ],
+    "sources": [
+      "https://thoughost.bandcamp.com/album/16-48",
+      "https://www.dizzylab.net/d/TGSL-001/"
+    ],
+    "accessed": "2026.09.06"
+  },
+  {
+    "id": "album/ephemanent",
+    "catalog": "THGO-006",
+    "title": {
+      "value": "Ephemanent",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/ephemanent"
+    },
+    "artist": {
+      "value": "Thoughost",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/ephemanent"
+    },
+    "releaseDate": {
+      "value": "2024.04.28",
+      "originalFormat": "28 Apr 2024 00:00:00 GMT",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/ephemanent"
+    },
+    "cover": {
+      "url": "https://f4.bcbits.com/img/a1421791472_0.jpg",
+      "dims": "1418x1418",
+      "format": "JPEG",
+      "bandcamp700px": "https://f4.bcbits.com/img/a1421791472_10.jpg",
+      "dizzylab": "https://cdn.dizzylab.net/media/cover/THGO-006.jpg",
+      "status": "approved",
+      "source": "https://f4.bcbits.com/img/a1421791472_0.jpg",
+      "verified": "2026.09.06"
+    },
+    "summary": [
+      {
+        "language": "原文",
+        "value": "Freeform Hardcore Compilation Album.",
+        "source": "https://thoughost.bandcamp.com/album/ephemanent",
+        "status": "summary"
+      },
+      {
+        "language": "zh-CN",
+        "value": "来自Thoughost的Ephemanent:梦幻的音色、怀旧的感受、全新的FREEFORM HARDCORE。",
+        "source": "https://www.dizzylab.net/d/THGO-006/",
+        "status": "summary"
+      },
+      {
+        "language": "en",
+        "value": "Freeform Hardcore Compilation Album.",
+        "source": "https://thoughost.bandcamp.com/album/ephemanent",
+        "status": "summary"
+      }
+    ],
+    "tracks": [
+      {
+        "number": 1,
+        "title": "DJ Momo & ちよもも - Cinder Glade",
+        "artist": "DJ Momo & ちよもも",
+        "duration": "5:42",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/ephemanent"
+      },
+      {
+        "number": 2,
+        "title": "Kokomochi - Beryl",
+        "artist": "Kokomochi",
+        "duration": "6:52",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/ephemanent"
+      },
+      {
+        "number": 3,
+        "title": "Ouuuuuu - Angel Generator",
+        "artist": "Ouuuuuu",
+        "duration": "4:53",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/ephemanent"
+      },
+      {
+        "number": 4,
+        "title": "KaKi - Garnet",
+        "artist": "KaKi",
+        "duration": "5:28",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/ephemanent"
+      },
+      {
+        "number": 5,
+        "title": "Normal1zer - Universe Outsiderz",
+        "artist": "Normal1zer",
+        "duration": "6:38",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/ephemanent"
+      },
+      {
+        "number": 6,
+        "title": "Project-G - So What",
+        "artist": "Project-G",
+        "duration": "6:43",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/ephemanent"
+      },
+      {
+        "number": 7,
+        "title": "Hyphen - Event Horizon",
+        "artist": "Hyphen",
+        "duration": "4:59",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/ephemanent"
+      },
+      {
+        "number": 8,
+        "title": "MiYAjY - Nightmare Trigger",
+        "artist": "MiYAjY",
+        "duration": "7:28",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/ephemanent"
+      },
+      {
+        "number": 9,
+        "title": "Joulez - Berzerk",
+        "artist": "Joulez",
+        "duration": "7:03",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/ephemanent"
+      },
+      {
+        "number": 10,
+        "title": "Irish Kappa - Code Name:Macrocosmos",
+        "artist": "Irish Kappa",
+        "duration": "5:42",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/ephemanent"
+      },
+      {
+        "number": 11,
+        "title": "Nirotiy - 沉渊低语 (Whispers of Looming Shadows)",
+        "artist": "Nirotiy",
+        "duration": "6:27",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/ephemanent"
+      },
+      {
+        "number": 12,
+        "title": "潮音きつね_H - 星冴ゆる霜穹",
+        "artist": "潮音きつね_H",
+        "duration": "5:16",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/ephemanent"
+      },
+      {
+        "number": 13,
+        "title": "ETIA. - Erotomania (除名システム Recover)",
+        "artist": "ETIA.",
+        "duration": "5:36",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/ephemanent"
+      },
+      {
+        "number": 14,
+        "title": "Nirotiy - Herzschlag (Heartbeat)",
+        "artist": "Nirotiy",
+        "duration": "7:48",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/ephemanent"
+      }
+    ],
+    "credits": {
+      "value": "Artist: DJ Momo & ちよもも, Kokomochi, Ouuuuuu, KaKi, Normal1zer, Project-G, Hyphen, MiYAjY, Joulez, Irish Kappa, 潮音きつね_H, Nirotiy\r\nMastering: Joulez\r\nIllustrator: 铫\r\nDesigner: Konseki Takane",
+      "language": "原文（英文为主，含日文署名）",
+      "status": "pending",
+      "source": "https://thoughost.bandcamp.com/album/ephemanent"
+    },
+    "releaseInfo": null,
+    "media": [
+      {
+        "kind": "player",
+        "url": "https://thoughost.bandcamp.com/album/ephemanent",
+        "note": "Bandcamp 内嵌播放器（官方页面 public_embeddable: true）",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/ephemanent"
+      }
+    ],
+    "purchaseLinks": [
+      {
+        "kind": "bandcamp",
+        "url": "https://thoughost.bandcamp.com/album/ephemanent",
+        "price": "¥1,500 JPY or more (name your price)",
+        "status": "approved",
+        "verified": "2026.09.06"
+      },
+      {
+        "kind": "dizzylab",
+        "url": "https://www.dizzylab.net/d/THGO-006/",
+        "status": "approved",
+        "verified": "2026.09.06"
+      }
+    ],
+    "sources": [
+      "https://thoughost.bandcamp.com/album/ephemanent",
+      "https://www.dizzylab.net/d/THGO-006/"
+    ],
+    "accessed": "2026.09.06"
+  },
+  {
+    "id": "album/kakusatsu-shoujo-3",
+    "catalog": "THGO-007",
+    "title": {
+      "value": "KAKUSATSU SHOUJO 3",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-3"
+    },
+    "artist": {
+      "value": "Thoughost",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-3"
+    },
+    "releaseDate": {
+      "value": "2024.08.12",
+      "originalFormat": "12 Aug 2024 00:00:00 GMT",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-3"
+    },
+    "cover": {
+      "url": "https://f4.bcbits.com/img/a654656327_0.jpg",
+      "dims": "2000x2000",
+      "format": "JPEG",
+      "bandcamp700px": "https://f4.bcbits.com/img/a654656327_10.jpg",
+      "dizzylab": "https://cdn.dizzylab.net/media/cover/THGO-007.jpg",
+      "status": "approved",
+      "source": "https://f4.bcbits.com/img/a654656327_0.jpg",
+      "verified": "2026.09.06"
+    },
+    "summary": [
+      {
+        "language": "zh-CN",
+        "value": "来自Thoughost的KAKUSATSU SHOUJO 3:核杀少女、三次冲击。\r\n\r\n不仅M9RVEN、かたぎり、Aki、Null Specification回归，还有新面孔Moetek、Yakumo，更有公开募集获胜者nova+z！\r\n\r\n全10曲的「KAKUSATSU SHOUJO 3」将在Comic Market 104首次颁布。",
+        "source": "https://www.dizzylab.net/d/THGO-007/",
+        "status": "summary"
+      },
+      {
+        "language": "en",
+        "value": "KAKUSATSU SHOUJO: the third impact.\n\nM9RVEN, かたぎり, Aki, and Null Specification return, alongside new faces Moetek and Yakumo, and open-call winner nova+z!\n\nThe 10-track KAKUSATSU SHOUJO 3 will debut at Comic Market 104.",
+        "source": "English translation prepared by Codex at the user's request from https://www.dizzylab.net/d/THGO-007/",
+        "status": "summary"
+      }
+    ],
+    "tracks": [
+      {
+        "number": 1,
+        "title": "M9RVEN, 望月真白 - ぶっこぬき音源！ブレイクコアで抜いてしまったサキュバス賀馬ちゃん！",
+        "artist": "M9RVEN, 望月真白",
+        "duration": "3:55",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-3"
+      },
+      {
+        "number": 2,
+        "title": "Moetek - Sekarashikh",
+        "artist": "Moetek",
+        "duration": "5:50",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-3"
+      },
+      {
+        "number": 3,
+        "title": "DJ Momo - DJ Momo is Nothing Without her TEK Feat.The Operation",
+        "artist": "DJ Momo",
+        "duration": "3:47",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-3"
+      },
+      {
+        "number": 4,
+        "title": "かたぎり - Tanuki-Mujina Incident",
+        "artist": "かたぎり",
+        "duration": "5:00",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-3"
+      },
+      {
+        "number": 5,
+        "title": "nova+z - クソアニメは、ニオイで分かりまするぞ",
+        "artist": "nova+z",
+        "duration": "3:47",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-3"
+      },
+      {
+        "number": 6,
+        "title": "Aki - Inversion",
+        "artist": "Aki",
+        "duration": "3:37",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-3"
+      },
+      {
+        "number": 7,
+        "title": "潮音きつね_H - しかのこシコシコ腰パンパン",
+        "artist": "潮音きつね_H",
+        "duration": "3:48",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-3"
+      },
+      {
+        "number": 8,
+        "title": "Null Specification - RmL3Th",
+        "artist": "Null Specification",
+        "duration": "6:25",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-3"
+      },
+      {
+        "number": 9,
+        "title": "望月真白 - FOOTPRINTS -雨ノ宮-",
+        "artist": "望月真白",
+        "duration": "7:01",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-3"
+      },
+      {
+        "number": 10,
+        "title": "Yakumo - 天狱",
+        "artist": "Yakumo",
+        "duration": "5:34",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-3"
+      }
+    ],
+    "credits": {
+      "value": "Artist: M9RVEN, Moetek, DJ Momo, かたぎり, nova+z, Aki, 潮音きつね_H, Null Specification, 望月真白, Yakumo\r\nMastering: Joulez\r\nIllustrator: だんごむし\r\nDesigner: Konseki Takane\r\nFeaturing: The Operation (track 3)",
+      "language": "原文（英文为主，含日文署名）",
+      "status": "pending",
+      "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-3 + https://www.discogs.com/release/31469984-Various-Kakusatsu-Shoujo-3"
+    },
+    "releaseInfo": null,
+    "media": [
+      {
+        "kind": "player",
+        "url": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-3",
+        "note": "Bandcamp 内嵌播放器（官方页面 public_embeddable: true）",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-3"
+      }
+    ],
+    "purchaseLinks": [
+      {
+        "kind": "bandcamp",
+        "url": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-3",
+        "price": "¥1,000 JPY or more (name your price)",
+        "status": "approved",
+        "verified": "2026.09.06"
+      },
+      {
+        "kind": "dizzylab",
+        "url": "https://www.dizzylab.net/d/THGO-007/",
+        "status": "approved",
+        "verified": "2026.09.06"
+      }
+    ],
+    "sources": [
+      "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-3",
+      "https://www.dizzylab.net/d/THGO-007/"
+    ],
+    "accessed": "2026.09.06"
+  },
+  {
+    "id": "album/palette-of-clouds",
+    "catalog": "TGEP-002",
+    "title": {
+      "value": "palette of clouds",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/palette-of-clouds"
+    },
+    "artist": {
+      "value": "Nirotiy",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/palette-of-clouds"
+    },
+    "releaseDate": {
+      "value": "2024.10.27",
+      "originalFormat": "27 Oct 2024 00:00:00 GMT",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/palette-of-clouds"
+    },
+    "cover": {
+      "url": "https://f4.bcbits.com/img/a1778016514_0.jpg",
+      "dims": "1732x1732",
+      "format": "JPEG",
+      "bandcamp700px": "https://f4.bcbits.com/img/a1778016514_10.jpg",
+      "dizzylab": "https://cdn.dizzylab.net/media/cover/TGEP-002.jpg",
+      "status": "approved",
+      "source": "https://f4.bcbits.com/img/a1778016514_0.jpg",
+      "verified": "2026.09.06"
+    },
+    "summary": [
+      {
+        "language": "原文",
+        "value": "Nirotiy 1st EP.\r\n\r\nOn the planet beneath us, countless silent witnesses exist, among them the clouds above. Influenced by temperature, pressure, and light, these clouds display a myriad of forms. Although often charted as cloud maps to aid weather predictions, I believe they can also become vessels of human emotion. On a sunny summer morning, walk with your beloved under the scattered cumulus clouds; on a slightly cool autumn evening, sit by the lakeside and ponder beneath the stratocumulus clouds; on a winter afternoon, bring a tragic chapter to a close beneath the rain-laden nimbostratus clouds; and in springtime, bid farewell under the cirrostratus clouds. These clouds are my palette, which I use to paint stories gathered from others.",
+        "source": "https://thoughost.bandcamp.com/album/palette-of-clouds",
+        "status": "summary"
+      },
+      {
+        "language": "zh-CN",
+        "value": "来自Thoughost的palette of clouds:Nirotiy 1st EP.\r\n\r\n我们脚下的这颗星球上，有着无数无声的见证者，其中之一便是头顶的云朵。它们受到温度、气压和光线的影响，展现出多种多样的形态。虽然云朵通常被记录成云图，为人们提供天气的判断依据，但我认为，它们也可以成为人类情感的寄托。在风和日丽的夏日早晨，与心爱之人漫步于碎积云下；在略有凉意的秋日傍晚，坐在絮状层积云下的湖边冥想；在冬日下午的雨层云下，结束一场悲剧；在春天的时光中，在毛卷层云下作别。这些云朵便是我的调色盘，我用它来描绘那些我从他人口中听来的故事。",
+        "source": "https://www.dizzylab.net/d/TGEP-002/",
+        "status": "summary"
+      },
+      {
+        "language": "en",
+        "value": "Nirotiy 1st EP.\r\n\r\nOn the planet beneath us, countless silent witnesses exist, among them the clouds above. Influenced by temperature, pressure, and light, these clouds display a myriad of forms. Although often charted as cloud maps to aid weather predictions, I believe they can also become vessels of human emotion. On a sunny summer morning, walk with your beloved under the scattered cumulus clouds; on a slightly cool autumn evening, sit by the lakeside and ponder beneath the stratocumulus clouds; on a winter afternoon, bring a tragic chapter to a close beneath the rain-laden nimbostratus clouds; and in springtime, bid farewell under the cirrostratus clouds. These clouds are my palette, which I use to paint stories gathered from others.",
+        "source": "https://thoughost.bandcamp.com/album/palette-of-clouds",
+        "status": "summary"
+      }
+    ],
+    "tracks": [
+      {
+        "number": 1,
+        "title": "cirrostratus fibratus",
+        "artist": "Nirotiy",
+        "duration": "2:38",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/palette-of-clouds",
+        "artistSource": "https://www.discogs.com/release/32238003-Nirotiy-Palette-Of-Clouds",
+        "artistStatus": "pending"
+      },
+      {
+        "number": 2,
+        "title": "stratocumulus undulatus",
+        "artist": "Nirotiy",
+        "duration": "5:36",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/palette-of-clouds",
+        "artistSource": "https://www.discogs.com/release/32238003-Nirotiy-Palette-Of-Clouds",
+        "artistStatus": "pending"
+      },
+      {
+        "number": 3,
+        "title": "cumulonimbus",
+        "artist": "Nirotiy",
+        "duration": "6:11",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/palette-of-clouds",
+        "artistSource": "https://www.discogs.com/release/32238003-Nirotiy-Palette-Of-Clouds",
+        "artistStatus": "pending"
+      },
+      {
+        "number": 4,
+        "title": "noctilucent clouds",
+        "artist": "Nirotiy",
+        "duration": "4:12",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/palette-of-clouds",
+        "artistSource": "https://www.discogs.com/release/32238003-Nirotiy-Palette-Of-Clouds",
+        "artistStatus": "pending"
+      },
+      {
+        "number": 5,
+        "title": "nimbostratus (2024)",
+        "artist": "Nirotiy",
+        "duration": "4:10",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/palette-of-clouds",
+        "artistSource": "https://www.discogs.com/release/32238003-Nirotiy-Palette-Of-Clouds",
+        "artistStatus": "pending"
+      }
+    ],
+    "credits": {
+      "value": "All by Nirotiy\r\nProduce: Nirotiy",
+      "language": "原文（英文为主，含日文署名）",
+      "status": "pending",
+      "source": "https://thoughost.bandcamp.com/album/palette-of-clouds + https://www.discogs.com/release/32238003-Nirotiy-Palette-Of-Clouds"
+    },
+    "releaseInfo": null,
+    "media": [
+      {
+        "kind": "player",
+        "url": "https://thoughost.bandcamp.com/album/palette-of-clouds",
+        "note": "Bandcamp 内嵌播放器（官方页面 public_embeddable: true）",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/palette-of-clouds"
+      }
+    ],
+    "purchaseLinks": [
+      {
+        "kind": "bandcamp",
+        "url": "https://thoughost.bandcamp.com/album/palette-of-clouds",
+        "price": "¥500 JPY or more (name your price)",
+        "status": "approved",
+        "verified": "2026.09.06"
+      },
+      {
+        "kind": "dizzylab",
+        "url": "https://www.dizzylab.net/d/TGEP-002/",
+        "status": "approved",
+        "verified": "2026.09.06"
+      }
+    ],
+    "sources": [
+      "https://thoughost.bandcamp.com/album/palette-of-clouds",
+      "https://www.dizzylab.net/d/TGEP-002/"
+    ],
+    "accessed": "2026.09.06"
+  },
+  {
+    "id": "album/asteria",
+    "catalog": "TGEP-003",
+    "title": {
+      "value": "Asteria",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/asteria"
+    },
+    "artist": {
+      "value": "Joulez",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/asteria"
+    },
+    "releaseDate": {
+      "value": "2025.04.27",
+      "originalFormat": "27 Apr 2025 00:00:00 GMT",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/asteria"
+    },
+    "cover": {
+      "url": "https://f4.bcbits.com/img/a3164232145_0.jpg",
+      "dims": "1400x1400",
+      "format": "JPEG",
+      "bandcamp700px": "https://f4.bcbits.com/img/a3164232145_10.jpg",
+      "dizzylab": "https://cdn.dizzylab.net/media/cover/TGEP-003.jpg",
+      "status": "approved",
+      "source": "https://f4.bcbits.com/img/a3164232145_0.jpg",
+      "verified": "2026.09.06"
+    },
+    "summary": [
+      {
+        "language": "原文",
+        "value": "静寂の中から戻ってきて、星の光の力を手にした。\r\n\r\n『Asteria』は、Joulezが音楽活動を再開して初めて作った作品です。\r\n昔ながらのサウンドを活かしつつ、新しい経験から生まれた音も加えています。\r\nTrack 2と3ではHimawariが作詞とボーカルを担当。\r\nさらに4種類のリミックスを収録し、それぞれが違う色で光っています。",
+        "source": "https://thoughost.bandcamp.com/album/asteria",
+        "status": "summary"
+      },
+      {
+        "language": "zh-CN",
+        "value": "来自Thoughost的Asteria:从寂静中回归，带回星光的力量。\r\n\r\n《Asteria》是Joulez重回创作后的首部作品。在重拾熟悉的声音同时，也加入了从各种体验中所获得的新声音。\r\n更有Himawari为Track2&3作词并献唱，歌词与人声的交汇，星空仿佛近在咫尺。\r\n另有四首风格迥异的Remix，各自闪烁着不同的光芒。\r\n\r\n明暗闪烁之间，望向星辰。",
+        "source": "https://www.dizzylab.net/d/TGEP-003/",
+        "status": "summary"
+      },
+      {
+        "language": "en",
+        "value": "Returning from silence, carrying the power of starlight.\n\nAsteria is Joulez's first release since returning to music.\nAlongside familiar sounds, it brings in new ones born of new experiences.\nHimawari provides lyrics and vocals for tracks 2 and 3.\nFour distinct remixes complete the release, each shining in its own color.",
+        "source": "English translation prepared by Codex at the user's request from https://thoughost.bandcamp.com/album/asteria",
+        "status": "summary"
+      }
+    ],
+    "tracks": [
+      {
+        "number": 1,
+        "title": "Tessarect of light and stars",
+        "artist": "Joulez",
+        "duration": "5:13",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/asteria",
+        "artistSource": "https://www.discogs.com/release/33877926-Joulez-Asteria",
+        "artistStatus": "pending"
+      },
+      {
+        "number": 2,
+        "title": "Joulez; Himawari - Asteria",
+        "artist": "Joulez; Himawari",
+        "duration": "5:35",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/asteria"
+      },
+      {
+        "number": 3,
+        "title": "Joulez; Himawari - 宙知らぬ星",
+        "artist": "Joulez; Himawari",
+        "duration": "3:45",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/asteria"
+      },
+      {
+        "number": 4,
+        "title": "欠片都市 -the shattered past-",
+        "artist": "Joulez",
+        "duration": "6:12",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/asteria",
+        "artistSource": "https://www.discogs.com/release/33877926-Joulez-Asteria",
+        "artistStatus": "pending"
+      },
+      {
+        "number": 5,
+        "title": "Asteria (AiSS Piano Quartet Arr.)",
+        "artist": "Joulez, AiSS",
+        "duration": "3:48",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/asteria",
+        "artistSource": "https://www.discogs.com/release/33877926-Joulez-Asteria",
+        "artistStatus": "pending"
+      },
+      {
+        "number": 6,
+        "title": "Asteria (wheatfox's Neural Botany Mix)",
+        "artist": "Joulez, wheatfox",
+        "duration": "3:02",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/asteria",
+        "artistSource": "https://www.discogs.com/release/33877926-Joulez-Asteria",
+        "artistStatus": "pending"
+      },
+      {
+        "number": 7,
+        "title": "Asteria (望月真白's Jungle Mixed Up)",
+        "artist": "Joulez, 望月真白",
+        "duration": "5:28",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/asteria",
+        "artistSource": "https://www.discogs.com/release/33877926-Joulez-Asteria",
+        "artistStatus": "pending"
+      },
+      {
+        "number": 8,
+        "title": "Asteria (Nirotiy's 'Call of Hecate' ver.)",
+        "artist": "Joulez, Nirotiy",
+        "duration": "6:24",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/asteria",
+        "artistSource": "https://www.discogs.com/release/33877926-Joulez-Asteria",
+        "artistStatus": "pending"
+      }
+    ],
+    "credits": {
+      "value": "Produce: Joulez\r\nCompose: Joulez, Himawari\r\nVocal & Lyrics: Himawari\r\nMixing & Mastering: Joulez\r\nRemixes: AiSS, wheatfox, 望月真白, Nirotiy\r\nArt Direction & Design: Konseki Takane",
+      "language": "原文（英文为主，含日文署名）",
+      "status": "pending",
+      "source": "https://thoughost.bandcamp.com/album/asteria"
+    },
+    "releaseInfo": null,
+    "media": [
+      {
+        "kind": "player",
+        "url": "https://thoughost.bandcamp.com/album/asteria",
+        "note": "Bandcamp 内嵌播放器（官方页面 public_embeddable: true）",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/asteria"
+      }
+    ],
+    "purchaseLinks": [
+      {
+        "kind": "bandcamp",
+        "url": "https://thoughost.bandcamp.com/album/asteria",
+        "price": "¥1,500 JPY or more (name your price)",
+        "status": "approved",
+        "verified": "2026.09.06"
+      },
+      {
+        "kind": "dizzylab",
+        "url": "https://www.dizzylab.net/d/TGEP-003/",
+        "status": "approved",
+        "verified": "2026.09.06"
+      }
+    ],
+    "sources": [
+      "https://thoughost.bandcamp.com/album/asteria",
+      "https://www.dizzylab.net/d/TGEP-003/"
+    ],
+    "accessed": "2026.09.06"
+  },
+  {
+    "id": "album/thoughts",
+    "catalog": "THGO-008",
+    "title": {
+      "value": "thoughts",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/thoughts"
+    },
+    "artist": {
+      "value": "Thoughost",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/thoughts"
+    },
+    "releaseDate": {
+      "value": "2025.04.27",
+      "originalFormat": "27 Apr 2025 00:00:00 GMT",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/thoughts"
+    },
+    "cover": {
+      "url": "https://f4.bcbits.com/img/a245106055_0.jpg",
+      "dims": "1400x1400",
+      "format": "JPEG",
+      "bandcamp700px": "https://f4.bcbits.com/img/a245106055_10.jpg",
+      "dizzylab": "https://cdn.dizzylab.net/media/cover/THGO-008.jpg",
+      "status": "approved",
+      "source": "https://f4.bcbits.com/img/a245106055_0.jpg",
+      "verified": "2026.09.06"
+    },
+    "summary": [
+      {
+        "language": "原文",
+        "value": "\"Discover our own sound.\"\r\n\r\n新シリーズ「thoughts」とは\r\n様々なジャンルで一つのテーマを貫くシリーズ。\r\n\r\n今回のテーマは「rebirth」です。\r\n\r\nゲストにVeetaCrush、Rayven、かたぎり、Aki Szを迎え、\r\nさらにTARA#376が「thoughts」シリーズのイラストレーターを担当しています。",
+        "source": "https://thoughost.bandcamp.com/album/thoughts",
+        "status": "summary"
+      },
+      {
+        "language": "zh-CN",
+        "value": "来自Thoughost的thoughts:新系列 \"thoughts\"\r\n以各种各样的音乐贯彻主题，挖掘属于\"Thoughost\"声音的系列。\r\n这次的主题是“rebirth\"。\r\n\r\n本次邀请到 VeetaCrush / Rayven / かたぎり / Aki Sz 作为Guest，\r\n也欢迎 TARA#376 担任\"thoughts\"的系列画家。\r\n\r\n特设页面：\r\nhttps://thoughost.com/special/thoughts",
+        "source": "https://www.dizzylab.net/d/THGO-008/",
+        "status": "summary"
+      },
+      {
+        "language": "en",
+        "value": "\"Discover our own sound.\"\n\nIntroducing thoughts, a new series that explores a single theme through a variety of genres.\n\nThis time, the theme is \"rebirth.\"\n\nFeaturing guests VeetaCrush, Rayven, かたぎり, and Aki Sz, with TARA#376 as the illustrator for the thoughts series.",
+        "source": "English translation prepared by Codex at the user's request from https://thoughost.bandcamp.com/album/thoughts",
+        "status": "summary"
+      }
+    ],
+    "tracks": [
+      {
+        "number": 1,
+        "title": "VeetaCrush - palette ii",
+        "artist": "VeetaCrush",
+        "duration": "2:48",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/thoughts"
+      },
+      {
+        "number": 2,
+        "title": "Joulez - Awake",
+        "artist": "Joulez",
+        "duration": "3:50",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/thoughts"
+      },
+      {
+        "number": 3,
+        "title": "潮音きつね - 幽けきルミノールライト",
+        "artist": "潮音きつね",
+        "duration": "5:26",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/thoughts"
+      },
+      {
+        "number": 4,
+        "title": "望月真白 - Lucidandelion",
+        "artist": "望月真白",
+        "duration": "6:36",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/thoughts"
+      },
+      {
+        "number": 5,
+        "title": "Aki Sz - Titania",
+        "artist": "Aki Sz",
+        "duration": "5:16",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/thoughts"
+      },
+      {
+        "number": 6,
+        "title": "かたぎり - December",
+        "artist": "かたぎり",
+        "duration": "3:27",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/thoughts"
+      },
+      {
+        "number": 7,
+        "title": "wheatfox - 6 p.m.",
+        "artist": "wheatfox",
+        "duration": "4:27",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/thoughts"
+      },
+      {
+        "number": 8,
+        "title": "Nirotiy - Voix sacrée",
+        "artist": "Nirotiy",
+        "duration": "7:54",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/thoughts"
+      },
+      {
+        "number": 9,
+        "title": "桃罐 - 曇天",
+        "artist": "桃罐",
+        "duration": "5:00",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/thoughts"
+      },
+      {
+        "number": 10,
+        "title": "Rayven - Epilogue",
+        "artist": "Rayven",
+        "duration": "3:23",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/thoughts"
+      }
+    ],
+    "credits": {
+      "value": "Artist: VeetaCrush, Joulez, 潮音きつね, 望月真白, Aki Sz, かたぎり, wheatfox, Nirotiy, 桃罐, Rayven\r\nMastering: Valtrax\r\nIllustrator: TARA#376\r\nArt Direction & Design: Konseki Takane\r\nVocal: Joulez (track 2)",
+      "language": "原文（英文为主，含日文署名）",
+      "status": "pending",
+      "source": "https://thoughost.bandcamp.com/album/thoughts + https://www.discogs.com/release/33994830-Various-Thoughts"
+    },
+    "releaseInfo": null,
+    "media": [
+      {
+        "kind": "player",
+        "url": "https://thoughost.bandcamp.com/album/thoughts",
+        "note": "Bandcamp 内嵌播放器（官方页面 public_embeddable: true）",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/thoughts"
+      }
+    ],
+    "purchaseLinks": [
+      {
+        "kind": "bandcamp",
+        "url": "https://thoughost.bandcamp.com/album/thoughts",
+        "price": "¥1,500 JPY or more (name your price)",
+        "status": "approved",
+        "verified": "2026.09.06"
+      },
+      {
+        "kind": "dizzylab",
+        "url": "https://www.dizzylab.net/d/THGO-008/",
+        "status": "approved",
+        "verified": "2026.09.06"
+      }
+    ],
+    "sources": [
+      "https://thoughost.bandcamp.com/album/thoughts",
+      "https://www.dizzylab.net/d/THGO-008/"
+    ],
+    "accessed": "2026.09.06"
+  },
+  {
+    "id": "album/track---17",
+    "catalog": "TGSG-002",
+    "title": {
+      "value": "春ノ終焉",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/track/--17"
+    },
+    "artist": {
+      "value": "Joulez, 月見静華",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/track/--17"
+    },
+    "releaseDate": {
+      "value": "2025.07.25",
+      "originalFormat": "25 Jul 2025 00:00:00 GMT",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/track/--17"
+    },
+    "cover": {
+      "url": "https://f4.bcbits.com/img/a670042704_0.jpg",
+      "dims": "3000x3000",
+      "format": "JPEG",
+      "bandcamp700px": "https://f4.bcbits.com/img/a670042704_10.jpg",
+      "dizzylab": "https://cdn.dizzylab.net/media/cover/TGSG-002.jpg",
+      "status": "approved",
+      "source": "https://f4.bcbits.com/img/a670042704_0.jpg",
+      "verified": "2026.09.06"
+    },
+    "summary": [
+      {
+        "language": "原文",
+        "value": "春の終焉、ここに。",
+        "source": "https://thoughost.bandcamp.com/track/--17",
+        "status": "summary"
+      },
+      {
+        "language": "zh-CN",
+        "value": "来自Thoughost的春ノ終焉:这是春天的谢幕。",
+        "source": "https://www.dizzylab.net/d/TGSG-002/",
+        "status": "summary"
+      },
+      {
+        "language": "en",
+        "value": "Here, spring comes to an end.",
+        "source": "English translation prepared by Codex at the user's request from https://thoughost.bandcamp.com/track/--17",
+        "status": "summary"
+      }
+    ],
+    "tracks": [
+      {
+        "number": 1,
+        "title": "Joulez, 月見静華 - 春ノ終焉",
+        "artist": "Joulez, 月見静華",
+        "duration": "",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/track/--17"
+      }
+    ],
+    "credits": null,
+    "releaseInfo": null,
+    "media": [
+      {
+        "kind": "player",
+        "url": "https://thoughost.bandcamp.com/track/--17",
+        "note": "Bandcamp 内嵌播放器（官方页面 public_embeddable: true）",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/track/--17"
+      }
+    ],
+    "purchaseLinks": [
+      {
+        "kind": "bandcamp",
+        "url": "https://thoughost.bandcamp.com/track/--17",
+        "price": "",
+        "status": "approved",
+        "verified": "2026.09.06"
+      },
+      {
+        "kind": "dizzylab",
+        "url": "https://www.dizzylab.net/d/TGSG-002/",
+        "status": "approved",
+        "verified": "2026.09.06"
+      }
+    ],
+    "sources": [
+      "https://thoughost.bandcamp.com/track/--17",
+      "https://www.dizzylab.net/d/TGSG-002/"
+    ],
+    "accessed": "2026.09.06"
+  },
+  {
+    "id": "album/2000-invasion",
+    "catalog": "THGO-0010",
+    "title": {
+      "value": "2000% INVASION",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/2000-invasion"
+    },
+    "artist": {
+      "value": "Thoughost",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/2000-invasion"
+    },
+    "releaseDate": {
+      "value": "2025.10.26",
+      "originalFormat": "26 Oct 2025 00:00:00 GMT",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/2000-invasion"
+    },
+    "cover": {
+      "url": "https://f4.bcbits.com/img/a1622141907_0.jpg",
+      "dims": "1418x1418",
+      "format": "JPEG",
+      "bandcamp700px": "https://f4.bcbits.com/img/a1622141907_10.jpg",
+      "dizzylab": "https://cdn.dizzylab.net/media/cover/THGO-0010.jpg",
+      "status": "approved",
+      "source": "https://f4.bcbits.com/img/a1622141907_0.jpg",
+      "verified": "2026.09.06"
+    },
+    "summary": [
+      {
+        "language": "原文",
+        "value": "GET YOUR 2000s POWER!!!!!\r\n\r\n甦る、その懐かしいシンセサイザー！\r\nあの頃のレイヴサウンド、もう一度クラブで聴きたい...！\r\nそんなあなたに、Thoughostの五周年記念新作ーー\r\n\r\n\r\n「2000% INVASION」",
+        "source": "https://thoughost.bandcamp.com/album/2000-invasion",
+        "status": "summary"
+      },
+      {
+        "language": "zh-CN",
+        "value": "来自Thoughost的2000% INVASION:献给想再一次在舞池听到2000s声音的你！\r\n\r\n全14曲超豪华艺术家阵容！还有Konseki Takane, Rin★的献声！\r\nRAVE / EUROBEAT / BUBBLEGUM DANCE / HAPPY HARDCORE / DISCO 等各种令人怀念声音的最大复活!!!",
+        "source": "https://www.dizzylab.net/d/THGO-0010/",
+        "status": "summary"
+      },
+      {
+        "language": "en",
+        "value": "GET YOUR 2000s POWER!!!!!\n\nThose nostalgic synthesizers return!\nLonging to hear the rave sounds of those days in the club once more?\nFor you, Thoughost presents its fifth-anniversary release:\n\n2000% INVASION",
+        "source": "English translation prepared by Codex at the user's request from https://thoughost.bandcamp.com/album/2000-invasion",
+        "status": "summary"
+      }
+    ],
+    "tracks": [
+      {
+        "number": 1,
+        "title": "nova+z - HIT THE RAVE ANTHEM",
+        "artist": "nova+z",
+        "duration": "5:18",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/2000-invasion"
+      },
+      {
+        "number": 2,
+        "title": "潮音きつね - Grooooovy↑",
+        "artist": "潮音きつね",
+        "duration": "5:34",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/2000-invasion"
+      },
+      {
+        "number": 3,
+        "title": "inaharu - Afterglow",
+        "artist": "inaharu",
+        "duration": "5:54",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/2000-invasion"
+      },
+      {
+        "number": 4,
+        "title": "Nirotiy - Call Me",
+        "artist": "Nirotiy",
+        "duration": "5:33",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/2000-invasion"
+      },
+      {
+        "number": 5,
+        "title": "wheatfox - Lumière",
+        "artist": "wheatfox",
+        "duration": "3:37",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/2000-invasion"
+      },
+      {
+        "number": 6,
+        "title": "Ouuuuuu x DazzEdgh - Ravenaissance",
+        "artist": "Ouuuuuu x DazzEdgh",
+        "duration": "5:16",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/2000-invasion"
+      },
+      {
+        "number": 7,
+        "title": "FreshP - New Player Adventure",
+        "artist": "FreshP",
+        "duration": "3:17",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/2000-invasion"
+      },
+      {
+        "number": 8,
+        "title": "HASEKO - CATCH THE FIRE feat. Konseki Takane",
+        "artist": "HASEKO",
+        "duration": "5:03",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/2000-invasion"
+      },
+      {
+        "number": 9,
+        "title": "Violet Delta - Better Walk Away",
+        "artist": "Violet Delta",
+        "duration": "3:23",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/2000-invasion"
+      },
+      {
+        "number": 10,
+        "title": "57Lab - Soda",
+        "artist": "57Lab",
+        "duration": "3:56",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/2000-invasion"
+      },
+      {
+        "number": 11,
+        "title": "Hazecat - Surf the Ravenet",
+        "artist": "Hazecat",
+        "duration": "3:33",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/2000-invasion"
+      },
+      {
+        "number": 12,
+        "title": "板烧鹅尼子 feat. Rin★ - Exhausting Mind",
+        "artist": "板烧鹅尼子 feat. Rin★",
+        "duration": "4:03",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/2000-invasion"
+      },
+      {
+        "number": 13,
+        "title": "Supa7onyz - Music Is My Savior",
+        "artist": "Supa7onyz",
+        "duration": "3:55",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/2000-invasion"
+      },
+      {
+        "number": 14,
+        "title": "Valtrax - Dream So Real",
+        "artist": "Valtrax",
+        "duration": "3:59",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/2000-invasion"
+      }
+    ],
+    "credits": {
+      "value": "Artist: nova+z, 潮音きつね, inaharu, Nirotiy, wheatfox, Ouuuuuu, DazzEdgh, FreshP, HASEKO, Violet Delta, 57Lab, Hazecat, 板烧鹅尼子, Supa7onyz, Valtrax\r\nLyric: Black201, JUZIM / Konseki Takane / Hazecat / Mr.skY01 / Supa7onyz\r\nVocal: Konseki Takane / Rin★\r\nMastering: Joulez\r\nIllustration: TARA#376\r\nArt Direction & Design: Konseki Takane\r\nGuitar: 奇异甜食 (track 12)\r\nVocal Editing: HASEKO (track 8), 柳 (track 12)",
+      "language": "原文（英文为主，含日文署名）",
+      "status": "pending",
+      "source": "https://thoughost.bandcamp.com/album/2000-invasion + https://www.discogs.com/release/35666869-Various-2000-Invasion"
+    },
+    "releaseInfo": null,
+    "media": [
+      {
+        "kind": "player",
+        "url": "https://thoughost.bandcamp.com/album/2000-invasion",
+        "note": "Bandcamp 内嵌播放器（官方页面 public_embeddable: true）",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/2000-invasion"
+      }
+    ],
+    "purchaseLinks": [
+      {
+        "kind": "bandcamp",
+        "url": "https://thoughost.bandcamp.com/album/2000-invasion",
+        "price": "¥2,000 JPY or more (name your price)",
+        "status": "approved",
+        "verified": "2026.09.06"
+      },
+      {
+        "kind": "dizzylab",
+        "url": "https://www.dizzylab.net/d/THGO-0010/",
+        "status": "approved",
+        "verified": "2026.09.06"
+      }
+    ],
+    "sources": [
+      "https://thoughost.bandcamp.com/album/2000-invasion",
+      "https://www.dizzylab.net/d/THGO-0010/"
+    ],
+    "accessed": "2026.09.06"
+  },
+  {
+    "id": "album/moonshine-001",
+    "catalog": "THGO-009",
+    "title": {
+      "value": "MOONSHINE #001",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/moonshine-001"
+    },
+    "artist": {
+      "value": "Thoughost",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/moonshine-001"
+    },
+    "releaseDate": {
+      "value": "2025.10.26",
+      "originalFormat": "26 Oct 2025 00:00:00 GMT",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/moonshine-001"
+    },
+    "cover": {
+      "url": "https://f4.bcbits.com/img/a2585905353_0.jpg",
+      "dims": "1418x1418",
+      "format": "JPEG",
+      "bandcamp700px": "https://f4.bcbits.com/img/a2585905353_10.jpg",
+      "dizzylab": "https://cdn.dizzylab.net/media/cover/THGO-009.jpg",
+      "status": "approved",
+      "source": "https://f4.bcbits.com/img/a2585905353_0.jpg",
+      "verified": "2026.09.06"
+    },
+    "summary": [
+      {
+        "language": "原文",
+        "value": "MOONSHINEの醍醐味、今宵はほろ酔いに浸ろう。\r\n\r\nTECHNOコンピレーション「MOONSHINE #001」、多彩なスタイルのテクノ全11曲を収録。",
+        "source": "https://thoughost.bandcamp.com/album/moonshine-001",
+        "status": "summary"
+      },
+      {
+        "language": "zh-CN",
+        "value": "来自Thoughost的MOONSHINE #001:\"月光\"的醍醐味，今宵且沉醉于微醺之中。\r\n\r\nTECHNO合辑 \"MOONSHINE #001\"，收录11首个性鲜明的Techno作品。\r\n邀请到 A.I. / Project-G / Irish Kappa / Yazavva / NANO_TAN / FISHY / Y. / KeiuO 组成豪华Guest阵！",
+        "source": "https://www.dizzylab.net/d/THGO-009/",
+        "status": "summary"
+      },
+      {
+        "language": "en",
+        "value": "Savor the spirit of MOONSHINE. Tonight, let yourself drift into a gentle intoxication.\n\nThe techno compilation MOONSHINE #001 brings together 11 tracks spanning a diverse range of techno styles.",
+        "source": "English translation prepared by Codex at the user's request from https://thoughost.bandcamp.com/album/moonshine-001",
+        "status": "summary"
+      }
+    ],
+    "tracks": [
+      {
+        "number": 1,
+        "title": "Nirotiy - long out of nacht",
+        "artist": "Nirotiy",
+        "duration": "7:21",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/moonshine-001"
+      },
+      {
+        "number": 2,
+        "title": "A.I. - a4",
+        "artist": "A.I.",
+        "duration": "6:03",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/moonshine-001"
+      },
+      {
+        "number": 3,
+        "title": "Project-G - Ground State",
+        "artist": "Project-G",
+        "duration": "4:33",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/moonshine-001"
+      },
+      {
+        "number": 4,
+        "title": "潮音きつね - BIAS",
+        "artist": "潮音きつね",
+        "duration": "6:57",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/moonshine-001"
+      },
+      {
+        "number": 5,
+        "title": "Irish Kappa - Disoriented Field",
+        "artist": "Irish Kappa",
+        "duration": "5:54",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/moonshine-001"
+      },
+      {
+        "number": 6,
+        "title": "Yazavva - Proc",
+        "artist": "Yazavva",
+        "duration": "6:03",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/moonshine-001"
+      },
+      {
+        "number": 7,
+        "title": "NANO_TAN - Acid Cagger",
+        "artist": "NANO_TAN",
+        "duration": "8:59",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/moonshine-001"
+      },
+      {
+        "number": 8,
+        "title": "FISHY - DUNGEON TECH",
+        "artist": "FISHY",
+        "duration": "5:15",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/moonshine-001"
+      },
+      {
+        "number": 9,
+        "title": "Y. - STAGE 5 GAS",
+        "artist": "Y.",
+        "duration": "5:34",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/moonshine-001"
+      },
+      {
+        "number": 10,
+        "title": "KeiuO - MIRAI",
+        "artist": "KeiuO",
+        "duration": "4:19",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/moonshine-001"
+      },
+      {
+        "number": 11,
+        "title": "Darkness Peach - Something out of Your TECHNO",
+        "artist": "Darkness Peach",
+        "duration": "4:03",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/moonshine-001"
+      }
+    ],
+    "credits": {
+      "value": "Artist: Nirotiy, A.I., Project-G, 潮音きつね, Irish Kappa, Yazavva, NANO_TAN, FISHY, Y., KeiuO, Darkness Peach\r\nMastering: 火烧\r\nIllustration&Design: 豆腐",
+      "language": "原文（英文为主，含日文署名）",
+      "status": "pending",
+      "source": "https://thoughost.bandcamp.com/album/moonshine-001"
+    },
+    "releaseInfo": null,
+    "media": [
+      {
+        "kind": "player",
+        "url": "https://thoughost.bandcamp.com/album/moonshine-001",
+        "note": "Bandcamp 内嵌播放器（官方页面 public_embeddable: true）",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/moonshine-001"
+      }
+    ],
+    "purchaseLinks": [
+      {
+        "kind": "bandcamp",
+        "url": "https://thoughost.bandcamp.com/album/moonshine-001",
+        "price": "¥1,500 JPY or more (name your price)",
+        "status": "approved",
+        "verified": "2026.09.06"
+      },
+      {
+        "kind": "dizzylab",
+        "url": "https://www.dizzylab.net/d/THGO-009/",
+        "status": "approved",
+        "verified": "2026.09.06"
+      }
+    ],
+    "sources": [
+      "https://thoughost.bandcamp.com/album/moonshine-001",
+      "https://www.dizzylab.net/d/THGO-009/"
+    ],
+    "accessed": "2026.09.06"
+  },
+  {
+    "id": "album/thoughts-2",
+    "catalog": "THGO-0011",
+    "title": {
+      "value": "thoughts 2",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/thoughts-2"
+    },
+    "artist": {
+      "value": "Thoughost",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/thoughts-2"
+    },
+    "releaseDate": {
+      "value": "2026.04.26",
+      "originalFormat": "26 Apr 2026 00:00:00 GMT",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/thoughts-2"
+    },
+    "cover": {
+      "url": "https://f4.bcbits.com/img/a2124124055_0.jpg",
+      "dims": "1500x1500",
+      "format": "JPEG",
+      "bandcamp700px": "https://f4.bcbits.com/img/a2124124055_10.jpg",
+      "dizzylab": "https://cdn.dizzylab.net/media/cover/THGO-0011.jpg",
+      "status": "approved",
+      "source": "https://f4.bcbits.com/img/a2124124055_0.jpg",
+      "verified": "2026.09.06"
+    },
+    "summary": [
+      {
+        "language": "原文",
+        "value": "「thoughts」から「thoughts 2」へ。シリーズがここから始まる。\r\n\r\n今回のテーマは「hesitate」です。\r\n\r\n14名のアーティストによる『思考』を、IDM / アンビエント / ブレイクビーツなど多彩なジャンルで形にしました。",
+        "source": "https://thoughost.bandcamp.com/album/thoughts-2",
+        "status": "summary"
+      },
+      {
+        "language": "zh-CN",
+        "value": "来自Thoughost的thoughts 2:「从 thoughts 到 thoughts 2，系列从这里开始。」\r\n\r\n本次的主题是\"hesitate\"\r\n\r\n与 \"1\" 共同组成系列开篇的新作 \"thoughts 2\"，汇聚了14位艺术家的想法。\r\nIDM / Ambient / Garage / Trance / Breakcore ...等 多种多样的流派收录其中。\r\n\r\n特设页面: \r\nhttps://thoughost.com/special/thoughts2",
+        "source": "https://www.dizzylab.net/d/THGO-0011/",
+        "status": "summary"
+      },
+      {
+        "language": "en",
+        "value": "From “thoughts” to “thoughts 2,” a series begins.\n\nThis time, the theme is “hesitate.”\n\nFourteen artists give shape to their thoughts through a diverse range of genres, including IDM, ambient, and breakbeats.",
+        "source": "User-approved English translation of the Japanese summary at https://thoughost.bandcamp.com/album/thoughts-2",
+        "status": "approved"
+      }
+    ],
+    "tracks": [
+      {
+        "number": 1,
+        "title": "ARMYTOM - Fading Echoes",
+        "artist": "ARMYTOM",
+        "duration": "4:08",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/thoughts-2"
+      },
+      {
+        "number": 2,
+        "title": "wheatfox - Fluorescent",
+        "artist": "wheatfox",
+        "duration": "3:03",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/thoughts-2"
+      },
+      {
+        "number": 3,
+        "title": "nova+z - landingfailure.orz",
+        "artist": "nova+z",
+        "duration": "7:54",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/thoughts-2"
+      },
+      {
+        "number": 4,
+        "title": "Aki Sz - winding stairs",
+        "artist": "Aki Sz",
+        "duration": "6:41",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/thoughts-2"
+      },
+      {
+        "number": 5,
+        "title": "イベライ/Emelia - stutter and dissolve",
+        "artist": "イベライ/Emelia",
+        "duration": "6:18",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/thoughts-2"
+      },
+      {
+        "number": 6,
+        "title": "sanmal - Seven...",
+        "artist": "sanmal",
+        "duration": "3:57",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/thoughts-2"
+      },
+      {
+        "number": 7,
+        "title": "Joulez - Valkyrie",
+        "artist": "Joulez",
+        "duration": "7:31",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/thoughts-2"
+      },
+      {
+        "number": 8,
+        "title": "潮音きつね - 循環の果てにて、",
+        "artist": "潮音きつね",
+        "duration": "7:09",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/thoughts-2"
+      },
+      {
+        "number": 9,
+        "title": "Nirotiy - DEPICT CODE",
+        "artist": "Nirotiy",
+        "duration": "5:03",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/thoughts-2"
+      },
+      {
+        "number": 10,
+        "title": "四度夜 靈 - 間",
+        "artist": "四度夜 靈",
+        "duration": "5:31",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/thoughts-2"
+      },
+      {
+        "number": 11,
+        "title": "望月真白 - Drown...",
+        "artist": "望月真白",
+        "duration": "3:52",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/thoughts-2"
+      },
+      {
+        "number": 12,
+        "title": "Kolaa ft. Money Master - Southern Barbarian in Oversized Clothes",
+        "artist": "Kolaa ft. Money Master",
+        "duration": "3:18",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/thoughts-2"
+      },
+      {
+        "number": 13,
+        "title": "Irish Kappa - Don't Leave Me",
+        "artist": "Irish Kappa",
+        "duration": "3:57",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/thoughts-2"
+      },
+      {
+        "number": 14,
+        "title": "VeetaCrush - ending",
+        "artist": "VeetaCrush",
+        "duration": "3:19",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/thoughts-2"
+      }
+    ],
+    "credits": {
+      "value": "Artist: Aki Sz, ARMYTOM, イベライ/Emelia, Irish Kappa, Joulez, Kolaa ft. Money Master, 望月真白, Nirotiy, nova+z, sanmal, 四度夜 靈, 潮音きつね, VeetaCrush, wheatfox\r\nMastering: Joulez\r\nIllustration: TARA#376\r\nArt Direction & Design: Konseki Takane",
+      "language": "原文（英文为主，含日文署名）",
+      "status": "pending",
+      "source": "https://thoughost.bandcamp.com/album/thoughts-2"
+    },
+    "releaseInfo": null,
+    "media": [
+      {
+        "kind": "player",
+        "url": "https://thoughost.bandcamp.com/album/thoughts-2",
+        "note": "Bandcamp 内嵌播放器（官方页面 public_embeddable: true）",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/thoughts-2"
+      }
+    ],
+    "purchaseLinks": [
+      {
+        "kind": "bandcamp",
+        "url": "https://thoughost.bandcamp.com/album/thoughts-2",
+        "price": "¥1,500 JPY or more (name your price)",
+        "status": "approved",
+        "verified": "2026.09.06"
+      },
+      {
+        "kind": "dizzylab",
+        "url": "https://www.dizzylab.net/d/THGO-0011/",
+        "status": "approved",
+        "verified": "2026.09.06"
+      }
+    ],
+    "sources": [
+      "https://thoughost.bandcamp.com/album/thoughts-2",
+      "https://www.dizzylab.net/d/THGO-0011/"
+    ],
+    "accessed": "2026.09.06"
+  },
+  {
+    "id": "album/kakusatsu-shoujo-4",
+    "catalog": "THGO-0012",
+    "title": {
+      "value": "KAKUSATSU SHOUJO 4",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-4"
+    },
+    "artist": {
+      "value": "Thoughost",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-4"
+    },
+    "releaseDate": {
+      "value": "2026.08.16",
+      "originalFormat": "16 Aug 2026 00:00:00 GMT",
+      "status": "approved",
+      "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-4"
+    },
+    "cover": {
+      "url": "https://f4.bcbits.com/img/a209168015_0.jpg",
+      "dims": "2000x2000",
+      "format": "JPEG",
+      "bandcamp700px": "https://f4.bcbits.com/img/a209168015_10.jpg",
+      "dizzylab": "https://cdn.dizzylab.net/media/cover/THGO-0012.jpg",
+      "status": "approved",
+      "source": "https://f4.bcbits.com/img/a209168015_0.jpg",
+      "verified": "2026.09.06"
+    },
+    "summary": [
+      {
+        "language": "zh-CN",
+        "value": "来自Thoughost的KAKUSATSU SHOUJO 4:用 4 倍的可爱！造成 4 倍的破坏！ \r\n\r\n焕然一新的核杀少女，迎来uet、pencil、Yakumo的回归！\r\n还有 COPYRiGHT JOKER、DENPA-SAMPLER、Broken Nerdz、Project-G、kiralitch 初登场\r\n\r\n「KAKUSATSU SHOUJO 4」将在C108首次颁布。",
+        "source": "https://www.dizzylab.net/d/THGO-0012/",
+        "status": "summary"
+      },
+      {
+        "language": "en",
+        "value": "Four times the cuteness! Four times the destruction!\n\nA renewed KAKUSATSU SHOUJO welcomes back uet, pencil, and Yakumo!\nCOPYRiGHT JOKER, DENPA-SAMPLER, Broken Nerdz, Project-G, and kiralitch make their first appearances.\n\nKAKUSATSU SHOUJO 4 will debut at C108.",
+        "source": "English translation prepared by Codex at the user's request from https://www.dizzylab.net/d/THGO-0012/",
+        "status": "summary"
+      }
+    ],
+    "tracks": [
+      {
+        "number": 1,
+        "title": "𝘼𝙘𝙩𝙪𝙖𝙡𝙡𝙮 - Please warm me UP!",
+        "artist": "𝘼𝙘𝙩𝙪𝙖𝙡𝙡𝙮",
+        "duration": "2:52",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-4"
+      },
+      {
+        "number": 2,
+        "title": "七森中☆でんぱ部 - chaoin kitsune is a fake moebuta he hasnt even watched YURUYURI",
+        "artist": "七森中☆でんぱ部",
+        "duration": "4:06",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-4"
+      },
+      {
+        "number": 3,
+        "title": "DENPA-SAMPLER - Paradigm Shift",
+        "artist": "DENPA-SAMPLER",
+        "duration": "4:41",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-4"
+      },
+      {
+        "number": 4,
+        "title": "DazzEdgh - ・２０８８~PLANETARY VIDEO⭐STAR~",
+        "artist": "DazzEdgh",
+        "duration": "5:13",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-4"
+      },
+      {
+        "number": 5,
+        "title": "Nirotiy - #WE_LOVE_PERFUME_FOREVER",
+        "artist": "Nirotiy",
+        "duration": "4:54",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-4"
+      },
+      {
+        "number": 6,
+        "title": "pencil - Double Bind",
+        "artist": "pencil",
+        "duration": "4:15",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-4"
+      },
+      {
+        "number": 7,
+        "title": "Project-G - 33122promptz",
+        "artist": "Project-G",
+        "duration": "2:45",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-4"
+      },
+      {
+        "number": 8,
+        "title": "uet - Heroine Lose, Cum to Daddies",
+        "artist": "uet",
+        "duration": "5:12",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-4"
+      },
+      {
+        "number": 9,
+        "title": "COPYRiGHT JOKER - YOWA-YOWA-STYLE",
+        "artist": "COPYRiGHT JOKER",
+        "duration": "6:01",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-4"
+      },
+      {
+        "number": 10,
+        "title": "Yakumo - Mode: Crimson Eye",
+        "artist": "Yakumo",
+        "duration": "3:52",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-4"
+      },
+      {
+        "number": 11,
+        "title": "kiralitch - Blight Flower",
+        "artist": "kiralitch",
+        "duration": "4:17",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-4"
+      },
+      {
+        "number": 12,
+        "title": "Mqs_T - 第1話：ニャル子、征服す",
+        "artist": "Mqs_T",
+        "duration": "3:46",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-4"
+      },
+      {
+        "number": 13,
+        "title": "Broken Nerdz - ZUNDA TERROR ~ずんだもんの声を265回以上サンプリングしたのだ~",
+        "artist": "Broken Nerdz",
+        "duration": "3:59",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-4"
+      },
+      {
+        "number": 14,
+        "title": "望月真白 - Fractured Sequencer",
+        "artist": "望月真白",
+        "duration": "4:59",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-4"
+      },
+      {
+        "number": 15,
+        "title": "潮音きつね - こんるる復活祭",
+        "artist": "潮音きつね",
+        "duration": "4:08",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-4"
+      }
+    ],
+    "credits": {
+      "value": "Mastering: Joulez\nIllustration: だんごむし\nDesign: Konseki Takane",
+      "language": "en",
+      "status": "pending",
+      "source": "https://www.discogs.com/release/38159658-Various-Kakusatsu-Shoujo-4"
+    },
+    "releaseInfo": null,
+    "media": [
+      {
+        "kind": "player",
+        "url": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-4",
+        "note": "Bandcamp 内嵌播放器（官方页面 public_embeddable: true）",
+        "status": "approved",
+        "source": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-4"
+      }
+    ],
+    "purchaseLinks": [
+      {
+        "kind": "bandcamp",
+        "url": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-4",
+        "price": "¥1,500 JPY or more (name your price)",
+        "status": "approved",
+        "verified": "2026.09.06"
+      },
+      {
+        "kind": "dizzylab",
+        "url": "https://www.dizzylab.net/d/THGO-0012/",
+        "status": "approved",
+        "verified": "2026.09.06"
+      }
+    ],
+    "sources": [
+      "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-4",
+      "https://www.dizzylab.net/d/THGO-0012/"
+    ],
+    "accessed": "2026.09.06"
+  }
+]

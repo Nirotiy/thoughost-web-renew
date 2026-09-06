@@ -17,6 +17,8 @@ export function detectLocale(languages: readonly string[]): Locale {
 
 export type SitePage = 'home' | 'discography' | 'about';
 
+export function albumDetailPath(locale: Locale, slug: string): string { return `/${locale}/album/${slug}`; }
+
 export function pagePath(locale: Locale, page: SitePage = 'home'): string {
   return `/${locale}/${page === 'home' ? '' : page}`;
 }
