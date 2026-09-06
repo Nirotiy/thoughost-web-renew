@@ -7,6 +7,8 @@ export interface PortraitSource {
   name: string;
   src: string | undefined;
   vertical: number;
+  scale?: number;
+  offsetY?: number;
 }
 
 const tileWidth = 860;
@@ -44,11 +46,13 @@ export function PortraitCanvas({ portraits, active }: {
       c.fillRect(0, 0, width, height);
       images.forEach((image, index) => {
         if (!image) return;
-        const scale = Math.max(tileWidth / image.naturalWidth, tileHeight / image.naturalHeight);
-        const sw = tileWidth / scale;
-        const sh = tileHeight / scale;
-        c.drawImage(image, (image.naturalWidth - sw) / 2,
-          (image.naturalHeight - sh) * (portraits[index]?.vertical ?? .5), sw, sh,
+        const coverScale = Math.max(tileWidth / image.naturalWidth, tileHeight / image.naturalHeight) * (portraits[index]?.scale ?? 1);
+        const sw = tileWidth / coverScale;
+        const sh = tileHeight / coverScale;
+        const source = portraits[index];
+        const maxY = Math.max(0, image.naturalHeight - sh);
+        const cropY = Math.min(maxY, Math.max(0, maxY * (source?.vertical ?? .5) - (source?.offsetY ?? 0) / coverScale));
+        c.drawImage(image, (image.naturalWidth - sw) / 2, cropY, sw, sh,
           index % 3 * tileWidth, Math.floor(index / 3) * tileHeight, tileWidth, tileHeight);
       });
       m.filter = 'grayscale(1)';

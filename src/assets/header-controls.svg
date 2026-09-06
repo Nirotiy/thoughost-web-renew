@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 388 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-498.17083,-73.758411)">
+        <g transform="matrix(1.031197,0,0,1.031197,-25.578046,-1251.336805)">
+            <path d="M616.575,1314.34L616.575,1320.159L610.757,1320.159L616.575,1314.34Z" style="fill:rgb(50,49,51);"/>
+        </g>
+        <g transform="matrix(1.031197,0,0,1.031197,250.278591,-1251.336805)">
+            <path d="M616.575,1314.34L616.575,1320.159L610.757,1320.159L616.575,1314.34Z" style="fill:rgb(50,49,51);"/>
+        </g>
+        <g transform="matrix(1.031197,0,0,1.031197,-60.787065,-1272.343438)">
+            <path d="M616.575,1314.34L616.575,1320.159L610.757,1320.159L616.575,1314.34Z" style="fill:rgb(50,49,51);"/>
+        </g>
+        <g transform="matrix(1.031197,0,0,1.031197,194.831278,-1272.343438)">
+            <path d="M616.575,1314.34L616.575,1320.159L610.757,1320.159L616.575,1314.34Z" style="fill:rgb(50,49,51);"/>
+        </g>
+        <g transform="matrix(0.581379,0,0,0.581379,-157.697697,-18.240884)">
+            <g transform="matrix(34.63187,0,0,34.63187,1250.376871,184.459672)">
+            </g>
+            <text x="1127.745px" y="184.46px" style="font-family:'EudoxusSans-Bold', 'Eudoxus Sans';font-weight:700;font-size:34.632px;fill:rgb(50,49,51);">ABOUT</text>
+        </g>
+        <g transform="matrix(0.581379,0,0,0.581379,17.403869,-18.240884)">
+            <g transform="matrix(34.63187,0,0,34.63187,1388.86972,184.459672)">
+            </g>
+            <text x="1127.745px" y="184.46px" style="font-family:'EudoxusSans-Bold', 'Eudoxus Sans';font-weight:700;font-size:34.632px;fill:rgb(50,49,51);">DISCOGRAPHY</text>
+        </g>
+        <g transform="matrix(0.581379,0,0,0.581379,-111.751238,2.76575)">
+            <g transform="matrix(34.63187,0,0,34.63187,1231.398606,184.459672)">
+            </g>
+            <text x="1127.745px" y="184.46px" style="font-family:'EudoxusSans-Bold', 'Eudoxus Sans';font-weight:700;font-size:34.632px;fill:rgb(50,49,51);">NEW<tspan x="1208.992px " y="184.46px ">S</tspan></text>
+        </g>
+        <g transform="matrix(0.581379,0,0,0.581379,126.347825,2.76575)">
+            <g transform="matrix(34.63187,0,0,34.63187,1296.852841,184.459672)">
+            </g>
+            <text x="1127.745px" y="184.46px" style="font-family:'EudoxusSans-Bold', 'Eudoxus Sans';font-weight:700;font-size:34.632px;fill:rgb(50,49,51);">CONT<tspan x="1227.658px 1251.277px " y="184.46px 184.46px ">AC</tspan>T</text>
+        </g>
+    </g>
+</svg>

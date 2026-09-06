@@ -3,9 +3,8 @@ import { motion } from 'motion/react';
 import type { Locale } from './i18n/locale';
 import './AboutPage.css';
 import { PortraitCanvas } from './PortraitCanvas';
-import { useSiteTheme } from './theme/ThemeProvider';
 
-import chaoyin from "./assets/members/chaoyin.jpg";
+import chaoyin from "./assets/members/chaoyin.png";
 import wheatfox from "./assets/members/wheatfox.jpg";
 import rmdyh from "./assets/members/rmdyh.jpg";
 import erua from "./assets/members/erua.jpg";
@@ -25,12 +24,16 @@ const portraits: Partial<Record<string, string>> = {
   Nirotiy: nirotiy, '57lab': laxeno, Joulez: joulez, wheatfox, rmdyh, 'Foe Requiem': erua, 'nova+z': novaz, '四度夜 靈': shidoye, Black201: black201,
 };
 
-const portraitSources = members.map(name => ({ name, src: portraits[name], vertical: ['nova+z', '四度夜 靈'].includes(name) ? .7 : .5 }));
+const portraitSources = members.map(name => ({
+  name, src: portraits[name],
+  vertical: name === '潮音きつね' ? 0 : ['nova+z', '四度夜 靈'].includes(name) ? .7 : .5,
+  ...(['57lab', 'Joulez'].includes(name) ? { offsetY: 100 } : {}),
+}));
 
-import { SiteHeader, SiteFooter } from './SiteChrome';
+import { SiteHeader, SiteFooter, useSiteInteraction } from './SiteChrome';
 
 export function AboutPage({ locale }: { locale: Locale }) {
-  const { ink } = useSiteTheme();
+  const memberInteraction = useSiteInteraction();
   const viewportRef = useRef<HTMLDivElement>(null);
   // Update before paint without a React render; zoom still fits the entire canvas.
   useLayoutEffect(() => {
@@ -58,6 +61,7 @@ export function AboutPage({ locale }: { locale: Locale }) {
   const memberEvents = (name: string) => ({
     onMouseEnter: () => setHovered(name), onMouseLeave: () => setHovered(null),
     onFocus: () => setFocused(name), onBlur: () => setFocused(null),
+    onClick: () => setFocused(name),
   });
   return (
     <div className="about-viewport" ref={viewportRef}>
@@ -72,7 +76,15 @@ export function AboutPage({ locale }: { locale: Locale }) {
         <section className="about-members" aria-labelledby="members-title">
           <h1 id="members-title"><span>MEMBERS</span><span className="about-title-invert" aria-hidden="true">MEMBERS</span></h1>
           <div className="about-member-body">
-            <ul>{members.map(name => <li key={name}><motion.button type="button" className="about-member-name" {...memberEvents(name)} animate={{ color: activeMember === name ? 'rgb(163, 189, 142)' : ink }} transition={{ duration: .32 }}>{name}</motion.button></li>)}</ul>
+            <ul>{members.map(name => <li key={name}>
+              <motion.button
+                {...memberInteraction}
+                {...memberEvents(name)}
+                type="button"
+                className="about-member-name"
+                animate={activeMember === name ? 'hover' : 'rest'}
+              >{name}</motion.button>
+            </li>)}</ul>
             <div className="about-portraits" aria-label="成员照片">
               <PortraitCanvas portraits={portraitSources} active={activeMember} />
               {members.map(name => <div className="about-portrait" key={name} data-member={name} tabIndex={0} {...memberEvents(name)} aria-label={name}>

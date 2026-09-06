@@ -1,0 +1,720 @@
+{
+  "./releases/tgsg001/info.json": {
+    "id": "tgsg001",
+    "type": "single",
+    "homepage": "https://thoughost.bandcamp.com/track/series-planet-exploration-miranda",
+    "title": "Nirotiy / Series Planet Exploration - Miranda -",
+    "sources": [
+      {
+        "name": "bandcamp",
+        "url": "https://thoughost.bandcamp.com/track/series-planet-exploration-miranda"
+      }
+    ],
+    "infos": [
+      {
+        "name": "RELEASE DATE",
+        "value": "2020.07.10"
+      },
+      {
+        "name": "MODEL NUMBER",
+        "value": "TGSG-001"
+      }
+    ]
+  },
+  "./releases/tgsp001/info.json": {
+    "intro": "Trixxck or...?",
+    "id": "tgsp001",
+    "type": "collab",
+    "homepage": null,
+    "title": "TRIXXCK",
+    "subtitle": "Thoughost × Silent Xords Special Halloween EP",
+    "sources": [
+      {
+        "name": "bandcamp",
+        "url": "https://thoughost.bandcamp.com/album/trixxck"
+      },
+      {
+        "name": "dizzylab",
+        "url": "https://www.dizzylab.net/d/TGSP-001/"
+      }
+    ],
+    "audio": {
+      "title": "TRIXXCK - CROSSFADE DEMO",
+      "artist": "Thoughost"
+    },
+    "infos": [
+      {
+        "name": "MODEL NUMBER",
+        "value": "TGSP-001"
+      },
+      {
+        "name": "PRICE",
+        "value": "500 YEN (bandcamp) / 30 RMB (dizzylab)"
+      },
+      {
+        "name": "STORE",
+        "value": "bandcamp, dizzylab"
+      },
+      {
+        "name": "RELEASE DATE",
+        "value": "2021.11.03"
+      }
+    ],
+    "credit": [
+      {
+        "name": "MASTERING",
+        "value": "BlueWind"
+      },
+      {
+        "name": "ILLUSTRATOR",
+        "value": "SCAF"
+      },
+      {
+        "name": "DESIGN",
+        "value": "Konseki Takane"
+      }
+    ],
+    "links": [
+      {
+        "name": "Youtube",
+        "value": "#"
+      },
+      {
+        "name": "Bilibili",
+        "value": "#"
+      }
+    ],
+    "tracks": [
+      {
+        "name": "Intro",
+        "author": "Nirotiy"
+      },
+      {
+        "name": "MADCINE",
+        "author": "Nirotiy"
+      },
+      {
+        "name": "The Blood Spitted On Me",
+        "author": "BlueWind"
+      },
+      {
+        "name": "ジレンマと枯れ葉",
+        "author": "DJ Mashiro (2)"
+      },
+      {
+        "name": "Verdammnis",
+        "author": "Nirotiy"
+      },
+      {
+        "name": "Nothing but escape",
+        "author": "Black201"
+      },
+      {
+        "name": "fish_man feat. Nirotiy",
+        "author": "潮音きつね_H"
+      }
+    ]
+  },
+  "./releases/thgo001/info.json": {
+    "intro": "Kawaii, Bouryoku, Sampling.",
+    "id": "thgo001",
+    "type": "album",
+    "homepage": null,
+    "title": "KAKUSATSU SHOUJO",
+    "subtitle": "LOLICORE COMPILATION ALBUM",
+    "sources": [
+      {
+        "name": "bandcamp",
+        "url": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo"
+      },
+      {
+        "name": "dizzylab",
+        "url": "https://www.dizzylab.net/albums/d/THGO-001/"
+      }
+    ],
+    "audio": {
+      "title": "KAKUSATSU SHOUJO - CROSSFADE DEMO",
+      "artist": "Thoughost"
+    },
+    "infos": [
+      {
+        "name": "MODEL NUMBER",
+        "value": "THGO-001"
+      },
+      {
+        "name": "PRICE",
+        "value": "800 YEN (bandcamp) / 50 RMB (dizzylab)"
+      },
+      {
+        "name": "STORE",
+        "value": "bandcamp, dizzylab"
+      },
+      {
+        "name": "RELEASE DATE",
+        "value": "2020.06.07"
+      }
+    ],
+    "credit": [
+      {
+        "name": "MASTERING",
+        "value": "iOM"
+      },
+      {
+        "name": "ILLUSTRATOR",
+        "value": "桜都あるす"
+      },
+      {
+        "name": "DESIGN",
+        "value": "Konseki Takane"
+      }
+    ],
+    "links": [
+      {
+        "name": "Youtube",
+        "value": "#"
+      },
+      {
+        "name": "Bilibili",
+        "value": "#"
+      }
+    ],
+    "tracks": [
+      {
+        "name": "DigDigすぴーど243.4⁉︎_管人の闇a.k.a.ナカノヒト",
+        "author": "潮音きつね_H"
+      },
+      {
+        "name": "家族会議",
+        "author": "uet"
+      },
+      {
+        "name": "Senpai , I want your amen break!!!!♡",
+        "author": "Nirotiy"
+      },
+      {
+        "name": "アーメンとペトラ",
+        "author": "蛇壊乃音"
+      },
+      {
+        "name": "HITENSION+",
+        "author": "Dz'Xa"
+      },
+      {
+        "name": "STRONG 280",
+        "author": "かたぎり"
+      },
+      {
+        "name": "Miu Gakuen Tennis",
+        "author": "Davidsan as hino_amane"
+      },
+      {
+        "name": "Warp A null",
+        "author": "Lzie"
+      },
+      {
+        "name": "Never Ends",
+        "author": "citybridge"
+      },
+      {
+        "name": "not lolicore but....-serial experimental Composion-",
+        "author": "DJ Mashiro(2)"
+      }
+    ]
+  },
+  "./releases/thgo002/info.json": {
+    "intro": "Music Raid from the Ground",
+    "id": "thgo002",
+    "type": "album",
+    "homepage": null,
+    "title": "GROUND ATTACK!!!",
+    "subtitle": "FUNKOT / HARD BASS / DONK / TRIBECORE COMPILATION ALBUM",
+    "sources": [
+      {
+        "name": "bandcamp",
+        "url": "https://thoughost.bandcamp.com/album/ground-attack"
+      },
+      {
+        "name": "dizzylab",
+        "url": "https://www.dizzylab.net/d/THGO-002/"
+      }
+    ],
+    "audio": {
+      "title": "GROUND ATTACK!!! - CROSSFADE DEMO",
+      "artist": "Thoughost"
+    },
+    "infos": [
+      {
+        "name": "MODEL NUMBER",
+        "value": "THGO-002"
+      },
+      {
+        "name": "PRICE",
+        "value": "1000 YEN (bandcamp) / 60 RMB (dizzylab)"
+      },
+      {
+        "name": "STORE",
+        "value": "bandcamp, dizzylab"
+      },
+      {
+        "name": "RELEASE DATE",
+        "value": "2021.04.05"
+      }
+    ],
+    "credit": [
+      {
+        "name": "MASTERING",
+        "value": "Joulez, Project Nirvana"
+      },
+      {
+        "name": "ILLUSTRATOR",
+        "value": "SHIKA"
+      },
+      {
+        "name": "DESIGN",
+        "value": "Konseki Takane"
+      }
+    ],
+    "links": [
+      {
+        "name": "Youtube",
+        "value": "#"
+      },
+      {
+        "name": "Bilibili",
+        "value": "#"
+      }
+    ],
+    "tracks": [
+      {
+        "name": "quick intro to 2021 mashup meta",
+        "author": "jakka"
+      },
+      {
+        "name": "massage seat",
+        "author": "Black201"
+      },
+      {
+        "name": "Barbie Disco Tribe",
+        "author": "Aki"
+      },
+      {
+        "name": "BF",
+        "author": "hayato87b"
+      },
+      {
+        "name": "Vertigo",
+        "author": "Liet NRC"
+      },
+      {
+        "name": "Wrench Mind",
+        "author": "totsumal"
+      },
+      {
+        "name": "ロシア Donky Rave",
+        "author": "★Lolitwinx★"
+      },
+      {
+        "name": "Cherrylike",
+        "author": "ELECTR"
+      },
+      {
+        "name": "TWINS",
+        "author": "4nzu"
+      },
+      {
+        "name": "Yarasete Yuri Girl",
+        "author": "Moetek"
+      },
+      {
+        "name": "fallen",
+        "author": "citybridge"
+      },
+      {
+        "name": "Hypoxia_Mrs.SYR",
+        "author": "潮音きつね"
+      },
+      {
+        "name": "Goyang ubur ubur bootleg",
+        "author": "Mrskey"
+      }
+    ]
+  },
+  "./releases/thgo003/info.json": {
+    "intro": "The Mixture And Fiction",
+    "id": "thgo003",
+    "type": "album",
+    "homepage": null,
+    "title": "S.L.V.T: MIXTURE",
+    "subtitle": "Nirotiy × 望月真白 Split Album",
+    "sources": [
+      {
+        "name": "bandcamp",
+        "url": "https://thoughost.bandcamp.com/album/s-l-v-t-mixture"
+      },
+      {
+        "name": "dizzylab",
+        "url": "https://www.dizzylab.net/d/THGO-003/"
+      }
+    ],
+    "audio": {
+      "title": "S.L.V.T: MIXTURE- CROSSFADE DEMO",
+      "artist": "Thoughost"
+    },
+    "infos": [
+      {
+        "name": "MODEL NUMBER",
+        "value": "THGO-003"
+      },
+      {
+        "name": "PRICE",
+        "value": "800 YEN (bandcamp) / 40 RMB (dizzylab)"
+      },
+      {
+        "name": "STORE",
+        "value": "bandcamp, dizzylab"
+      },
+      {
+        "name": "RELEASE DATE",
+        "value": "2022.03.12"
+      }
+    ],
+    "credit": [
+      {
+        "name": "MASTERING",
+        "value": "Joulez"
+      },
+      {
+        "name": "ILLUSTRATOR",
+        "value": "(None)"
+      },
+      {
+        "name": "DESIGN",
+        "value": "Nirotiy, Konseki Takane"
+      }
+    ],
+    "links": [
+      {
+        "name": "Youtube",
+        "value": "#"
+      },
+      {
+        "name": "Bilibili",
+        "value": "#"
+      }
+    ],
+    "tracks": [
+      {
+        "name": "Verwirrung (Confusion) - Club Edit",
+        "author": "Nirotiy"
+      },
+      {
+        "name": "CHAOSHAN WISEGUYS",
+        "author": "DJ MASHIRO (2)"
+      },
+      {
+        "name": "Jiehkki (Glacier)",
+        "author": "Nirotiy"
+      },
+      {
+        "name": "INFERNAL AFFAIRS",
+        "author": "望月真白"
+      },
+      {
+        "name": "Hollow Heaven Underneath",
+        "author": "望月真白 ft. Nirotiy"
+      },
+      {
+        "name": "Bluntungen (Blood)",
+        "author": "Nirotiy"
+      },
+      {
+        "name": "Verwirrung - 空読無 白眼 REMIX",
+        "author": "Nirotiy"
+      },
+      {
+        "name": "INFERNAL AFFAIRS - Coredump Breaks REMIX",
+        "author": "望月真白"
+      },
+      {
+        "name": "MEGA BANGiN TUNES BATT1E",
+        "author": "The DJ 白手 Producer (2)"
+      },
+      {
+        "name": "Jiehkki (Glacier) - D3llketa MaxhIro REMIXXX",
+        "author": "Nirotiy"
+      }
+    ]
+  },
+  "./releases/thgo004/info.json": {
+    "intro": "Irregular and Violent Sounds",
+    "id": "thgo004",
+    "type": "album",
+    "homepage": null,
+    "title": "KAKUSATSU SHOUJO 2",
+    "subtitle": "",
+    "sources": [
+      {
+        "name": "bandcamp",
+        "url": "https://thoughost.bandcamp.com/album/kakusatsu-shoujo-2"
+      },
+      {
+        "name": "dizzylab",
+        "url": "https://www.dizzylab.net/d/THGO-004/"
+      }
+    ],
+    "audio": {
+      "title": "KAKUSATSU SHOUJO 2 - CROSSFADE DEMO",
+      "artist": "Thoughost"
+    },
+    "infos": [
+      {
+        "name": "MODEL NUMBER",
+        "value": "THGO-004"
+      },
+      {
+        "name": "PRICE",
+        "value": "1200 YEN (bandcamp) / 60 RMB (dizzylab)"
+      },
+      {
+        "name": "STORE",
+        "value": "bandcamp, dizzylab"
+      },
+      {
+        "name": "RELEASE DATE",
+        "value": "2022.04.24"
+      }
+    ],
+    "credit": [
+      {
+        "name": "MASTERING",
+        "value": "Joulez"
+      },
+      {
+        "name": "ILLUSTRATOR",
+        "value": "だんごむし"
+      },
+      {
+        "name": "DESIGN",
+        "value": "Konseki Takane"
+      }
+    ],
+    "links": [
+      {
+        "name": "Youtube",
+        "value": "#"
+      },
+      {
+        "name": "Bilibili",
+        "value": "#"
+      }
+    ],
+    "tracks": [
+      {
+        "name": "うに娘二次創作ガイドライン違反作品",
+        "author": "潮音きつね_H"
+      },
+      {
+        "name": "physching",
+        "author": "Lax1u57"
+      },
+      {
+        "name": "Cannibal Cooker",
+        "author": "Null Specification"
+      },
+      {
+        "name": "Roppongi Crisis",
+        "author": "pencil"
+      },
+      {
+        "name": "REGETNI",
+        "author": "Dz'Xa"
+      },
+      {
+        "name": "天井から見ると",
+        "author": "四度月白"
+      },
+      {
+        "name": "Secrets",
+        "author": "Aki"
+      },
+      {
+        "name": "#WE_STILL_LOVE_PERFUME",
+        "author": "かたぎり"
+      },
+      {
+        "name": "Iconos Del Anime",
+        "author": "GoldenEggs"
+      },
+      {
+        "name": "Aria'Grief Seed'",
+        "author": "Nirotiy"
+      },
+      {
+        "name": "殻殺 -Instant Bullet-",
+        "author": "望月真白"
+      },
+      {
+        "name": "Succubus Gabber",
+        "author": "M9RVEN"
+      },
+      {
+        "name": "There's no reality",
+        "author": "citybridge"
+      },
+      {
+        "name": "LET ME SAY SANK YOU",
+        "author": "二重死後磁場"
+      }
+    ]
+  },
+  "./releases/thgo005/info.json": {
+    "intro": "Desperate, depart this life",
+    "id": "thgo005",
+    "type": "album",
+    "homepage": null,
+    "title": "蒼",
+    "subtitle": "-depressive & emotional compilation-",
+    "sources": [
+      {
+        "name": "bandcamp",
+        "url": "https://thoughost.bandcamp.com/album/depressive-emotional-compilation"
+      },
+      {
+        "name": "dizzylab",
+        "url": "https://www.dizzylab.net/d/THGO-005/"
+      }
+    ],
+    "audio": {
+      "title": "蒼 -depressive & emotional compilation- CROSSFADE DEMO",
+      "artist": "Thoughost"
+    },
+    "infos": [
+      {
+        "name": "MODEL NUMBER",
+        "value": "THGO-005"
+      },
+      {
+        "name": "PRICE",
+        "value": "1500 YEN (bandcamp) / 75 RMB (dizzylab)"
+      },
+      {
+        "name": "STORE",
+        "value": "bandcamp, dizzylab"
+      },
+      {
+        "name": "RELEASE DATE",
+        "value": "2022.10.30"
+      }
+    ],
+    "credit": [
+      {
+        "name": "MASTERING",
+        "value": "Joulez"
+      },
+      {
+        "name": "ILLUSTRATOR",
+        "value": "枝乃間"
+      },
+      {
+        "name": "DESIGN",
+        "value": "Konseki Takane"
+      }
+    ],
+    "links": [
+      {
+        "name": "Youtube",
+        "value": "https://www.youtube.com/watch?v=j2Dttmkxa8Q"
+      },
+      {
+        "name": "Bilibili",
+        "value": "https://www.bilibili.com/video/BV13P411P7YW"
+      }
+    ],
+    "tracks": [
+      {
+        "name": "蒼~track 1 lost~",
+        "author": "望月真白"
+      },
+      {
+        "name": "I love u hate myself",
+        "author": "Joulez"
+      },
+      {
+        "name": "Não me lembro da última vez, que eu sai do meu quarto",
+        "author": "f1d31"
+      },
+      {
+        "name": "Mnemosyne",
+        "author": "l!a"
+      },
+      {
+        "name": "Stale Incense",
+        "author": "terminus"
+      },
+      {
+        "name": "Payphone",
+        "author": "Uhp1QVQ"
+      },
+      {
+        "name": "kiss in october",
+        "author": "Kawaii amen girl"
+      },
+      {
+        "name": "Dementia",
+        "author": "Holly"
+      },
+      {
+        "name": "Core of Ascension [Single Vers.]",
+        "author": "Ultima Aevum"
+      },
+      {
+        "name": "私",
+        "author": "Urtica_Ferox_"
+      },
+      {
+        "name": "Solitray World",
+        "author": "rbZodiacX"
+      },
+      {
+        "name": "fun^10 x int^40",
+        "author": "zot!k"
+      },
+      {
+        "name": "死声",
+        "author": "Nirotiy"
+      },
+      {
+        "name": "Obelisk",
+        "author": "ELECTR"
+      },
+      {
+        "name": "zexistenze",
+        "author": "wheatfox"
+      },
+      {
+        "name": "Endlessly Colorless",
+        "author": "oblivious"
+      },
+      {
+        "name": "SAD_POETRY",
+        "author": "illness liquor"
+      },
+      {
+        "name": "Or from July 24th",
+        "author": "Joulez"
+      },
+      {
+        "name": "MeaningLess",
+        "author": "CarameL."
+      },
+      {
+        "name": "Anthropocene",
+        "author": "Laxeno57"
+      },
+      {
+        "name": "l'espoire en",
+        "author": "BLUE NOISE"
+      }
+    ]
+  }
+}

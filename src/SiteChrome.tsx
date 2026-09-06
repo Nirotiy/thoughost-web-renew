@@ -5,6 +5,19 @@ import logo from './assets/thoughost.svg';
 import bandcamp from './assets/bandcamp.svg';
 import soundcloud from './assets/soundcloud.svg';
 import xLogo from './assets/x.svg';
+import headerControls from './assets/header-controls.svg?raw';
+
+const navigationMarkup = headerControls.slice(headerControls.indexOf('<g '), headerControls.lastIndexOf('</svg>'));
+const navigationViews = {
+  ABOUT: '0 -3 80 23',
+  DISCOGRAPHY: '175 -3 160 23',
+  NEWS: '46 18 66 23',
+  CONTACT: '284 18 105 23',
+} as const;
+
+function NavigationGraphic({ label }: { label: keyof typeof navigationViews }) {
+  return <svg aria-hidden="true" className="header-control-art" viewBox={navigationViews[label]} dangerouslySetInnerHTML={{ __html: navigationMarkup }} />;
+}
 import './AboutPage.css';
 import { useSiteTheme } from './theme/ThemeProvider';
 import { TransitionLink } from './TransitionLink';
@@ -14,7 +27,7 @@ const MotionLink = motion.create(TransitionLink);
 const labelMotion = {
   rest: { x: 0, scale: 1 },
   hover: { x: 3 },
-  tap: { x: 2, scale: .92, transition: { duration: .14 } },
+  tap: { x: 3, transition: { duration: .14 } },
 };
 
 /** Marker-bearing actions animate their label only, keeping the marker anchored. */
@@ -29,7 +42,7 @@ export function useSiteInteraction(fixedMarker = false) {
     variants: {
       rest: { x: 0, scale: 1, color: ink },
       hover: { x: fixedMarker ? 0 : 3, color: 'rgb(163, 189, 142)' },
-      tap: { x: fixedMarker ? 0 : 2, scale: fixedMarker ? 1 : .92, transition: { duration: .14 } },
+      tap: { x: fixedMarker ? 0 : 3, transition: { duration: .14 } },
     },
     transition: { duration: .42, ease: [.22, 1, .36, 1] as const },
     className: 'about-action',
@@ -52,10 +65,10 @@ export function SiteHeader({ locale, page }: { locale: Locale; page: SitePage })
           <TransitionLink className="about-wordmark" to={pagePath(locale)} aria-label="Thoughost home"><img src={logo} alt="Thoughost" /></TransitionLink>
         </div>
         <nav aria-label="Primary">
-          <MotionLink {...interaction} to={pagePath(locale, 'about')} aria-current={page === 'about' ? 'page' : undefined}><motion.span className="about-action-label" variants={labelMotion}>ABOUT</motion.span> <span className="about-action-arrow" aria-hidden="true" /></MotionLink>
-          <MotionLink {...interaction} to={pagePath(locale, 'discography')} aria-current={page === 'discography' ? 'page' : undefined}><motion.span className="about-action-label" variants={labelMotion}>DISCOGRAPHY</motion.span> <span className="about-action-arrow" aria-hidden="true" /></MotionLink>
-          <MotionLink {...interaction} to={pagePath(locale) + '#news'}><motion.span className="about-action-label" variants={labelMotion}>NEWS</motion.span> <span className="about-action-arrow" aria-hidden="true" /></MotionLink>
-          <motion.a {...interaction} href="#contact"><motion.span className="about-action-label" variants={labelMotion} transition={interaction.transition}>CONTACT</motion.span> <span className="about-action-arrow" aria-hidden="true" /></motion.a>
+          <MotionLink {...interaction} className="header-control header-control-about" aria-label="ABOUT" variants={{ ...interaction.variants, hover: { x: 3, color: 'rgb(163, 189, 142)' }, tap: { x: 3 } }} to={pagePath(locale, 'about')} aria-current={page === 'about' ? 'page' : undefined}><NavigationGraphic label="ABOUT" /></MotionLink>
+          <MotionLink {...interaction} className="header-control header-control-discography" aria-label="DISCOGRAPHY" variants={{ ...interaction.variants, hover: { x: 3, color: 'rgb(163, 189, 142)' }, tap: { x: 3 } }} to={pagePath(locale, 'discography')} aria-current={page === 'discography' ? 'page' : undefined}><NavigationGraphic label="DISCOGRAPHY" /></MotionLink>
+          <MotionLink {...interaction} className="header-control header-control-news" aria-label="NEWS" variants={{ ...interaction.variants, hover: { x: 3, color: 'rgb(163, 189, 142)' }, tap: { x: 3 } }} to={pagePath(locale) + '#news'}><NavigationGraphic label="NEWS" /></MotionLink>
+          <motion.a {...interaction} className="header-control header-control-contact" aria-label="CONTACT" variants={{ ...interaction.variants, hover: { x: 3, color: 'rgb(163, 189, 142)' }, tap: { x: 3 } }} href="#contact"><NavigationGraphic label="CONTACT" /></motion.a>
         </nav>
         <div className="about-social"><motion.a {...interaction} href="https://thoughost.bandcamp.com/" aria-label="Thoughost Bandcamp"><motion.img variants={labelMotion} transition={interaction.transition} src={bandcamp} alt="" /></motion.a><motion.span {...interaction} tabIndex={0} title="SoundCloud 地址待补"><motion.img variants={labelMotion} transition={interaction.transition} src={soundcloud} alt="SoundCloud" /></motion.span><motion.span {...interaction} tabIndex={0} title="X 地址待补"><motion.img variants={labelMotion} transition={interaction.transition} src={xLogo} alt="X" /></motion.span></div>
       </header>
