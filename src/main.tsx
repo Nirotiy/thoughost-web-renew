@@ -6,6 +6,7 @@ import { BrowserRouter } from 'react-router';
 import { SiteRoutes } from './routing';
 import { MotionProvider } from './motion/MotionProvider';
 import { ThemeProvider } from './theme/ThemeProvider';
+import './mobile.css';
 
 const root = document.getElementById('root');
 if (!root) throw new Error('Missing application root');

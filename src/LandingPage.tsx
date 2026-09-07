@@ -1,9 +1,10 @@
 import { useLayoutEffect, useRef, useState } from 'react';
 import { motion } from 'motion/react';
-import { SiteFooter, SiteHeader, useSiteInteraction } from './SiteChrome';
+import { FeaturedNavigation, SiteFooter, SiteHeader, useSiteInteraction } from './SiteChrome';
+import { useMobileLayout } from './useMobileLayout';
 import { ReleaseCover } from './DiscographyPage';
 import { discographyReleases } from './content/discography';
-import type { Locale, SitePage } from './i18n/locale';
+import type { Locale } from './i18n/locale';
 import { albumDetailPath, pagePath } from './i18n/locale';
 import { TransitionLink } from './TransitionLink';
 import recentMoreSvg from './assets/recent-more.svg?raw';
@@ -27,21 +28,13 @@ const MotionLink = motion.create(TransitionLink);
 const recentReleases = discographyReleases.slice(0, 6);
 const latestTitle = discographyReleases[0]?.title ?? '';
 
-// Each menu entry resolves through the shared localized route helper.
-const menuItems = [
-  { label: 'ABOUT', page: 'about' },
-  { label: 'NEWS', page: 'news' },
-  { label: 'DISCOGRAPHY', page: 'discography' },
-  { label: 'SUBMISSION', page: 'submission' },
-  { label: 'CONTACT', page: 'contact' },
-] as const satisfies readonly { label: string; page: SitePage | null }[];
-
 const unavailableText = {
   en: 'Cover unavailable', zh: '封面暂不可用', ja: 'ジャケットを表示できません',
 } as const satisfies Record<Locale, string>;
 
 /** Designer's 2026-09 landing mockup on the shared 1920 × 1080 canvas. */
 export function LandingPage({ locale }: { locale: Locale }) {
+  const mobile = useMobileLayout();
   const viewportRef = useRef<HTMLDivElement>(null);
   const interaction = useSiteInteraction();
   const [hovered, setHovered] = useState<string | null>(null);
@@ -68,8 +61,8 @@ export function LandingPage({ locale }: { locale: Locale }) {
       <div className="landing-page">
         <SiteHeader locale={locale} page="home" />
         <main className="landing-main">
-          <h1 className="landing-recent" aria-label="RECENT RELEASE"><RecentMoreGraphic view="recent" /></h1>
-          <MotionLink {...interaction} className="landing-more" aria-label="MORE" to={pagePath(locale, 'discography')}><RecentMoreGraphic view="more" /></MotionLink>
+          <h1 className="landing-recent" aria-label="RECENT RELEASE">{mobile ? <><svg className="landing-recent-label landing-graphic" viewBox="-2 0 170 16" dangerouslySetInnerHTML={{ __html: recentMoreArt }} /><span className="landing-recent-rule" /></> : <RecentMoreGraphic view="recent" />}</h1>
+          {!mobile && <MotionLink {...interaction} className="landing-more" aria-label="MORE" to={pagePath(locale, 'discography')}><RecentMoreGraphic view="more" /></MotionLink>}
           <ul className="landing-covers" aria-label="Recent releases">
             {recentReleases.map(release => <li key={release.id}>
               {release.id.startsWith('album/')
@@ -83,16 +76,11 @@ export function LandingPage({ locale }: { locale: Locale }) {
                     onFocus={() => setFocused(release.href)} onBlur={() => setFocused(null)}>
                     <ReleaseCover release={release} colored={active === null || active === release.href} unavailable={unavailableText[locale]} />
                   </a>}
+              <span className="mobile-release-meta">{release.title}<time dateTime={release.releaseDate}>{release.releaseDate.replaceAll('-', '.')}</time></span>
             </li>)}
           </ul>
           <p className="landing-latest" aria-live="polite">{activeTitle}</p>
-          <nav className="landing-menu" aria-label="Featured">
-            <ul>
-              {menuItems.map(item => <li key={item.label}>
-                <MotionLink {...interaction} to={pagePath(locale, item.page)}>{item.label}</MotionLink>
-              </li>)}
-            </ul>
-          </nav>
+          <FeaturedNavigation locale={locale} />
         </main>
         <SiteFooter />
       </div>

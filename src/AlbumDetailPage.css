@@ -28,3 +28,7 @@
 .album-player button{width:36px;height:36px;border:0;background:none;color:inherit;font-size:32px;line-height:1;cursor:pointer}
 .album-player :is(a,button):hover{color:#a3bd8e}
 .album-player :is(a,button):focus-visible{outline:2px solid #a3bd8e;outline-offset:2px}
+@media(min-width:901px){
+  .album-detail-back{position:sticky;top:0;z-index:4;display:block;background:var(--site-background)}
+  .album-detail-title{top:27px}
+}

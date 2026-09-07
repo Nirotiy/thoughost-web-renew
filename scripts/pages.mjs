@@ -4,7 +4,7 @@ import { locales } from '../src/i18n/locale.ts';
 
 // Pages has no SPA rewrite rules, so every public route gets an HTML entry.
 for (const locale of locales) {
-  const paths = [locale, `${locale}/about`, `${locale}/discography`,
+  const paths = [locale, `${locale}/about`, `${locale}/discography`, `${locale}/news`, `${locale}/contact`, `${locale}/submission`,
     ...discographyReleases.filter(release => release.id.startsWith('album/'))
       .map(release => `${locale}/${release.id}`)];
   for (const path of paths) {

@@ -4,6 +4,7 @@ import type { Locale } from './i18n/locale';
 import { SiteFooter, SiteHeader } from './SiteChrome';
 import './NewsPage.css';
 import dividerUrl from './assets/divider.svg';
+import { useMobileLayout } from './useMobileLayout';
 
 type NewsItem = { date: string; title: string; body: string[] };
 const items: NewsItem[] = [
@@ -25,10 +26,11 @@ function Divider({ open }: { open: boolean }) {
 }
 
 export function NewsPage({ locale }: { locale: Locale }) {
+  const mobile = useMobileLayout();
   const [selected, setSelected] = useState<number | null>(null);
   const [articleDelay, setArticleDelay] = useState(0);
   const selectArticle = (index: number) => {
-    if (selected === index) return;
+    if (selected === index) { if (mobile) setSelected(null); return; }
     setArticleDelay(selected === null ? .64 : 0);
     setSelected(index);
   };
@@ -39,16 +41,16 @@ export function NewsPage({ locale }: { locale: Locale }) {
     <main className="news-content">
       <section className="news-list-panel" aria-labelledby="news-title"><h1 id="news-title">NEWS</h1><div className="news-list-scroll" tabIndex={0} aria-labelledby="news-title">{items.map((entry, index) => <div className={`news-entry ${selected === index ? 'is-selected' : ''}`} key={entry.date}>
         <time dateTime={entry.date.replaceAll('.', '-')}>{entry.date}</time>
-        <motion.button type="button" className="news-entry-title" onClick={() => selectArticle(index)} whileHover={{ x: 3, color: '#a3bd8e' }} whileFocus={{ x: 3, color: '#a3bd8e' }} aria-controls="news-article" aria-pressed={selected === index}>{entry.title}</motion.button>
-        <motion.button type="button" className="news-read-more" onClick={() => selectArticle(index)} whileHover={{ x: 3, color: '#a3bd8e' }} whileFocus={{ x: 3, color: '#a3bd8e' }} aria-controls="news-article" aria-pressed={selected === index}>READ MORE<span className="news-caret" aria-hidden="true" /></motion.button>
+        <motion.button type="button" className="news-entry-title" onClick={() => selectArticle(index)} whileHover={{ x: 3, color: '#a3bd8e' }} whileFocus={{ x: 3, color: '#a3bd8e' }} aria-controls={mobile ? `news-body-${index}` : 'news-article'} aria-expanded={mobile ? selected === index : undefined} aria-pressed={selected === index}>{entry.title}</motion.button>
+        {mobile ? <div id={`news-body-${index}`} className="mobile-news-body" hidden={selected !== index}>{entry.body.map(paragraph => <p key={paragraph}>{paragraph}</p>)}</div> : <motion.button type="button" className="news-read-more" onClick={() => selectArticle(index)} whileHover={{ x: 3, color: '#a3bd8e' }} whileFocus={{ x: 3, color: '#a3bd8e' }} aria-controls="news-article" aria-pressed={selected === index}>READ MORE<span className="news-caret" aria-hidden="true" /></motion.button>}
       </div>)}</div></section>
-      <Divider open={selected !== null} />
+      {!mobile && <><Divider open={selected !== null} />
       <section className={`news-article-panel ${item ? 'is-open' : ''}`} aria-live="polite" id="news-article">{item && <motion.div key={selected} className="news-article-scroll" tabIndex={0} aria-label={item.title} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: .12 }}>
         <motion.h2 initial={{ opacity: 0, y: 6 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: articleDelay + .12, duration: .28 }}>{item.title}</motion.h2>
         <motion.div className="news-article-rule" initial={{ scaleX: 0 }} animate={{ scaleX: 1 }} transition={{ delay: articleDelay + .4, duration: .22 }} />
         <motion.time dateTime={item.date.replaceAll('.', '-')} initial={{ opacity: 0, y: 4 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: articleDelay + .62, duration: .2 }}>{item.date}</motion.time>
         <motion.div className="news-article-body" initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: articleDelay + .82, duration: .34 }}>{item.body.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}</motion.div>
-      </motion.div>}</section>
+      </motion.div>}</section></>}
     </main><SiteFooter />
   </div></div>;
 }

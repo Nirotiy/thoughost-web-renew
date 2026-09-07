@@ -1,5 +1,5 @@
 import { useEffect, useLayoutEffect, useState } from 'react';
-import { Navigate, Route, Routes, useLocation, useParams } from 'react-router';
+import { Navigate, Route, Routes, useLocation, useNavigationType, useParams } from 'react-router';
 import { AboutPage } from './AboutPage';
 import { AlbumDetailPage } from './AlbumDetailPage';
 import { DiscographyPage } from './DiscographyPage';
@@ -53,6 +53,7 @@ function UnknownPageRedirect() {
 
 export function SiteRoutes() {
   const location = useLocation();
+  const navigationType = useNavigationType();
   const [displayed, setDisplayed] = useState(location);
   // POP changes the URL immediately; keep the old page mounted until covered.
   useLayoutEffect(() => {
@@ -79,6 +80,12 @@ export function SiteRoutes() {
     });
     return () => { cancelAnimationFrame(frame); cancelAnimationFrame(secondFrame); };
   }, [displayed, location]);
+  useLayoutEffect(() => {
+    // Reset after the destination mounts under the transition cover.
+    if (displayed === location && navigationType !== 'POP' && !displayed.hash && displayed.pathname.includes('/album/')) {
+      window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+    }
+  }, [displayed, location, navigationType]);
   return (
     <>
       <Routes location={displayed}>

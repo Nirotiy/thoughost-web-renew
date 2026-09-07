@@ -3,6 +3,7 @@ import { motion } from 'motion/react';
 import type { Locale } from './i18n/locale';
 import './AboutPage.css';
 import { PortraitCanvas } from './PortraitCanvas';
+import { useMobileLayout } from './useMobileLayout';
 
 import chaoyin from "./assets/members/chaoyin.png";
 import wheatfox from "./assets/members/wheatfox.jpg";
@@ -33,6 +34,7 @@ const portraitSources = members.map(name => ({
 import { SiteHeader, SiteFooter, useSiteInteraction } from './SiteChrome';
 
 export function AboutPage({ locale }: { locale: Locale }) {
+  const mobile = useMobileLayout();
   const memberInteraction = useSiteInteraction();
   const viewportRef = useRef<HTMLDivElement>(null);
   // Update before paint without a React render; zoom still fits the entire canvas.
@@ -68,6 +70,7 @@ export function AboutPage({ locale }: { locale: Locale }) {
     <div className="about-page">
       <SiteHeader locale={locale} page="about" />
       <main className="about-content">
+        {mobile && <h1 className="mobile-about-title">ABOUT</h1>}
         <div className="about-intro" lang="en">
           <p>“All thoughts come together here.”</p>
           <p>Thoughost is a doujin music label from China.</p>
@@ -75,7 +78,7 @@ export function AboutPage({ locale }: { locale: Locale }) {
         </div>
         <section className="about-members" aria-labelledby="members-title">
           <h1 id="members-title"><span>MEMBERS</span><span className="about-title-invert" aria-hidden="true">MEMBERS</span></h1>
-          <div className="about-member-body">
+          {mobile ? <ul className="mobile-members">{portraitSources.map(portrait => <li key={portrait.name}><img src={portrait.src} alt={portrait.name} loading="lazy" style={{ objectPosition: `center ${portrait.vertical * 100}%` }} /><strong>{portrait.name}</strong></li>)}</ul> : <div className="about-member-body">
             <ul>{members.map(name => <li key={name}>
               <motion.button
                 {...memberInteraction}
@@ -90,7 +93,7 @@ export function AboutPage({ locale }: { locale: Locale }) {
               {members.map(name => <div className="about-portrait" key={name} data-member={name} tabIndex={0} {...memberEvents(name)} aria-label={name}>
               </div>)}
             </div>
-          </div>
+          </div>}
         </section>
       </main>
       <SiteFooter />

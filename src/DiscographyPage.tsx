@@ -10,6 +10,7 @@ import { albumDetailPath } from './i18n/locale';
 import { TransitionLink } from './TransitionLink';
 import './DiscographyPage.css';
 import { useSiteTheme } from './theme/ThemeProvider';
+import { useMobileLayout } from './useMobileLayout';
 
 const animate = createScopedAnimate({ reduceMotion: false });
 
@@ -25,8 +26,8 @@ const labels = {
 };
 
 /** Keep each release mounted so interrupted filters continue from its current position. */
-function ReleaseTile({ slot, children }: {
-  slot: number; children: ReactNode;
+function ReleaseTile({ slot, children, mobile }: {
+  slot: number; children: ReactNode; mobile: boolean;
 }) {
   const visible = slot >= 0;
   const x = useMotionValue(visible ? slot % 6 * 220 : 0);
@@ -34,6 +35,7 @@ function ReleaseTile({ slot, children }: {
   const opacity = useMotionValue(visible ? 1 : 0);
 
   useLayoutEffect(() => {
+    if (mobile) return;
     const timing = { ease: [.22, 1, .36, 1] as const };
     if (slot < 0) {
       const exit = animate(opacity, 0, { ...timing, duration: .16 });
@@ -52,8 +54,9 @@ function ReleaseTile({ slot, children }: {
       animate(opacity, 1, { ...timing, duration: .32, delay: alreadyVisible ? 0 : .22 }),
     ];
     return () => animations.forEach(animation => animation.stop());
-  }, [slot, x, y, opacity]);
+  }, [slot, x, y, opacity, mobile]);
 
+  if (mobile) return visible ? <li style={{ order: slot }}>{children}</li> : null;
   return <motion.li inert={!visible} aria-hidden={!visible} style={{ x, y, opacity, pointerEvents: visible ? 'auto' : 'none', zIndex: visible ? 1 : 0 }}>{children}</motion.li>;
 }
 
@@ -76,6 +79,7 @@ export function ReleaseCover({ release, colored, unavailable }: {
 }
 
 export function DiscographyPage({ locale }: { locale: Locale }) {
+  const mobile = useMobileLayout();
   const { ink } = useSiteTheme();
   const viewportRef = useRef<HTMLDivElement>(null);
   const interaction = useSiteInteraction();
@@ -144,7 +148,7 @@ export function DiscographyPage({ locale }: { locale: Locale }) {
             </motion.button>)}
           </nav>
           <ul className="disc-wall" aria-label={text.wall}>
-            {discographyReleases.map(release => <ReleaseTile key={release.id} slot={releases.findIndex(item => item.id === release.id)}>
+            {discographyReleases.map(release => <ReleaseTile key={release.id} mobile={mobile} slot={releases.findIndex(item => item.id === release.id)}>
               {release.id.startsWith('album/') ? <TransitionLink className="disc-cover" to={albumDetailPath(locale, release.id.slice(6))} aria-label={release.title}
                 onMouseEnter={() => setHovered(release.href)} onMouseLeave={() => setHovered(null)}
                 onFocus={() => setFocused(release.href)} onBlur={() => setFocused(null)}>
@@ -152,6 +156,7 @@ export function DiscographyPage({ locale }: { locale: Locale }) {
               </TransitionLink> : <a className="disc-cover" href={release.href} aria-label={release.title}
                 onMouseEnter={() => setHovered(release.href)} onMouseLeave={() => setHovered(null)}
                 onFocus={() => setFocused(release.href)} onBlur={() => setFocused(null)}><ReleaseCover release={release} colored={active === null || active === release.href} unavailable={text.unavailable} /></a>}
+              {mobile && <span className="mobile-release-meta">{release.title}<time dateTime={release.releaseDate}>{release.releaseDate.replaceAll('-', '.')}</time></span>}
             </ReleaseTile>)}
           </ul>
           <p className="disc-release-title" aria-live="polite">{releases.find(release => release.href === active)?.title ?? ''}</p>
