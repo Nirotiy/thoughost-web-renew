@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 167 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-3704.926512,-1247.110968)">
+        <g transform="matrix(1,0,0,1,2051.759575,1176.489519)">
+            <g transform="matrix(1,0,0,1,-0.081919,0)">
+                <g transform="matrix(1.031197,0,0,1.031197,1184.271675,-1272.36107)">
+                    <path d="M616.575,1314.34L616.575,1320.159L610.757,1320.159L616.575,1314.34Z" style="fill:rgb(50,49,51);"/>
+                </g>
+                <g id="logo-black.png" transform="matrix(1,-0,-0,1,1653.248856,70.621449)">
+                    <use xlink:href="#_Image1" x="144.723" y="3.379" width="15px" height="15px"/>
+                </g>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,2051.759575,1176.489519)">
+            <g transform="matrix(1,0,0,1,-0.84525,0)">
+                <g transform="matrix(1.031197,0,0,1.031197,1116.021453,-1272.36107)">
+                    <path d="M616.575,1314.34L616.575,1320.159L610.757,1320.159L616.575,1314.34Z" style="fill:rgb(50,49,51);"/>
+                </g>
+                <g id="icons8-soundcloud-2000" transform="matrix(1,-0,-0,1,1654.012187,70.621449)">
+                    <use xlink:href="#_Image2" x="69.952" y="4" width="22px" height="12px"/>
+                </g>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,2051.759575,1176.489519)">
+            <g transform="matrix(1,0,0,1,-0.081919,0)">
+                <g transform="matrix(1.031197,0,0,1.031197,1040.48706,-1272.36107)">
+                    <path d="M616.575,1314.34L616.575,1320.159L610.757,1320.159L616.575,1314.34Z" style="fill:rgb(50,49,51);"/>
+                </g>
+                <g id="icons8-bandcamp-button-2000" transform="matrix(1,-0,-0,1,1653.248856,70.621449)">
+                    <use xlink:href="#_Image3" x="0" y="2.409" width="17px" height="17px"/>
+                </g>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <image id="_Image1" width="15px" height="15px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABnElEQVQokYXST4hOYRgF8N/3zSRZSLG5n8XEZkji3rthNZmyxApJTRakppAopJQ/06RG2RhsiCSzwFJj8rcow713hRUL1Dcbk9mpMR+L+8p1G3nrrbenczrnOedtJHF6E9sxgzm8xp68yL6pnSROF+E4erGriVOYwAlsRjcGkjhdUCM2MIDVOJkXWaeJz7iNfnzERWzFqprwTuzGSMBp5kU2h3uYDS6e4QWGKqp9GA3uJvMi60CjAujBQxxBgVsYxyOcxfW8yMaqVrp+P9pT7Zkoar3FYTwP9wzWh0xutKfanSq5WdvrKR5jH97jNJZiPC+y2Rr2j3JQF0WtTyGYr3iAdVgWRa1X/1OGaWWaw1iOy8omNtSB85G3oAcvlbV9UVZ5IYnT6J/kJE7XKOu4gkNYiP24g3cYTuK0+y9yEqeNJE7X4i4uYSIvsu8YxCZsxEG0sCOJ066qcq+yy6u4lhfZzzD/gPvYG7DnsQ0roZnE6RIcwxuMhh8H8iL7gTHlfz+KyWB/EBpJnJ7DChzIi2x6ngCFlZ5gcWXc9wtnpX7mXJQqnwAAAABJRU5ErkJggg=="/>
+        <image id="_Image2" width="22px" height="12px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAMCAYAAABm+U3GAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABA0lEQVQ4jbXTTytEcRTG8c+9M43ElD9FYiE7KXXvpexkaaG8AQsrb8Es7C2Gla2SpXehrNS911qJnY2FWFCExdwpjZg7NZ7lOc/5nqfO7xfoQXGUDGEeNVxnefrwmzcoCRzABo4wWZRf0EQzy9OnzpmwZNhdnH2DwiD2cFoqcRwlVWxiDeN4xSxW/1i8neXpSbfEW9jBBCqY+QPY1kEcJZUfieMomcI03tHAGB4LzyiqXRJ/4hx3OM7y9CKIo6SGS1wVjQWM9AjuXLIUah1guORQGQVohFjvI7StxRC3/wBOQ+zjrY/QezTbr2IZK1q/aQ51PBfGutbxoi7AD+Q4zPL05gs8ZjV3OTGIHwAAAABJRU5ErkJggg=="/>
+        <image id="_Image3" width="17px" height="17px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABoUlEQVQ4jY3UP2sUURQF8N/+yQoGV0whzFqnUbfY3Y+QKjZaiaB+BZEINlaiCCGthV9AsFHBNlZbCCIzE0G3sLGcFQyKgRA32V2LeROGYSU5MDC8e++5584982oWoN8b1HAeXVzAb4ywm6TxvJpfqxQ30McjrKNVCk/wHlsYJmk8KwKNEsESNvASl8uxUu4qbqIdRZ1hNs6mxyRBwQY2FxRXsYQeVqKos52Ns3m9EIKnJxSXcRZ3cQNq4SO+xfVK4gx//6OkiSN8wFpTvoX1BQQj3Anv5EtYxj3cCkSr6Dbla2xVSA7wJEnjz8VBvzeo40qlYQvdutwHVRWf8Lpyfg73g/ICDbTrciOVsY/HSRpPSyoauIrbCxruNcPskyBtho/42u8NLpaSl/EQZxaMPWpiV+7Ea6hjDT+cjCN8x049/AtbYYzTYh6av0jS+LAw2xDPT0k0xx+8wyuCxbNxNo+izhAr8t235KMtGuEn3uBBksYHxySBaBpFnW18w6VANAnPPn7hC55hsyCgchUU6PcGhQm7aGNPvsWdJI0Pq/n/ACbmebzDvhngAAAAAElFTkSuQmCC"/>
+    </defs>
+</svg>

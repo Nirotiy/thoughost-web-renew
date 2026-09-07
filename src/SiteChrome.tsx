@@ -90,7 +90,11 @@ export function SiteHeader({ locale, page }: { locale: Locale; page: SitePage })
           <MotionLink {...interaction} className="header-control header-control-news" aria-label="NEWS" variants={{ ...interaction.variants, hover: { x: 3, color: 'rgb(163, 189, 142)' }, tap: { x: 3 } }} to={pagePath(locale, 'news')}><NavigationGraphic label="NEWS" /></MotionLink>
           <MotionLink {...interaction} className="header-control header-control-contact" aria-label="CONTACT" aria-current={page === 'contact' ? 'page' : undefined} variants={{ ...interaction.variants, hover: { x: 3, color: 'rgb(163, 189, 142)' }, tap: { x: 3 } }} to={pagePath(locale, 'contact')}><NavigationGraphic label="CONTACT" /></MotionLink>
         </nav>
-        <div className="about-social"><motion.a {...interaction} href="https://thoughost.bandcamp.com/" aria-label="Thoughost Bandcamp"><motion.img variants={labelMotion} transition={interaction.transition} src={bandcamp} alt="" /></motion.a><motion.a {...interaction} href="https://soundcloud.com/thoughost" aria-label="Thoughost SoundCloud"><motion.img variants={labelMotion} transition={interaction.transition} src={soundcloud} alt="" /></motion.a><motion.a {...interaction} href="https://x.com/thoughost" aria-label="Thoughost X"><motion.img variants={labelMotion} transition={interaction.transition} src={xLogo} alt="" /></motion.a></div>
+        <div className="about-social about-social-designer">{[
+          { label: 'Thoughost Bandcamp', href: 'https://thoughost.bandcamp.com/' },
+          { label: 'Thoughost SoundCloud', href: 'https://soundcloud.com/thoughost' },
+          { label: 'Thoughost X', href: 'https://x.com/thoughost' },
+        ].map(platform => <motion.a {...interaction} key={platform.label} href={platform.href} aria-label={platform.label}><span className="about-social-designer-art" /></motion.a>)}</div>
         <LanguageSwitcher locale={locale} />
       </header>
   );

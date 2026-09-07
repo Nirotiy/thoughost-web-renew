@@ -26,8 +26,70 @@
 .landing-cover { display: block; position: relative; width: 220px; height: 220px; background: var(--site-tile); }
 .landing-page a.landing-cover:focus-visible { outline: 3px solid #a3bd8e; outline-offset: -3px; z-index: 2; }
 
-/* Latest release title, baseline 694. */
+.landing-wall { display: contents; }
+@media (min-width: 901px) {
+  .landing-main > .landing-menu { right: 101.064px; }
+  .landing-main > .landing-wall {
+    display: block; position: absolute; left: 100px; top: 430px; width: 1320px; height: 220px;
+  }
+  .landing-wall .landing-covers { left: 0; top: 0; }
+  .landing-wall .landing-cover { background: transparent; }
+  .landing-cover-canvas { display: block; width: 1320px; height: 220px; background: var(--site-tile); }
+  /* Keep the original SVG geometry; animate its text and rule independently. */
+  .landing-recent .landing-graphic { overflow: visible; }
+  .landing-recent text { animation: landing-recent-enter 1000ms cubic-bezier(.25,.1,.25,1) both paused; }
+  .landing-recent rect {
+    transform-box: fill-box; transform-origin: left;
+    animation: landing-rule-enter 1000ms cubic-bezier(.25,.1,.25,1) both paused;
+  }
+  .landing-main > .landing-more { animation: landing-label-enter 1000ms cubic-bezier(.25,.1,.25,1) both paused; }
+  .landing-main > .landing-menu li,
+  .landing-wall .landing-covers li { --entry-delay: 0ms; }
+  .landing-main > .landing-menu li:nth-child(2), .landing-wall li:nth-child(2) { --entry-delay: 70ms; }
+  .landing-main > .landing-menu li:nth-child(3), .landing-wall li:nth-child(3) { --entry-delay: 140ms; }
+  .landing-main > .landing-menu li:nth-child(4), .landing-wall li:nth-child(4) { --entry-delay: 210ms; }
+  .landing-main > .landing-menu li:nth-child(5), .landing-wall li:nth-child(5) { --entry-delay: 280ms; }
+  .landing-wall li:nth-child(6) { --entry-delay: 350ms; }
+  .landing-main > .landing-menu li {
+    animation: landing-menu-enter calc(1000ms - var(--entry-delay)) var(--entry-delay) cubic-bezier(.25,.1,.25,1) both paused;
+  }
+  /* Fade page-colored masks over one continuous bitmap, without moving cover edges. */
+  .landing-wall .landing-cover::after {
+    content: ''; position: absolute; inset: 0; background: var(--site-background); pointer-events: none;
+    animation: landing-cover-reveal calc(1000ms - var(--entry-delay)) var(--entry-delay) cubic-bezier(.25,.1,.25,1) both paused;
+  }
+  .landing-enter-ready .landing-recent :is(text, rect),
+  .landing-enter-ready > .landing-more,
+  .landing-enter-ready > .landing-menu li,
+  .landing-enter-ready .landing-cover::after { animation-play-state: running; }
+  /* Retire entrance animations after their shared endpoint, including on hover updates. */
+  .landing-enter-complete .landing-recent :is(text, rect),
+  .landing-enter-complete > .landing-more,
+  .landing-enter-complete > .landing-menu li,
+  .landing-enter-complete .landing-cover::after { animation: none; }
+  .landing-enter-complete .landing-cover::after { opacity: 0; }
+}
+/* SVG text has a .581379 parent scale: 27.522 local units equal 16 design px. */
+@keyframes landing-recent-enter { from { opacity: 0; transform: translateX(27.522px); } to { opacity: 1; transform: translateX(0); } }
+@keyframes landing-rule-enter { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+@keyframes landing-cover-reveal { from { opacity: 1; } to { opacity: 0; } }
+@keyframes landing-label-enter { from { opacity: 0; } to { opacity: 1; } }
+@keyframes landing-menu-enter { from { opacity: 0; transform: translateX(-16px); } to { opacity: 1; transform: translateX(0); } }
+
+/* Hovered release title; empty at rest, baseline 694. */
 .landing-latest { position: absolute; left: 100px; top: 673px; margin: 0; font-size: 20px; font-weight: 700; line-height: 27px; }
+
+/* Scope the desktop brand color to Landing without changing shared artwork. */
+@media (min-width: 901px) {
+  .site-theme[data-theme="light"] .landing-page .about-brand img { visibility: hidden; }
+  .site-theme[data-theme="light"] .landing-page :is(.about-theme-toggle, .about-wordmark)::before {
+    content: ''; position: absolute; top: 0; left: 0; width: 240px; height: 50px;
+    background: rgb(32,31,33);
+    mask: url('./assets/thoughost.svg') center / 240px 50px no-repeat;
+    pointer-events: none;
+  }
+  .site-theme[data-theme="light"] .landing-page .about-wordmark::before { left: -58px; }
+}
 
 /* Right-aligned feature menu, baselines 461/508/556/602/649. */
 .landing-menu { position: absolute; right: 134px; top: 424px; text-align: right; }

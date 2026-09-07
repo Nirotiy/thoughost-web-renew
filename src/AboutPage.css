@@ -121,3 +121,30 @@
 .header-control-art [style]{fill:currentColor!important}
 .header-control-art text{font-family:var(--site-font)!important}
 .header-control-about{width:80px}.header-control-discography{width:160px}.header-control-news{width:66px}.header-control-contact{width:105px}
+
+/* Shared desktop glyph axes, measured in the 1920px design canvas with Eudoxus Bold. */
+@media (min-width: 901px) {
+  div > header.about-header nav[aria-label="Primary"] {
+    position: absolute; left: 398.3px; top: 0; margin-left: 0;
+    grid-column: auto; grid-template-columns: 176px auto;
+  }
+  div > header.about-header nav[aria-label="Primary"] a:nth-child(3) { margin-left: 45.3784px; }
+  div > header.about-header nav[aria-label="Primary"] a:nth-child(4) { margin-left: 109.8715px; }
+  header.about-header .about-social {
+    position: absolute; right: 1.048px; top: 4.226px;
+    padding-top: 0; align-items: end;
+  }
+  header.about-header .about-social > a { display: flex; align-items: flex-end; }
+  header.about-header .about-social > :nth-child(2) img { margin-top: 0; }
+  header.about-header .site-language { top: 5.226px; }
+  header.about-header .about-social-designer { width: 167px; height: 22px; top: 3.865px; right: .881px; display: block; }
+  .about-social-designer > a { position: absolute; top: 0; height: 22px; overflow: hidden; }
+  .about-social-designer > a:nth-child(1) { left: 0; width: 25px; }
+  .about-social-designer > a:nth-child(2) { left: 69px; width: 31px; }
+  .about-social-designer > a:nth-child(3) { left: 144px; width: 23px; }
+  header.about-header .about-social-designer > a::after { content: none; }
+  .about-social-designer-art { position: absolute; top: 0; width: 167px; height: 22px; background: currentColor; mask: url('./assets/header-platforms.svg') 0 0 / 167px 22px no-repeat; pointer-events: none; }
+  .about-social-designer > a:nth-child(1) .about-social-designer-art { left: 0; }
+  .about-social-designer > a:nth-child(2) .about-social-designer-art { left: -69px; }
+  .about-social-designer > a:nth-child(3) .about-social-designer-art { left: -144px; }
+}

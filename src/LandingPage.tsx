@@ -1,8 +1,9 @@
-import { useLayoutEffect, useRef, useState } from 'react';
+import { memo, useCallback, useLayoutEffect, useRef, useState } from 'react';
 import { motion } from 'motion/react';
 import { FeaturedNavigation, SiteFooter, SiteHeader, useSiteInteraction } from './SiteChrome';
 import { useMobileLayout } from './useMobileLayout';
 import { ReleaseCover } from './DiscographyPage';
+import { LandingCoverCanvas } from './LandingCoverCanvas';
 import { discographyReleases } from './content/discography';
 import type { Locale } from './i18n/locale';
 import { albumDetailPath, pagePath } from './i18n/locale';
@@ -18,15 +19,14 @@ const recentMoreViews = {
   more: '1248 0 71 16',
 } as const;
 
-function RecentMoreGraphic({ view }: { view: keyof typeof recentMoreViews }) {
+const RecentMoreGraphic = memo(function RecentMoreGraphic({ view }: { view: keyof typeof recentMoreViews }) {
   return <svg aria-hidden="true" className="landing-graphic" viewBox={recentMoreViews[view]} dangerouslySetInnerHTML={{ __html: recentMoreArt }} />;
-}
+});
 
 const MotionLink = motion.create(TransitionLink);
 
 /** Newest-first sample from the Bandcamp listing; the featured logic is still open. */
 const recentReleases = discographyReleases.slice(0, 6);
-const latestTitle = discographyReleases[0]?.title ?? '';
 
 const unavailableText = {
   en: 'Cover unavailable', zh: '封面暂不可用', ja: 'ジャケットを表示できません',
@@ -39,8 +39,11 @@ export function LandingPage({ locale }: { locale: Locale }) {
   const interaction = useSiteInteraction();
   const [hovered, setHovered] = useState<string | null>(null);
   const [focused, setFocused] = useState<string | null>(null);
+  const [coversReady, setCoversReady] = useState(false);
+  const [entered, setEntered] = useState(false);
+  const handleCoversReady = useCallback(() => setCoversReady(true), []);
   const active = [hovered, focused].find(href => recentReleases.some(release => release.href === href)) ?? null;
-  const activeTitle = recentReleases.find(release => release.href === active)?.title ?? latestTitle;
+  const activeTitle = recentReleases.find(release => release.href === hovered)?.title ?? '';
 
   useLayoutEffect(() => {
     const viewport = viewportRef.current;
@@ -60,25 +63,31 @@ export function LandingPage({ locale }: { locale: Locale }) {
     <div className="landing-viewport" ref={viewportRef}>
       <div className="landing-page">
         <SiteHeader locale={locale} page="home" />
-        <main className="landing-main">
+        <main className={`landing-main${coversReady ? ' landing-enter-ready' : ''}${entered ? ' landing-enter-complete' : ''}`}
+          onAnimationEnd={event => {
+            if (event.animationName === 'landing-rule-enter') setEntered(true);
+          }}>
           <h1 className="landing-recent" aria-label="RECENT RELEASE">{mobile ? <><svg className="landing-recent-label landing-graphic" viewBox="-2 0 170 16" dangerouslySetInnerHTML={{ __html: recentMoreArt }} /><span className="landing-recent-rule" /></> : <RecentMoreGraphic view="recent" />}</h1>
           {!mobile && <MotionLink {...interaction} className="landing-more" aria-label="MORE" to={pagePath(locale, 'discography')}><RecentMoreGraphic view="more" /></MotionLink>}
+          <div className="landing-wall">
+          {!mobile && <LandingCoverCanvas releases={recentReleases} active={active} onReady={handleCoversReady} />}
           <ul className="landing-covers" aria-label="Recent releases">
             {recentReleases.map(release => <li key={release.id}>
               {release.id.startsWith('album/')
                 ? <TransitionLink className="landing-cover" to={albumDetailPath(locale, release.id.slice(6))} aria-label={release.title}
                     onMouseEnter={() => setHovered(release.href)} onMouseLeave={() => setHovered(null)}
                     onFocus={() => setFocused(release.href)} onBlur={() => setFocused(null)}>
-                    <ReleaseCover release={release} colored={active === null || active === release.href} unavailable={unavailableText[locale]} />
+                    {mobile && <ReleaseCover release={release} colored={active === null || active === release.href} unavailable={unavailableText[locale]} />}
                   </TransitionLink>
                 : <a className="landing-cover" href={release.href} aria-label={release.title}
                     onMouseEnter={() => setHovered(release.href)} onMouseLeave={() => setHovered(null)}
                     onFocus={() => setFocused(release.href)} onBlur={() => setFocused(null)}>
-                    <ReleaseCover release={release} colored={active === null || active === release.href} unavailable={unavailableText[locale]} />
+                    {mobile && <ReleaseCover release={release} colored={active === null || active === release.href} unavailable={unavailableText[locale]} />}
                   </a>}
               <span className="mobile-release-meta">{release.title}<time dateTime={release.releaseDate}>{release.releaseDate.replaceAll('-', '.')}</time></span>
             </li>)}
           </ul>
+          </div>
           <p className="landing-latest" aria-live="polite">{activeTitle}</p>
           <FeaturedNavigation locale={locale} />
         </main>
