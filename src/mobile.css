@@ -14,6 +14,7 @@
   .mobile-menu-toggle span:last-child { top: 25px; }
   .mobile-menu-toggle.is-open span:first-child { top: 21px; transform: rotate(45deg); }
   .mobile-menu-toggle.is-open span:last-child { top: 21px; transform: rotate(-45deg); }
+  .mobile-menu { position: fixed; inset: 0; flex-direction: column; background: var(--site-background); overflow: auto; }
   .mobile-footer { display: grid; gap: 14px; margin-top: 42px; padding-top: 18px; border-top: 1px solid #777; font: 400 12px/1.4 var(--site-font); }
   .mobile-footer a { color: inherit; }
   .mobile-header :is(a, button):focus-visible { outline: 2px solid #a3bd8e; outline-offset: 3px; }
