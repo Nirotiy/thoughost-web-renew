@@ -3,6 +3,10 @@ import { Navigate, Route, Routes, useLocation, useParams } from 'react-router';
 import { AboutPage } from './AboutPage';
 import { AlbumDetailPage } from './AlbumDetailPage';
 import { DiscographyPage } from './DiscographyPage';
+import { NewsPage } from './NewsPage';
+import { ContactPage } from './ContactPage';
+import { LandingPage } from './LandingPage';
+import { SubmissionPage } from './SubmissionPage';
 import { detectLocale, isLocale, pagePath } from './i18n/locale';
 import { messages } from './i18n/messages';
 import type { SitePage } from './i18n/locale';
@@ -16,7 +20,7 @@ export function entryPath(languages: readonly string[], hash: string, search: st
 
 function EntryRedirect() {
   const { search } = useLocation();
-  return <Navigate replace to={pagePath(detectLocale(navigator.languages), 'discography') + search} />;
+  return <Navigate replace to={pagePath(detectLocale(navigator.languages), 'home') + search} />;
 }
 
 function LocalizedPage({ page }: { page: SitePage }) {
@@ -36,7 +40,10 @@ function LocalizedPage({ page }: { page: SitePage }) {
   }
   if (page === 'about') return <AboutPage locale={validLocale} />;
   if (page === 'discography') return <DiscographyPage locale={validLocale} />;
-  return <Navigate replace to={pagePath(validLocale, 'discography') + search} />;
+  if (page === 'news') return <NewsPage locale={validLocale} />;
+  if (page === 'contact') return <ContactPage locale={validLocale} />;
+  if (page === 'submission') return <SubmissionPage locale={validLocale} />;
+  return <LandingPage locale={validLocale} />;
 }
 
 function UnknownPageRedirect() {
@@ -79,6 +86,9 @@ export function SiteRoutes() {
         <Route path="/:locale" element={<LocalizedPage page="home" />} />
         <Route path="/:locale/about" element={<LocalizedPage page="about" />} />
         <Route path="/:locale/discography" element={<LocalizedPage page="discography" />} />
+        <Route path="/:locale/news" element={<LocalizedPage page="news" />} />
+        <Route path="/:locale/contact" element={<LocalizedPage page="contact" />} />
+        <Route path="/:locale/submission" element={<LocalizedPage page="submission" />} />
         <Route path="/:locale/album/*" element={<LocalizedAlbumPage />} />
         <Route path="/:locale/*" element={<UnknownPageRedirect />} />
       </Routes>

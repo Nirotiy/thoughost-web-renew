@@ -1,0 +1,19 @@
+.submission-viewport { position: relative; height: 100dvh; overflow: hidden; background: var(--site-background); color: var(--site-ink); color-scheme: var(--site-color-scheme); }
+.submission-page { position: absolute; left: 50%; top: 50%; width: 1920px; height: 1080px; transform: translate(-50%, -50%) scale(var(--submission-scale, 1)); transform-origin: center; background: var(--site-background); font: 500 20px/27px var(--site-font); letter-spacing: 0; }
+.submission-page > .about-header nav { grid-column: 5 / 8; position: relative; left: -176px; margin-left: 0; grid-template-columns: 176px auto; }
+.submission-layout { position: absolute; left: 100px; right: 100px; top: 210px; height: 680px; display: grid; grid-template-columns: 710px 1fr; gap: 150px; }
+.submission-aside { position: relative; min-width: 0; }
+.submission-aside h1 { font-size: 72px; line-height: 83px; font-weight: 400; margin: 0; }
+.submission-aside h2 { font-size: 38px; line-height: 48px; font-weight: 400; white-space: nowrap; margin: 35px 0 20px; }
+.submission-status { color: #a3bd8e; font-size: 17px; line-height: 24px; font-weight: 700; margin: 0 0 22px; }
+.submission-aside dl { display: flex; gap: 65px; margin: 28px 0; }
+.submission-aside dt { font-size: 17px; color: #666; }
+.submission-aside dd { margin: 5px 0 0; font-size: 23px; line-height: 30px; }
+.submission-action { position: absolute; left: 0; bottom: 0; display: inline-flex; align-items: baseline; gap: 5px; color: inherit; font-size: 45px; line-height: 23px; font-weight: 700; text-decoration: none; }
+.submission-action span { display: inline-block; }
+.submission-action i { width: 0.3em; height: 0.3em; background: currentColor; clip-path: polygon(100% 0,100% 100%,0 100%); }
+.submission-copy { min-width: 0; padding-right: 36px; overflow: auto; }
+.submission-copy p { margin: 12px 0 0; color: #666; font-size: 20px; line-height: 27px; }
+[data-theme="dark"] .submission-aside dt { color: #bdbdbd; }
+[data-theme="dark"] .submission-copy p { color: #aaa; }
+.submission-page :is(a, button):focus-visible { outline: 2px solid #a3bd8e; outline-offset: 5px; }

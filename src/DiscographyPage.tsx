@@ -13,6 +13,11 @@ import { useSiteTheme } from './theme/ThemeProvider';
 
 const animate = createScopedAnimate({ reduceMotion: false });
 
+function PaginationArrow({ direction }: { direction: 'previous' | 'next' }) {
+  const points = direction === 'previous' ? '23 3, 10 9, 23 15' : '7 3, 20 9, 7 15';
+  return <svg className="disc-pagination-arrow" viewBox="0 0 30 18" aria-hidden="true"><polyline points={points} /></svg>;
+}
+
 const labels = {
   en: { unavailable: 'Cover unavailable', wall: 'Releases', filter: 'Release categories', previous: 'Previous page', next: 'Next page', pages: 'Release pages' },
   zh: { unavailable: '封面暂不可用', wall: '作品封面', filter: '作品分类', previous: '上一页', next: '下一页', pages: '作品分页' },
@@ -52,8 +57,8 @@ function ReleaseTile({ slot, children }: {
   return <motion.li inert={!visible} aria-hidden={!visible} style={{ x, y, opacity, pointerEvents: visible ? 'auto' : 'none', zIndex: visible ? 1 : 0 }}>{children}</motion.li>;
 }
 
-/** Keep original color at rest; desaturate only the other covers during interaction. */
-function ReleaseCover({ release, colored, unavailable }: {
+/** Keep original color at rest; desaturate only the other covers during interaction. Shared with the landing mockup. */
+export function ReleaseCover({ release, colored, unavailable }: {
   release: DiscographyRelease; colored: boolean; unavailable: string;
 }) {
   const id = useId().replace(/:/g, '');
@@ -151,9 +156,9 @@ export function DiscographyPage({ locale }: { locale: Locale }) {
           </ul>
           <p className="disc-release-title" aria-live="polite">{releases.find(release => release.href === active)?.title ?? ''}</p>
           <nav className="disc-pagination" aria-label={text.pages}>
-            <motion.button {...interaction} type="button" aria-label={text.previous} aria-disabled={page === 1} onClick={() => changePage(page - 1)}>←</motion.button>
+            <motion.button {...interaction} type="button" aria-label={text.previous} aria-disabled={page === 1} onClick={() => changePage(page - 1)}><PaginationArrow direction="previous" /></motion.button>
             <span aria-live="polite">{String(page).padStart(2, '0')} / {String(pageCount).padStart(2, '0')}</span>
-            <motion.button {...interaction} type="button" aria-label={text.next} aria-disabled={page === pageCount} onClick={() => changePage(page + 1)}>→</motion.button>
+            <motion.button {...interaction} type="button" aria-label={text.next} aria-disabled={page === pageCount} onClick={() => changePage(page + 1)}><PaginationArrow direction="next" /></motion.button>
           </nav>
         </main>
         <SiteFooter />

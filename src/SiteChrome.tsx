@@ -15,19 +15,20 @@ const navigationViews = {
   CONTACT: '284 18 105 23',
 } as const;
 
-function NavigationGraphic({ label }: { label: keyof typeof navigationViews }) {
+export function NavigationGraphic({ label }: { label: keyof typeof navigationViews }) {
   return <svg aria-hidden="true" className="header-control-art" viewBox={navigationViews[label]} dangerouslySetInnerHTML={{ __html: navigationMarkup }} />;
 }
 import './AboutPage.css';
 import { useSiteTheme } from './theme/ThemeProvider';
 import { TransitionLink } from './TransitionLink';
+import { LanguageSwitcher } from './LanguageSwitcher';
 
 const MotionLink = motion.create(TransitionLink);
 
 const labelMotion = {
   rest: { x: 0, scale: 1 },
   hover: { x: 3 },
-  tap: { x: 3, transition: { duration: .14 } },
+  tap: { x: 3, scale: 1, transition: { duration: .14 } },
 };
 
 /** Marker-bearing actions animate their label only, keeping the marker anchored. */
@@ -42,7 +43,7 @@ export function useSiteInteraction(fixedMarker = false) {
     variants: {
       rest: { x: 0, scale: 1, color: ink },
       hover: { x: fixedMarker ? 0 : 3, color: 'rgb(163, 189, 142)' },
-      tap: { x: fixedMarker ? 0 : 3, transition: { duration: .14 } },
+      tap: { x: fixedMarker ? 0 : 3, scale: 1, transition: { duration: .14 } },
     },
     transition: { duration: .42, ease: [.22, 1, .36, 1] as const },
     className: 'about-action',
@@ -67,10 +68,11 @@ export function SiteHeader({ locale, page }: { locale: Locale; page: SitePage })
         <nav aria-label="Primary">
           <MotionLink {...interaction} className="header-control header-control-about" aria-label="ABOUT" variants={{ ...interaction.variants, hover: { x: 3, color: 'rgb(163, 189, 142)' }, tap: { x: 3 } }} to={pagePath(locale, 'about')} aria-current={page === 'about' ? 'page' : undefined}><NavigationGraphic label="ABOUT" /></MotionLink>
           <MotionLink {...interaction} className="header-control header-control-discography" aria-label="DISCOGRAPHY" variants={{ ...interaction.variants, hover: { x: 3, color: 'rgb(163, 189, 142)' }, tap: { x: 3 } }} to={pagePath(locale, 'discography')} aria-current={page === 'discography' ? 'page' : undefined}><NavigationGraphic label="DISCOGRAPHY" /></MotionLink>
-          <MotionLink {...interaction} className="header-control header-control-news" aria-label="NEWS" variants={{ ...interaction.variants, hover: { x: 3, color: 'rgb(163, 189, 142)' }, tap: { x: 3 } }} to={pagePath(locale) + '#news'}><NavigationGraphic label="NEWS" /></MotionLink>
-          <motion.a {...interaction} className="header-control header-control-contact" aria-label="CONTACT" variants={{ ...interaction.variants, hover: { x: 3, color: 'rgb(163, 189, 142)' }, tap: { x: 3 } }} href="#contact"><NavigationGraphic label="CONTACT" /></motion.a>
+          <MotionLink {...interaction} className="header-control header-control-news" aria-label="NEWS" variants={{ ...interaction.variants, hover: { x: 3, color: 'rgb(163, 189, 142)' }, tap: { x: 3 } }} to={pagePath(locale, 'news')}><NavigationGraphic label="NEWS" /></MotionLink>
+          <MotionLink {...interaction} className="header-control header-control-contact" aria-label="CONTACT" aria-current={page === 'contact' ? 'page' : undefined} variants={{ ...interaction.variants, hover: { x: 3, color: 'rgb(163, 189, 142)' }, tap: { x: 3 } }} to={pagePath(locale, 'contact')}><NavigationGraphic label="CONTACT" /></MotionLink>
         </nav>
         <div className="about-social"><motion.a {...interaction} href="https://thoughost.bandcamp.com/" aria-label="Thoughost Bandcamp"><motion.img variants={labelMotion} transition={interaction.transition} src={bandcamp} alt="" /></motion.a><motion.span {...interaction} tabIndex={0} title="SoundCloud 地址待补"><motion.img variants={labelMotion} transition={interaction.transition} src={soundcloud} alt="SoundCloud" /></motion.span><motion.span {...interaction} tabIndex={0} title="X 地址待补"><motion.img variants={labelMotion} transition={interaction.transition} src={xLogo} alt="X" /></motion.span></div>
+        <LanguageSwitcher locale={locale} />
       </header>
   );
 }

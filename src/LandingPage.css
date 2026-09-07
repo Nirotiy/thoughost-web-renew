@@ -1,0 +1,41 @@
+/* Landing mockup: designer coordinates on the shared 1920 × 1080 canvas. */
+.landing-viewport { position: relative; height: 100dvh; overflow: hidden; background: var(--site-background); color-scheme: var(--site-color-scheme); }
+.landing-page {
+  position: absolute; left: 50%; top: 50%;
+  width: 1920px; height: 1080px;
+  transform-origin: center;
+  transform: translate(-50%, -50%) scale(var(--landing-scale, 1));
+  background: var(--site-background);
+  color: var(--site-ink);
+  font: 20px/1.35 var(--site-font);
+  letter-spacing: 0;
+}
+.landing-page :is(a, button):focus-visible { outline: 2px solid #a3bd8e; outline-offset: 5px; }
+
+/* Design coordinates: control strip maps 1:1 to design px, top at y=386.15. */
+.landing-recent { position: absolute; left: 99.2px; top: 386.2px; width: 327px; height: 16px; margin: 0; }
+.landing-more { position: absolute; left: 1349.2px; top: 386.2px; color: inherit; text-decoration: none; }
+.landing-graphic { display: block; height: 16px; }
+.landing-recent .landing-graphic { width: 327px; }
+.landing-more .landing-graphic { width: 71px; }
+.landing-graphic [style] { fill: currentColor !important; }
+.landing-graphic text { font-family: var(--site-font) !important; }
+
+/* Six flush 220 × 220 covers from x=100, y=430; desaturation mirrors DiscographyPage. */
+.landing-covers { position: absolute; left: 100px; top: 430px; display: flex; margin: 0; padding: 0; list-style: none; }
+.landing-cover { display: block; position: relative; width: 220px; height: 220px; background: var(--site-tile); }
+.landing-page a.landing-cover:focus-visible { outline: 3px solid #a3bd8e; outline-offset: -3px; z-index: 2; }
+
+/* Latest release title, baseline 694. */
+.landing-latest { position: absolute; left: 100px; top: 673px; margin: 0; font-size: 20px; font-weight: 700; line-height: 27px; }
+
+/* Right-aligned feature menu, baselines 461/508/556/602/649. */
+.landing-menu { position: absolute; right: 134px; top: 424px; text-align: right; }
+.landing-menu ul { margin: 0; padding: 0; list-style: none; }
+.landing-menu a {
+  display: inline-block;
+  font-size: 42px; font-weight: 700; line-height: 47.4px;
+  color: inherit; text-decoration: none;
+}
+/* Disabled entries (SUBMISSION before its page opens) render gray in both themes. */
+.landing-menu-disabled { display: inline-block; font-size: 42px; font-weight: 700; line-height: 47.4px; opacity: .38; }

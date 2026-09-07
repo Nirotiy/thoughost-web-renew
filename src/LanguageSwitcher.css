@@ -1,0 +1,8 @@
+/* Match the platforms' 18px control row at header y=10 without moving their grid. */
+.site-language{position:absolute;right:215px;top:10px;height:18px;z-index:5;font:700 18px/18px var(--site-font);color:var(--site-ink)}
+.site-language-trigger{display:flex;align-items:center;gap:8px;width:44px;height:18px;padding:0;border:0;background:none;color:inherit;font:inherit;font-size:20px;cursor:pointer}
+.site-language-chevron{display:block;flex-shrink:0;width:6px;height:6px;border-right:1px solid currentColor;border-bottom:1px solid currentColor;transform:translateY(-2px) rotate(45deg)}
+.site-language-options{position:absolute;right:0;top:32px;width:148px;padding:6px 0;border:1px solid #777;background:var(--site-background);font:500 18px/24px var(--site-font)}
+.site-language-options a{display:grid;grid-template-columns:1fr 24px;align-items:center;gap:8px;padding:8px 12px;color:inherit;text-decoration:none;white-space:nowrap}
+.site-language-options a[aria-current],.site-language-options a:hover,.site-language-options a:focus-visible,.site-language-trigger:hover{color:#a3bd8e}
+.site-language :is(button,a):focus-visible{outline:2px solid #a3bd8e;outline-offset:4px}

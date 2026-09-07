@@ -15,7 +15,7 @@ export function detectLocale(languages: readonly string[]): Locale {
   return 'en';
 }
 
-export type SitePage = 'home' | 'discography' | 'about';
+export type SitePage = 'home' | 'discography' | 'about' | 'news' | 'contact' | 'submission';
 
 export function albumDetailPath(locale: Locale, slug: string): string { return `/${locale}/album/${slug}`; }
 
