@@ -1,5 +1,7 @@
 node_modules/
 dist/
+admin-dist/
+.admin-data/
 .vite/
 .recovery-check/
 .repo-inspect/

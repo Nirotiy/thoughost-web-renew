@@ -10,7 +10,11 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "check": "npm run typecheck && npm test",
-    "build": "npm run typecheck && vite build"
+    "build": "npm run typecheck && vite build",
+    "admin:typecheck": "tsc --noEmit -p admin/tsconfig.json",
+    "admin:build": "vite build --config admin/vite.config.ts",
+    "admin:start": "node admin/server/main.ts",
+    "admin:test": "node --test admin/tests/*.test.ts"
   },
   "dependencies": {
     "@fontsource-variable/noto-sans-sc": "5.3.0",
@@ -19,7 +23,9 @@
     "motion": "13.2.0",
     "react": "19.2.6",
     "react-dom": "19.2.6",
-    "react-router": "7.18.3"
+    "react-router": "7.18.3",
+    "sharp": "^0.35.4",
+    "zod": "^4.5.4"
   },
   "devDependencies": {
     "@types/node": "24.13.3",

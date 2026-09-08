@@ -1,0 +1,9 @@
+node_modules
+.git
+.recovery-check
+docs
+dist
+admin-dist
+.admin-data
+.env*
+*.log

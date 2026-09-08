@@ -36,13 +36,14 @@
   .landing-wall .landing-cover { background: transparent; }
   .landing-cover-canvas { display: block; width: 1320px; height: 220px; background: var(--site-tile); }
   /* Keep the original SVG geometry; animate its text and rule independently. */
-  .landing-recent .landing-graphic { overflow: visible; }
+  /* Allow the 16px entrance offset while excluding the source artwork's MORE slice. */
+  .landing-recent .landing-graphic { overflow: visible; clip-path: inset(-20px 0 -20px -20px); }
   .landing-recent text { animation: landing-recent-enter 1000ms cubic-bezier(.25,.1,.25,1) both paused; }
   .landing-recent rect {
     transform-box: fill-box; transform-origin: left;
     animation: landing-rule-enter 1000ms cubic-bezier(.25,.1,.25,1) both paused;
   }
-  .landing-main > .landing-more { animation: landing-label-enter 1000ms cubic-bezier(.25,.1,.25,1) both paused; }
+  .landing-main > .landing-more .landing-graphic { animation: landing-label-enter 1000ms cubic-bezier(.25,.1,.25,1) both paused; }
   .landing-main > .landing-menu li,
   .landing-wall .landing-covers li { --entry-delay: 0ms; }
   .landing-main > .landing-menu li:nth-child(2), .landing-wall li:nth-child(2) { --entry-delay: 70ms; }
@@ -53,27 +54,27 @@
   .landing-main > .landing-menu li {
     animation: landing-menu-enter calc(1000ms - var(--entry-delay)) var(--entry-delay) cubic-bezier(.25,.1,.25,1) both paused;
   }
-  /* Fade page-colored masks over one continuous bitmap, without moving cover edges. */
-  .landing-wall .landing-cover::after {
-    content: ''; position: absolute; inset: 0; background: var(--site-background); pointer-events: none;
-    animation: landing-cover-reveal calc(1000ms - var(--entry-delay)) var(--entry-delay) cubic-bezier(.25,.1,.25,1) both paused;
+  /* Reveal the continuous 1320 x 220 bitmap in the wall's coordinate space. */
+  .landing-wall::after {
+    content: ''; position: absolute; inset: -5px 0; background: var(--site-background); pointer-events: none;
+    animation: landing-cover-reveal 1000ms cubic-bezier(.25,.1,.25,1) both paused;
   }
   .landing-enter-ready .landing-recent :is(text, rect),
-  .landing-enter-ready > .landing-more,
+  .landing-enter-ready > .landing-more .landing-graphic,
   .landing-enter-ready > .landing-menu li,
-  .landing-enter-ready .landing-cover::after { animation-play-state: running; }
+  .landing-enter-ready .landing-wall::after { animation-play-state: running; }
   /* Retire entrance animations after their shared endpoint, including on hover updates. */
   .landing-enter-complete .landing-recent :is(text, rect),
-  .landing-enter-complete > .landing-more,
+  .landing-enter-complete > .landing-more .landing-graphic,
   .landing-enter-complete > .landing-menu li,
-  .landing-enter-complete .landing-cover::after { animation: none; }
-  .landing-enter-complete .landing-cover::after { opacity: 0; }
+  .landing-enter-complete .landing-wall::after { animation: none; }
+  .landing-enter-complete .landing-wall::after { clip-path: inset(0 0 0 100%); }
 }
-/* SVG text has a .581379 parent scale: 27.522 local units equal 16 design px. */
-@keyframes landing-recent-enter { from { opacity: 0; transform: translateX(27.522px); } to { opacity: 1; transform: translateX(0); } }
+/* Enter from the left, away from the rule; 27.522 local units equal 16 design px. */
+@keyframes landing-recent-enter { from { opacity: 0; transform: translateX(-27.522px); } to { opacity: 1; transform: translateX(0); } }
 @keyframes landing-rule-enter { from { transform: scaleX(0); } to { transform: scaleX(1); } }
-@keyframes landing-cover-reveal { from { opacity: 1; } to { opacity: 0; } }
-@keyframes landing-label-enter { from { opacity: 0; } to { opacity: 1; } }
+@keyframes landing-cover-reveal { from { clip-path: inset(0 0 0 0); } to { clip-path: inset(0 0 0 100%); } }
+@keyframes landing-label-enter { from { opacity: 0; transform: translateX(-16px); } to { opacity: 1; transform: translateX(0); } }
 @keyframes landing-menu-enter { from { opacity: 0; transform: translateX(-16px); } to { opacity: 1; transform: translateX(0); } }
 
 /* Hovered release title; empty at rest, baseline 694. */

@@ -30,5 +30,18 @@
 .album-player :is(a,button):focus-visible{outline:2px solid #a3bd8e;outline-offset:2px}
 @media(min-width:901px){
   .album-detail-back{position:sticky;top:0;z-index:4;display:block;background:var(--site-background)}
-  .album-detail-title{top:27px}
+  .album-detail-back-arrow{display:inline-block;position:relative;top:-2px}
+  /* Compensate for the display font's left sidebearing against the shared content edge. */
+  .album-detail-title{top:27px;margin:0 0 16px -4px;padding:16px 0 0}
+  .album-detail-back{margin-bottom:0}
+  .album-detail-summary{font-size:20px;line-height:27px;margin:0 0 32px}
+  .album-detail-flow h2{font-size:28px;line-height:34px;margin-bottom:16px}
+  .album-detail-info{margin-top:32px}
+  .album-detail-info dl{margin:0;font-size:20px;line-height:27px}
+  .album-detail-info dl div{margin-top:12px}
+  .album-detail-info dl div:first-child{margin-top:0}
+  .album-detail-tracks li{padding:14px 0;font-size:20px;line-height:27px}
+  .album-detail-tracks li span:last-child{font-size:20px}
+  /* Keep the existing 71px outer button height while lifting the glyphs by 2px. */
+  .album-detail-actions a{box-sizing:border-box;height:71px;padding:0 0 4px}
 }

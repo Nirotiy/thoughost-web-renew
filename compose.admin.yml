@@ -1,0 +1,35 @@
+name: thoughost-admin-local
+services:
+  admin:
+    build:
+      context: .
+      dockerfile: admin/Dockerfile
+    ports:
+      - "127.0.0.1:5210:5210"
+    environment:
+      ADMIN_ORIGIN: http://127.0.0.1:5210
+      ADMIN_PASSWORD_FILE: /run/secrets/admin_password
+    secrets:
+      - admin_password
+    volumes:
+      - admin_data:/data
+    restart: unless-stopped
+    init: true
+    read_only: true
+    tmpfs:
+      - /tmp
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:5210/api/health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 30s
+      timeout: 5s
+      start_period: 15s
+      retries: 3
+secrets:
+  admin_password:
+    file: ./.recovery-check/admin-password.txt
+volumes:
+  admin_data:

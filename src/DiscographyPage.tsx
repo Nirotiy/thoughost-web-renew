@@ -30,8 +30,9 @@ function ReleaseTile({ slot, children, mobile }: {
   slot: number; children: ReactNode; mobile: boolean;
 }) {
   const visible = slot >= 0;
-  const x = useMotionValue(visible ? slot % 6 * 220 : 0);
-  const y = useMotionValue(visible ? Math.floor(slot / 6) * 220 : 0);
+  const tileSize = 220;
+  const x = useMotionValue(visible ? slot % 6 * tileSize : 0);
+  const y = useMotionValue(visible ? Math.floor(slot / 6) * tileSize : 0);
   const opacity = useMotionValue(visible ? 1 : 0);
 
   useLayoutEffect(() => {
@@ -41,8 +42,8 @@ function ReleaseTile({ slot, children, mobile }: {
       const exit = animate(opacity, 0, { ...timing, duration: .16 });
       return () => exit.stop();
     }
-    const nextX = slot % 6 * 220;
-    const nextY = Math.floor(slot / 6) * 220;
+    const nextX = slot % 6 * tileSize;
+    const nextY = Math.floor(slot / 6) * tileSize;
     const alreadyVisible = opacity.get() > .01;
     const moving = alreadyVisible && (x.get() !== nextX || y.get() !== nextY);
     // Off-page releases have no visible origin; enter directly at the destination.

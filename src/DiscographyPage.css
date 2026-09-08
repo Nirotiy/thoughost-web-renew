@@ -3,13 +3,16 @@
 .disc-page { position: absolute; left: 50%; top: 50%; width: 1920px; height: 1080px; transform-origin: center; transform: translate(-50%, -50%) scale(var(--disc-scale, 1)); background: var(--site-background); color: var(--site-ink); font: 20px/1.35 var(--site-font); }
 .disc-main { --disc-wall-start: 400px; position: absolute; left: 100px; right: 100px; top: 210px; height: 720px; }
 .disc-main h1 { position: absolute; top: 10px; left: 0; z-index: 1; margin: 0; font-size: 83px; font-weight: 400; line-height: 1; letter-spacing: 0; pointer-events: none; }
+@media(min-width:901px){.disc-main h1{left:-7px}.disc-categories button{position:relative;left:-1px}.disc-categories button:nth-child(3){left:-2px}.disc-main{--disc-wall-start:400px}}
+/* Include the next arrow's mitered stroke tip, rather than its SVG box. */
+@media(min-width:901px){.disc-main .disc-pagination{right:-10.614px}}
 /* Approved title A: only the part over the artwork is white, without a stroke. */
 .disc-title-dark { display: block; white-space: nowrap; clip-path: inset(0 max(0px, calc(100% - var(--disc-wall-start))) 0 0); }
 .disc-title-overlap { position: absolute; inset: 0; white-space: nowrap; color: #fff; clip-path: inset(0 0 0 var(--disc-wall-start)); }
-.disc-wall { isolation: isolate; position: absolute; left: var(--disc-wall-start); top: 0; width: 1320px; height: calc(220px * 3); list-style: none; padding: 0; margin: 0; }
+.disc-wall { isolation: isolate; position: absolute; left: var(--disc-wall-start); top: 0; width: 1320px; height: calc(220px * 3); list-style: none; padding: 0; margin: 0; overflow: hidden; }
 .disc-wall > li { position: absolute; left: 0; top: 0; width: 220px; height: 220px; }
 .disc-cover { display: block; position: relative; width: 100%; height: 100%; background: var(--site-tile); }
-.disc-cover-art { display: block; width: 100%; height: 100%; }
+.disc-cover-art { display: block; width: 100%; height: 100%; transform: scale(1.002); transform-origin: center; }
 .disc-cover:focus-visible { outline: 3px solid #a3bd8e; outline-offset: -3px; z-index: 2; }
 .disc-categories { position: absolute; top: 435px; left: 0; display: flex; flex-direction: column; align-items: flex-start; }
 .disc-categories button { padding: 0; border: 0; background: transparent; color: inherit; font: 700 44px/47px var(--site-font); text-align: left; cursor: pointer; }

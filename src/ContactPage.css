@@ -2,6 +2,13 @@
 .contact-page{position:absolute;left:50%;top:50%;width:1920px;height:1080px;transform:translate(-50%,-50%) scale(var(--contact-scale,1));transform-origin:center;background:var(--site-background);font:20px/1.35 var(--site-font);--contact-line:#aaa;--contact-muted:#666}
 .site-theme[data-theme="dark"] .contact-page{--contact-line:#606060;--contact-muted:#aaa}
 .contact-page>.about-header nav{grid-column:5/8;position:relative;left:-176px;margin-left:0;grid-template-columns:176px auto}
+/* Desktop glyph offsets align with the footer Email ink edge. */
+@media(min-width:901px){
+ .contact-page .intro h1{position:relative;left:-5px}
+ .contact-page .types .type{position:relative;left:-1px}
+ .contact-page .types .type:nth-child(2){left:-2px}
+ .contact-page main .editor{right:101.064px}
+}
 .contact-page .intro{position:absolute;left:100px;top:210px;width:640px}
 .contact-page h1{font-size:83px;font-weight:400;line-height:1;margin:0;letter-spacing:0}
 .contact-page .types{position:absolute;left:100px;top:645px;display:flex;flex-direction:column;align-items:flex-start}

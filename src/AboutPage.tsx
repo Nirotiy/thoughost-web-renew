@@ -3,6 +3,7 @@ import { motion } from 'motion/react';
 import type { Locale } from './i18n/locale';
 import './AboutPage.css';
 import { PortraitCanvas } from './PortraitCanvas';
+import { MemberProfileDialog } from './MemberProfileDialog';
 import { useMobileLayout } from './useMobileLayout';
 
 import chaoyin from "./assets/members/chaoyin.png";
@@ -59,11 +60,13 @@ export function AboutPage({ locale }: { locale: Locale }) {
   const [hovered, setHovered] = useState<string | null>(null);
   const [focused, setFocused] = useState<string | null>(null);
   const activeMember = hovered ?? focused;
+  const [selected, setSelected] = useState<string | null>(null);
+  const selectedPortrait = portraitSources.find(portrait => portrait.name === selected);
 
   const memberEvents = (name: string) => ({
     onMouseEnter: () => setHovered(name), onMouseLeave: () => setHovered(null),
     onFocus: () => setFocused(name), onBlur: () => setFocused(null),
-    onClick: () => setFocused(name),
+    onClick: () => setSelected(name),
   });
   return (
     <div className="about-viewport" ref={viewportRef}>
@@ -78,19 +81,20 @@ export function AboutPage({ locale }: { locale: Locale }) {
         </div>
         <section className="about-members" aria-labelledby="members-title">
           <h1 id="members-title"><span>MEMBERS</span><span className="about-title-invert" aria-hidden="true">MEMBERS</span></h1>
-          {mobile ? <ul className="mobile-members">{portraitSources.map(portrait => <li key={portrait.name}><img src={portrait.src} alt={portrait.name} loading="lazy" style={{ objectPosition: `center ${portrait.vertical * 100}%` }} /><strong>{portrait.name}</strong></li>)}</ul> : <div className="about-member-body">
+          {mobile ? <ul className="mobile-members">{portraitSources.map(portrait => <li key={portrait.name}><button type="button" className="about-mobile-profile-trigger" onClick={() => setSelected(portrait.name)} aria-haspopup="dialog"><img src={portrait.src} alt={portrait.name} loading="lazy" style={{ objectPosition: `center ${portrait.vertical * 100}%` }} /><strong>{portrait.name}</strong></button></li>)}</ul> : <div className="about-member-body">
             <ul>{members.map(name => <li key={name}>
               <motion.button
                 {...memberInteraction}
                 {...memberEvents(name)}
                 type="button"
                 className="about-member-name"
+                aria-haspopup="dialog"
                 animate={activeMember === name ? 'hover' : 'rest'}
               >{name}</motion.button>
             </li>)}</ul>
             <div className="about-portraits" aria-label="成员照片">
               <PortraitCanvas portraits={portraitSources} active={activeMember} />
-              {members.map(name => <div className="about-portrait" key={name} data-member={name} tabIndex={0} {...memberEvents(name)} aria-label={name}>
+              {members.map(name => <div className="about-portrait" key={name} data-member={name} tabIndex={0} role="button" aria-haspopup="dialog" onKeyDown={event => { if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); setSelected(name); } }} {...memberEvents(name)} aria-label={name}>
               </div>)}
             </div>
           </div>}
@@ -98,6 +102,7 @@ export function AboutPage({ locale }: { locale: Locale }) {
       </main>
       <SiteFooter />
     </div>
+    {selectedPortrait && <MemberProfileDialog name={selectedPortrait.name} image={selectedPortrait.src} vertical={selectedPortrait.vertical} locale={locale} onClose={() => setSelected(null)} />}
     </div>
   );
 }
