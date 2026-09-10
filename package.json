@@ -15,7 +15,8 @@
     "admin:build": "vite build --config admin/vite.config.ts",
     "admin:start": "node admin/server/main.ts",
     "admin:test": "node --test admin/tests/*.node.ts",
-    "admin:init": "node admin/init-local.ts"
+    "admin:init": "node admin/init-local.ts",
+    "content:sync": "node scripts/sync-content.mjs"
   },
   "dependencies": {
     "@fontsource/ibm-plex-sans-jp": "^5.3.0",
