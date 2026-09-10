@@ -1,5 +1,6 @@
 import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import type { Locale } from './i18n/locale';
+import { memberSnapshot } from './content/members.generated';
 import './MemberProfileDialog.css';
 
 type MemberProfile = {
@@ -11,23 +12,34 @@ type PublishedMember = { id: string; data: { title: string; texts: Partial<Recor
 
 // Local overrides take precedence over the admin-published biography and links.
 const profiles: Readonly<Record<string, MemberProfile>> = {};
+// Cache is keyed by locale so switching site language refreshes already-viewed bios.
 const published = new Map<string, MemberProfile>();
+function toProfile(texts: PublishedMember['data']['texts'], links: PublishedMember['data']['links'], locale: Locale): MemberProfile {
+  const text = [texts[locale], texts.zh, texts.en, texts.ja].find(value => value?.trim());
+  const lang: Locale = texts[locale]?.trim() ? locale : texts.zh?.trim() ? 'zh' : texts.en?.trim() ? 'en' : 'ja';
+  return {
+    ...(text ? { biography: { text, lang } } : {}),
+    ...(links?.length ? { links: links.filter(link => link.url.startsWith('https://')) } : {}),
+  };
+}
+// Build-time snapshot of the admin-published bios; used until the live backend answers
+// (static hosting has no /api, so without this every bio reads as "coming soon").
+function snapshotProfile(name: string, locale: Locale): MemberProfile | undefined {
+  const match = memberSnapshot.find(row => row.title === name);
+  return match ? toProfile(match.texts, match.links, locale) : undefined;
+}
 async function loadPublished(name: string, locale: Locale): Promise<MemberProfile | undefined> {
-  if (published.has(name)) return published.get(name);
+  const key = `${locale}\n${name}`;
+  const cached = published.get(key);
+  if (cached) return cached;
   try {
     const response = await fetch('/api/content/members');
     if (!response.ok) return undefined;
     const rows = await response.json() as PublishedMember[];
     const match = rows.find(row => row.data.title === name);
     if (!match) return undefined;
-    const texts = match.data.texts;
-    const text = [texts[locale], texts.zh, texts.en, texts.ja].find(value => value?.trim());
-    const lang: Locale = texts[locale]?.trim() ? locale : texts.zh?.trim() ? 'zh' : texts.en?.trim() ? 'en' : 'ja';
-    const profile: MemberProfile = {
-      ...(text ? { biography: { text, lang } } : {}),
-      ...(match.data.links?.length ? { links: match.data.links.filter(link => link.url.startsWith('https://')) } : {}),
-    };
-    published.set(name, profile);
+    const profile = toProfile(match.data.texts, match.data.links, locale);
+    published.set(key, profile);
     return profile;
   } catch { return undefined; }
 }
@@ -42,10 +54,15 @@ export function MemberProfileDialog({ name, image, vertical, locale, onClose }: 
 }) {
   const dialogRef = useRef<HTMLDialogElement>(null);
   const [closing, setClosing] = useState(false);
-  const [profile, setProfile] = useState<MemberProfile | undefined>(profiles[name]);
+  const [profile, setProfile] = useState<MemberProfile | undefined>(() => profiles[name] ?? snapshotProfile(name, locale));
   const requestClose = () => setClosing(true);
   const text = copy[locale];
-  useEffect(() => { let active = true; void loadPublished(name, locale).then(value => { if (active) setProfile(value); }); return () => { active = false; }; }, [name, locale]);
+  useEffect(() => {
+    let active = true;
+    setProfile(profiles[name] ?? snapshotProfile(name, locale));
+    void loadPublished(name, locale).then(value => { if (active) setProfile(value ?? profiles[name] ?? snapshotProfile(name, locale)); });
+    return () => { active = false; };
+  }, [name, locale]);
   useLayoutEffect(() => {
     const dialog = dialogRef.current;
     const trigger = document.activeElement;

@@ -5,6 +5,7 @@ import './AboutPage.css';
 import { PortraitCanvas } from './PortraitCanvas';
 import { MemberProfileDialog } from './MemberProfileDialog';
 import { useMobileLayout } from './useMobileLayout';
+import { memberSnapshot } from './content/members.generated';
 
 import chaoyin from "./assets/members/chaoyin.png";
 import wheatfox from "./assets/members/wheatfox.jpg";
@@ -19,18 +20,29 @@ import novaz from './assets/members/novaz.png';
 import shidoye from './assets/members/shidoye.png';
 import black201 from './assets/members/black201.png';
 // Portrait assignments follow the user-confirmed member roster.
-const members = ['潮音きつね', 'Konseki Takane', '望月真白', 'Nirotiy', '57lab', 'Joulez', 'wheatfox', '四度夜 靈', 'Black201', 'nova+z', 'Foe Requiem', 'rmdyh'];
+const roster = ['潮音きつね', 'Konseki Takane', '望月真白', 'Nirotiy', '57lab', 'Joulez', 'wheatfox', '四度夜 靈', 'Black201', 'nova+z', 'Foe Requiem', 'rmdyh'];
+// Honor the admin-side member ordering; names missing from the snapshot keep their hardcoded place.
+const memberOrder = new Map(memberSnapshot.map(row => [row.title, row.order]));
+const members = [...roster].sort((a, b) => (memberOrder.get(a) ?? 900 + roster.indexOf(a)) - (memberOrder.get(b) ?? 900 + roster.indexOf(b)));
 
 const portraits: Partial<Record<string, string>> = {
   '潮音きつね': chaoyin, 'Konseki Takane': konseki, '望月真白': mashiro,
   Nirotiy: nirotiy, '57lab': laxeno, Joulez: joulez, wheatfox, rmdyh, 'Foe Requiem': erua, 'nova+z': novaz, '四度夜 靈': shidoye, Black201: black201,
 };
 
-const portraitSources = members.map(name => ({
-  name, src: portraits[name],
-  vertical: name === '潮音きつね' ? 0 : ['nova+z', '四度夜 靈'].includes(name) ? .7 : .5,
-  ...(['57lab', 'Joulez'].includes(name) ? { offsetY: 100 } : {}),
-}));
+// Admin-published photos (with vertical crop) take precedence over the bundled portraits,
+// so uploads in /admin actually reach the page after `npm run content:sync-members`.
+const adminPhotos = new Map(memberSnapshot.flatMap(row => row.photo ? [[row.title, { src: row.photo, vertical: row.crop / 100 }]] as const : []));
+
+const portraitSources = members.map(name => {
+  const admin = adminPhotos.get(name);
+  if (admin) return { name, src: admin.src, vertical: admin.vertical };
+  return {
+    name, src: portraits[name],
+    vertical: name === '潮音きつね' ? 0 : ['nova+z', '四度夜 靈'].includes(name) ? .7 : .5,
+    ...(['57lab', 'Joulez'].includes(name) ? { offsetY: 100 } : {}),
+  };
+});
 
 import { SiteHeader, SiteFooter, useSiteInteraction } from './SiteChrome';
 
