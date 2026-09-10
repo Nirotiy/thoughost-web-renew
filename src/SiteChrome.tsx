@@ -28,6 +28,7 @@ import './AboutPage.css';
 import { useSiteTheme } from './theme/ThemeProvider';
 import { TransitionLink } from './TransitionLink';
 import { LanguageSwitcher } from './LanguageSwitcher';
+import { settingsEmail, settingsLink } from './content/adminSite';
 
 const MotionLink = motion.create(TransitionLink);
 
@@ -91,9 +92,9 @@ export function SiteHeader({ locale, page }: { locale: Locale; page: SitePage })
           <MotionLink {...interaction} className="header-control header-control-contact" aria-label="CONTACT" aria-current={page === 'contact' ? 'page' : undefined} variants={{ ...interaction.variants, hover: { x: 3, color: 'rgb(163, 189, 142)' }, tap: { x: 3 } }} to={pagePath(locale, 'contact')}><NavigationGraphic label="CONTACT" /></MotionLink>
         </nav>
         <div className="about-social about-social-designer">{[
-          { label: 'Thoughost Bandcamp', href: 'https://thoughost.bandcamp.com/' },
-          { label: 'Thoughost SoundCloud', href: 'https://soundcloud.com/thoughost' },
-          { label: 'Thoughost X', href: 'https://x.com/thoughost' },
+          { label: 'Thoughost Bandcamp', href: settingsLink('bandcamp') ?? 'https://thoughost.bandcamp.com/' },
+          { label: 'Thoughost SoundCloud', href: settingsLink('soundcloud') ?? 'https://soundcloud.com/thoughost' },
+          { label: 'Thoughost X', href: settingsLink('x') ?? 'https://x.com/thoughost' },
         ].map(platform => <motion.a {...interaction} key={platform.label} href={platform.href} aria-label={platform.label}><span className="about-social-designer-art" /></motion.a>)}</div>
         <LanguageSwitcher locale={locale} />
       </header>
@@ -104,11 +105,12 @@ export function SiteFooter() {
   const mobile = useMobileLayout();
   const location = useLocation();
   const interaction = useSiteInteraction();
+  const email = settingsEmail() ?? 'thoughost.dm@gmail.com';
   if (mobile) return <footer className="mobile-footer"><span>© Thoughost</span><nav className="mobile-segments" aria-label="Language">{locales.map(language => <TransitionLink key={language} hrefLang={language} to={languagePath(language, location)} aria-current={location.pathname.split('/')[1] === language ? 'true' : undefined}>{language.toUpperCase()}</TransitionLink>)}</nav></footer>;
   return (
       <footer className="about-footer" id="contact">
-        <div><span>Email</span><motion.a {...interaction} href="mailto:thoughost.dm@gmail.com">thoughost.dm@gmail.com</motion.a></div>
-        <div><span>Follow us</span><span className="about-follow-links"><motion.a {...interaction} href="https://space.bilibili.com/2004994075">bilibili</motion.a><motion.a {...interaction} href="https://www.youtube.com/@thoughost">YouTube</motion.a><motion.a {...interaction} href="https://www.dizzylab.net/l/Thoughost/">dizzylab</motion.a></span></div>
+        <div><span>Email</span><motion.a {...interaction} href={`mailto:${email}`}>{email}</motion.a></div>
+        <div><span>Follow us</span><span className="about-follow-links"><motion.a {...interaction} href={settingsLink('bilibili') ?? 'https://space.bilibili.com/2004994075'}>bilibili</motion.a><motion.a {...interaction} href={settingsLink('youtube') ?? 'https://www.youtube.com/@thoughost'}>YouTube</motion.a><motion.a {...interaction} href="https://www.dizzylab.net/l/Thoughost/">dizzylab</motion.a></span></div>
         <div>Copyright © 2020–2026 Thoughost All rights reserved.</div>
       </footer>
   );
@@ -153,9 +155,9 @@ function MobileHeader({ locale, page }: { locale: Locale; page: SitePage }) {
           {theme === 'dark' ? <Sun size={28} strokeWidth={1.5} /> : <Moon size={28} strokeWidth={1.5} />}
         </button>
         <div className="mobile-social-links">
-          <motion.a {...interaction} href="https://thoughost.bandcamp.com/" aria-label="Thoughost Bandcamp" onClick={() => setOpen(false)}><motion.img variants={labelMotion} transition={interaction.transition} src={bandcamp} alt="" /></motion.a>
-          <motion.a {...interaction} href="https://soundcloud.com/thoughost" aria-label="Thoughost SoundCloud" onClick={() => setOpen(false)}><motion.img variants={labelMotion} transition={interaction.transition} src={soundcloud} alt="" /></motion.a>
-          <motion.a {...interaction} href="https://x.com/thoughost" aria-label="Thoughost X" onClick={() => setOpen(false)}><motion.img variants={labelMotion} transition={interaction.transition} src={xLogo} alt="" /></motion.a>
+          <motion.a {...interaction} href={settingsLink('bandcamp') ?? 'https://thoughost.bandcamp.com/'} aria-label="Thoughost Bandcamp" onClick={() => setOpen(false)}><motion.img variants={labelMotion} transition={interaction.transition} src={bandcamp} alt="" /></motion.a>
+          <motion.a {...interaction} href={settingsLink('soundcloud') ?? 'https://soundcloud.com/thoughost'} aria-label="Thoughost SoundCloud" onClick={() => setOpen(false)}><motion.img variants={labelMotion} transition={interaction.transition} src={soundcloud} alt="" /></motion.a>
+          <motion.a {...interaction} href={settingsLink('x') ?? 'https://x.com/thoughost'} aria-label="Thoughost X" onClick={() => setOpen(false)}><motion.img variants={labelMotion} transition={interaction.transition} src={xLogo} alt="" /></motion.a>
         </div>
       </div>
     </dialog>

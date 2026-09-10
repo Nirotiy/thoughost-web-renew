@@ -3,6 +3,7 @@ import { useSearchParams } from 'react-router';
 import { motion } from 'motion/react';
 import { SiteHeader, SiteFooter, useSiteInteraction } from './SiteChrome';
 import { useSiteTheme } from './theme/ThemeProvider';
+import { settingsEmail } from './content/adminSite';
 import type { Locale } from './i18n/locale';
 import './ContactPage.css';
 
@@ -64,7 +65,7 @@ export function ContactPage({ locale }: { locale: Locale }) {
     if (firstInvalid) { setInvalid(true); firstInvalid.focus(); return; }
     const value = (id: string) => fields.find(field => field.id === id)?.value.trim() ?? '';
     setInvalid(false);
-    setPreview(`${text.to}: thoughost.dm@gmail.com\n${text.reply}: ${value('sender-email')}\n${text.subject}: [${categories[kind]}] ${value('subject')}\n\n${text.name}: ${value('sender-name')}${value('work-link') ? `\n${text.url}: ${value('work-link')}` : ''}\n\n${value('message')}`);
+    setPreview(`${text.to}: ${settingsEmail() ?? 'thoughost.dm@gmail.com'}\n${text.reply}: ${value('sender-email')}\n${text.subject}: [${categories[kind]}] ${value('subject')}\n\n${text.name}: ${value('sender-name')}${value('work-link') ? `\n${text.url}: ${value('work-link')}` : ''}\n\n${value('message')}`);
   };
 
   return <>

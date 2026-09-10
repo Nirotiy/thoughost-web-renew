@@ -4,10 +4,12 @@ import type { Locale } from './i18n/locale';
 import { SiteFooter, SiteHeader } from './SiteChrome';
 import './NewsPage.css';
 import dividerUrl from './assets/divider.svg';
+import { adminNews } from './content/adminSite';
 import { useMobileLayout } from './useMobileLayout';
 
 type NewsItem = { date: string; title: string; body: string[] };
-const items: NewsItem[] = [
+// Bundled placeholders; replaced by admin-published news once the snapshot is non-empty.
+const fallbackItems: NewsItem[] = [
   { date: '2026.09.05', title: 'Thoughost announces a new release', body: ['News content is pending editorial review.'] },
   { date: '2026.08.21', title: 'New official listening links are online', body: ['Listening and purchase links are being checked one release at a time.'] },
   { date: '2026.07.30', title: 'Thoughost live archive update', body: ['This announcement is pending publication.'] },
@@ -27,6 +29,7 @@ function Divider({ open }: { open: boolean }) {
 
 export function NewsPage({ locale }: { locale: Locale }) {
   const mobile = useMobileLayout();
+  const items = adminNews(locale) ?? fallbackItems;
   const [selected, setSelected] = useState<number | null>(null);
   const [articleDelay, setArticleDelay] = useState(0);
   const selectArticle = (index: number) => {

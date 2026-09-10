@@ -4,6 +4,7 @@ import { TransitionLink } from './TransitionLink';
 import { SiteFooter, SiteHeader, useSiteInteraction } from './SiteChrome';
 import { pagePath } from './i18n/locale';
 import type { Locale } from './i18n/locale';
+import { adminSubmission, formatDeadline, selectSiteText } from './content/adminSite';
 import './SubmissionPage.css';
 
 const copy = {
@@ -16,6 +17,14 @@ const MotionLink = motion.create(TransitionLink);
 
 export function SubmissionPage({ locale }: { locale: Locale }) {
   const text = copy[locale];
+  // Admin-published project overlays the bundled reference copy.
+  const admin = adminSubmission();
+  const openStatus = { en: 'OPEN FOR SUBMISSIONS', zh: '开放投稿中', ja: '応募受付中' } as const satisfies Record<Locale, string>;
+  const project = admin?.title || text.project;
+  const status = admin ? (admin.state === 'open' ? openStatus[locale] : text.status) : text.status;
+  const deadline = (admin && formatDeadline(admin.deadline)) || '30 JUN 2026';
+  const release = admin?.release || 'Comic Market 108, 2026';
+  const intro = (admin && selectSiteText(admin.texts, locale)) || text.intro;
   const interaction = useSiteInteraction(true);
   const viewportRef = useRef<HTMLDivElement>(null);
   const titleRef = useRef<HTMLHeadingElement>(null);
@@ -39,8 +48,8 @@ export function SubmissionPage({ locale }: { locale: Locale }) {
   return <div className="submission-viewport" ref={viewportRef}><div className="submission-page">
     <SiteHeader locale={locale} page="submission" />
     <main className="submission-layout">
-      <aside className="submission-aside"><h1>SUBMISSION</h1><h2 ref={titleRef}>{text.project}</h2><p className="submission-status">{text.status}</p><dl><div><dt>{text.deadline}</dt><dd>30 JUN 2026</dd></div><div><dt>{text.release}</dt><dd>Comic Market 108, 2026</dd></div></dl><MotionLink {...interaction} className="submission-action" to={pagePath(locale, 'contact') + '?category=submission'}><motion.span variants={{ rest: { x: 0 }, hover: { x: 3 }, tap: { x: 3, scale: 1 } }} transition={interaction.transition}>{text.toSubmit}</motion.span><i aria-hidden="true" /></MotionLink></aside>
-      <article className="submission-copy" aria-label={text.intro}><p>{text.intro}</p></article>
+      <aside className="submission-aside"><h1>SUBMISSION</h1><h2 ref={titleRef}>{project}</h2><p className="submission-status">{status}</p><dl><div><dt>{text.deadline}</dt><dd>{deadline}</dd></div><div><dt>{text.release}</dt><dd>{release}</dd></div></dl><MotionLink {...interaction} className="submission-action" to={pagePath(locale, 'contact') + '?category=submission'}><motion.span variants={{ rest: { x: 0 }, hover: { x: 3 }, tap: { x: 3, scale: 1 } }} transition={interaction.transition}>{text.toSubmit}</motion.span><i aria-hidden="true" /></MotionLink></aside>
+      <article className="submission-copy" aria-label={intro}><p>{intro}</p></article>
     </main><SiteFooter />
   </div></div>;
 }
