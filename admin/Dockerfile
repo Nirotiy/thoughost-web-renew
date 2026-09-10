@@ -1,6 +1,7 @@
 FROM node:24.14.0-bookworm-slim AS build
 WORKDIR /app
 COPY package.json package-lock.json ./
+COPY tsconfig.json ./
 RUN npm ci
 COPY admin ./admin
 COPY src/fonts.css ./src/fonts.css

@@ -2,6 +2,7 @@ import { createServer } from 'node:http';
 import type { IncomingMessage, ServerResponse } from 'node:http';
 import { createHash, randomBytes, randomUUID, scrypt, timingSafeEqual } from 'node:crypto';
 import { promisify } from 'node:util';
+import { createAdmin, usernameSchema } from './accounts.ts';
 import { mkdirSync, readFileSync } from 'node:fs';
 import { readFile, writeFile } from 'node:fs/promises';
 import { resolve, extname } from 'node:path';
@@ -17,11 +18,7 @@ export async function createApp(options: { dataDir: string; root: string; origin
   const { dataDir, root, origin } = options;
   mkdirSync(resolve(dataDir, 'media'), { recursive: true });
   const store = new Store(resolve(dataDir, 'content.sqlite'));
-  if (!store.db.prepare('SELECT id FROM admin WHERE id=1').get()) {
-    if (options.password.length < 16) throw new Error('Initial password must contain at least 16 characters');
-    const salt = randomBytes(32).toString('hex');
-    store.db.prepare('INSERT INTO admin VALUES(1,?,?)').run(salt, (await derive(options.password, salt, 64) as Buffer).toString('hex'));
-  }
+  if (!store.db.prepare('SELECT id FROM admins LIMIT 1').get()) await createAdmin(store, 'admin', options.password);
   if (options.importSeed !== false) seed(store, root);
   const attempts = new Map<string, { count: number; until: number }>();
   const secure = origin.startsWith('https:') ? '; Secure' : '';
@@ -49,26 +46,32 @@ export async function createApp(options: { dataDir: string; root: string; origin
         const rate = attempts.get(ip) ?? { count: 0, until: now + 15 * 60_000 };
         if (rate.count >= 10) throw new HttpError(429, '尝试次数过多，请稍后再试');
         rate.count++; attempts.set(ip, rate);
-        const { password } = z.object({ password: z.string().max(1024) }).parse(await json(req));
-        const admin = store.db.prepare('SELECT salt,hash FROM admin WHERE id=1').get();
-        if (!admin || !timingSafeEqual(await derive(password, String(admin.salt), 64) as Buffer, Buffer.from(String(admin.hash), 'hex'))) throw new HttpError(401, '密码错误');
+        const { username, password } = z.object({ username: usernameSchema, password: z.string().max(1024) }).parse(await json(req));
+        const admin = store.db.prepare('SELECT id,username,salt,hash FROM admins WHERE username=?').get(username);
+        const candidate = await derive(password, admin ? String(admin.salt) : 'unknown-account', 64) as Buffer;
+        if (!admin || !timingSafeEqual(candidate, Buffer.from(String(admin.hash), 'hex'))) throw new HttpError(401, '用户名或密码错误');
         attempts.delete(ip);
         const token = randomBytes(32).toString('hex'), csrf = randomBytes(32).toString('hex');
         store.db.prepare('DELETE FROM sessions WHERE expires<?').run(now);
-        store.db.prepare('INSERT INTO sessions VALUES(?,?,?)').run(digest(token), csrf, now + 8 * 3600_000);
+        store.db.prepare('INSERT INTO sessions(token,csrf,expires,admin_id) VALUES(?,?,?,?)').run(digest(token), csrf, now + 8 * 3600_000, Number(admin.id));
         res.setHeader('Set-Cookie', `thoughost_admin=${token}; HttpOnly; SameSite=Strict; Path=/api; Max-Age=28800${secure}`);
-        return send(res, 200, { csrf });
+        return send(res, 200, { csrf, username: admin.username });
       }
       const token = /(?:^|;\s*)thoughost_admin=([a-f0-9]{64})(?:;|$)/.exec(req.headers.cookie ?? '')?.[1];
-      const session = token ? store.db.prepare('SELECT csrf FROM sessions WHERE token=? AND expires>?').get(digest(token), Date.now()) : undefined;
+      const session = token ? store.db.prepare('SELECT sessions.csrf,admins.username FROM sessions JOIN admins ON admins.id=sessions.admin_id WHERE token=? AND expires>?').get(digest(token), Date.now()) : undefined;
       if (path.startsWith('/api/admin/') || path.startsWith('/api/auth/')) {
         if (!session) throw new HttpError(401, '请先登录');
         if (!['GET','HEAD'].includes(method) && req.headers['x-csrf-token'] !== session.csrf) throw new HttpError(403, '会话校验失败，请重新登录');
       }
-      if (path === '/api/auth/session' && method === 'GET') return send(res, 200, { csrf: session?.csrf });
+      if (path === '/api/auth/session' && method === 'GET') return send(res, 200, { csrf: session?.csrf, username: session?.username });
       if (path === '/api/auth/logout' && method === 'POST') {
         if (token) store.db.prepare('DELETE FROM sessions WHERE token=?').run(digest(token));
         res.setHeader('Set-Cookie', `thoughost_admin=; HttpOnly; SameSite=Strict; Path=/api; Max-Age=0${secure}`); return send(res, 200, { ok: true });
+      }
+      if (path === '/api/admin/accounts' && method === 'GET') return send(res, 200, store.db.prepare('SELECT username FROM admins ORDER BY username').all());
+      if (path === '/api/admin/accounts' && method === 'POST') {
+        const credentials = z.object({ username: usernameSchema, password: z.string().min(16, '密码至少 16 个字符').max(1024, '密码最多 1024 个字符') }).parse(await json(req));
+        return send(res, 201, await createAdmin(store, credentials.username, credentials.password));
       }
       if (path === '/api/admin/records' && method === 'GET') return send(res, 200, store.list());
       if (path === '/api/admin/records' && method === 'POST') { const data = contentSchema.parse(await json(req)); return send(res, 201, store.create(data.kind + '/' + randomUUID(), data)); }
@@ -78,7 +81,7 @@ export async function createApp(options: { dataDir: string; root: string; origin
         if (!action && method === 'GET') return send(res, 200, store.get(id));
         if (!action && method === 'PUT') { const parsed = z.object({ revision: z.number().int().positive(), data: contentSchema }).parse(await json(req)); return send(res, 200, store.save(id, parsed.revision, parsed.data)); }
         if (action === 'versions' && method === 'GET') return send(res, 200, store.versions(id));
-        if (action === 'publish' && method === 'POST') { const parsed = z.object({ revision: z.number().int().positive(), approvals: z.array(z.string()).max(20) }).parse(await json(req)); return send(res, 200, store.publish(id, parsed.revision, parsed.approvals)); }
+        if (action === 'publish' && method === 'POST') { const parsed = z.object({ revision: z.number().int().positive() }).parse(await json(req)); return send(res, 200, store.publish(id, parsed.revision)); }
         if (action === 'restore' && method === 'POST') { const parsed = z.object({ revision: z.number().int().positive(), version: z.number().int().positive() }).parse(await json(req)); return send(res, 200, store.restore(id, parsed.revision, parsed.version)); }
       }
       if (path === '/api/admin/media' && method === 'POST') {

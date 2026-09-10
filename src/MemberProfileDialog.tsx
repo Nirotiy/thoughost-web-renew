@@ -1,4 +1,4 @@
-import { useLayoutEffect, useRef, useState } from 'react';
+import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import type { Locale } from './i18n/locale';
 import './MemberProfileDialog.css';
 
@@ -7,8 +7,30 @@ type MemberProfile = {
   links?: readonly { label: string; url: string }[];
 };
 
-// Add only member-approved biographies and account URLs here.
+type PublishedMember = { id: string; data: { title: string; texts: Partial<Record<Locale | 'original', string>>; links?: { label: string; url: string }[] } };
+
+// Local overrides take precedence over the admin-published biography and links.
 const profiles: Readonly<Record<string, MemberProfile>> = {};
+const published = new Map<string, MemberProfile>();
+async function loadPublished(name: string, locale: Locale): Promise<MemberProfile | undefined> {
+  if (published.has(name)) return published.get(name);
+  try {
+    const response = await fetch('/api/content/members');
+    if (!response.ok) return undefined;
+    const rows = await response.json() as PublishedMember[];
+    const match = rows.find(row => row.data.title === name);
+    if (!match) return undefined;
+    const texts = match.data.texts;
+    const text = [texts[locale], texts.zh, texts.en, texts.ja].find(value => value?.trim());
+    const lang: Locale = texts[locale]?.trim() ? locale : texts.zh?.trim() ? 'zh' : texts.en?.trim() ? 'en' : 'ja';
+    const profile: MemberProfile = {
+      ...(text ? { biography: { text, lang } } : {}),
+      ...(match.data.links?.length ? { links: match.data.links.filter(link => link.url.startsWith('https://')) } : {}),
+    };
+    published.set(name, profile);
+    return profile;
+  } catch { return undefined; }
+}
 const copy = {
   en: { pending: 'Member biography coming soon.', close: 'Close member profile', links: 'Social links' },
   zh: { pending: '成员简介待补充。', close: '关闭成员简介', links: '社交平台' },
@@ -20,9 +42,10 @@ export function MemberProfileDialog({ name, image, vertical, locale, onClose }: 
 }) {
   const dialogRef = useRef<HTMLDialogElement>(null);
   const [closing, setClosing] = useState(false);
+  const [profile, setProfile] = useState<MemberProfile | undefined>(profiles[name]);
   const requestClose = () => setClosing(true);
-  const profile = profiles[name];
   const text = copy[locale];
+  useEffect(() => { let active = true; void loadPublished(name, locale).then(value => { if (active) setProfile(value); }); return () => { active = false; }; }, [name, locale]);
   useLayoutEffect(() => {
     const dialog = dialogRef.current;
     const trigger = document.activeElement;

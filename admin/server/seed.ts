@@ -4,7 +4,7 @@ import { z } from 'zod';
 import { emptyContent } from '../shared/content.ts';
 import type { Store } from './store.ts';
 
-const albumSchema = z.array(z.object({ id: z.string(), catalog: z.string(), title: z.object({ value: z.string() }), releaseDate: z.object({ value: z.string() }), summary: z.array(z.object({ language: z.string(), value: z.string() })), tracks: z.array(z.object({ title: z.string(), artist: z.string().optional() })), credits: z.object({ value: z.string() }).optional(), purchaseLinks: z.array(z.object({ kind: z.string(), url: z.string() })) }));
+const albumSchema = z.array(z.object({ id: z.string(), catalog: z.string(), title: z.object({ value: z.string() }), releaseDate: z.object({ value: z.string() }), summary: z.array(z.object({ language: z.string(), value: z.string() })), tracks: z.array(z.object({ title: z.string(), artist: z.string().optional() })), credits: z.object({ value: z.string() }).nullish(), purchaseLinks: z.array(z.object({ kind: z.string(), url: z.string() })) }));
 /** Import once, as drafts only. Never overwrite edits on restart. */
 export function seed(store: Store, root: string) {
   if (store.db.prepare('SELECT name FROM migrations WHERE name=?').get('initial-content-v1')) return;

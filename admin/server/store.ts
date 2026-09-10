@@ -1,5 +1,5 @@
 import { DatabaseSync } from 'node:sqlite';
-import { contentSchema, publicationIssues, reviewScopes } from '../shared/content.ts';
+import { contentSchema, publicationIssues } from '../shared/content.ts';
 import type { ContentData, ContentRecord, Kind, Version } from '../shared/content.ts';
 
 export class HttpError extends Error {
@@ -16,6 +16,18 @@ export class Store {
       CREATE TABLE IF NOT EXISTS admin(id INTEGER PRIMARY KEY CHECK(id=1), salt TEXT NOT NULL, hash TEXT NOT NULL);
       CREATE TABLE IF NOT EXISTS sessions(token TEXT PRIMARY KEY, csrf TEXT NOT NULL, expires INTEGER NOT NULL);
       CREATE TABLE IF NOT EXISTS migrations(name TEXT PRIMARY KEY, created_at TEXT NOT NULL);`);
+    // Preserve the legacy password and invalidate sessions without an account owner.
+    this.db.exec(`BEGIN IMMEDIATE;
+      CREATE TABLE IF NOT EXISTS admins(id INTEGER PRIMARY KEY, username TEXT NOT NULL UNIQUE, salt TEXT NOT NULL, hash TEXT NOT NULL);
+      INSERT OR IGNORE INTO admins(id,username,salt,hash) SELECT id,'admin',salt,hash FROM admin;
+      DELETE FROM admin;
+      COMMIT;`);
+    if (!this.db.prepare('PRAGMA table_info(sessions)').all().some(column => column.name === 'admin_id')) {
+      this.db.exec(`BEGIN IMMEDIATE;
+        DELETE FROM sessions;
+        ALTER TABLE sessions ADD COLUMN admin_id INTEGER REFERENCES admins(id) ON DELETE CASCADE;
+        COMMIT;`);
+    }
   }
   get(id: string): ContentRecord {
     const row = this.db.prepare('SELECT * FROM records WHERE id=?').get(id);
@@ -36,14 +48,13 @@ export class Store {
     if (!result.changes) throw new HttpError(409, '内容已被其他窗口更新。请保留输入，重新加载后比较。');
     return this.get(id);
   }
-  publish(id: string, expected: number, approvals: string[]): ContentRecord {
+  publish(id: string, expected: number): ContentRecord {
     this.db.exec('BEGIN IMMEDIATE');
     try {
       const record = this.get(id);
-      if (record.revision !== expected) throw new HttpError(409, '草稿版本已改变，请重新检查');
+      if (record.revision !== expected) throw new HttpError(409, '草稿版本已改变，请重新保存后再发布');
       const issues = publicationIssues(record.data);
       if (issues.length) throw new HttpError(400, issues.join('；'));
-      if (reviewScopes(record.data).some(scope => !approvals.includes(scope))) throw new HttpError(400, '请完成当前草稿逐项确认');
       const created = this.db.prepare('INSERT INTO versions(record_id,data,created_at) VALUES(?,?,?)').run(id, JSON.stringify(record.data), new Date().toISOString());
       this.db.prepare('UPDATE records SET published_version=?,revision=revision+1,updated_at=? WHERE id=?').run(created.lastInsertRowid, new Date().toISOString(), id);
       this.db.exec('COMMIT'); return this.get(id);

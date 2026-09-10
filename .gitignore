@@ -12,3 +12,6 @@ admin-dist/
 
 # Local design mockups / handoff prototypes (kept local only)
 docs/
+
+# Local design mockups / handoff prototypes (kept local only)
+.design/

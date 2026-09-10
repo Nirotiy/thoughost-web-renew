@@ -30,6 +30,6 @@ services:
       retries: 3
 secrets:
   admin_password:
-    file: ./.recovery-check/admin-password.txt
+    file: ./.env.admin-password
 volumes:
   admin_data:

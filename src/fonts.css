@@ -1,4 +1,11 @@
+@import '@fontsource/ibm-plex-sans-jp/400.css';
+@import '@fontsource/ibm-plex-sans-jp/500.css';
+@import '@fontsource/ibm-plex-sans-jp/700.css';
+
 @font-face { font-family: "Eudoxus Sans"; font-style: normal; font-weight: 400; font-display: swap; src: url("./assets/fonts/EudoxusSans-Regular.woff2") format("woff2"); }
 @font-face { font-family: "Eudoxus Sans"; font-style: normal; font-weight: 500; font-display: swap; src: url("./assets/fonts/EudoxusSans-Medium.woff2") format("woff2"); }
 @font-face { font-family: "Eudoxus Sans"; font-style: normal; font-weight: 700; font-display: swap; src: url("./assets/fonts/EudoxusSans-Bold.woff2") format("woff2"); }
-:root { --site-font: "Eudoxus Sans", "Noto Sans SC Variable", "Noto Sans", sans-serif; }
+@font-face { font-family: "HarmonyOS Sans SC"; font-style: normal; font-weight: 400; font-display: swap; src: url("./assets/fonts/HarmonyOS_Sans_SC_Regular.ttf") format("truetype"); }
+@font-face { font-family: "HarmonyOS Sans SC"; font-style: normal; font-weight: 500; font-display: swap; src: url("./assets/fonts/HarmonyOS_Sans_SC_Medium.ttf") format("truetype"); }
+@font-face { font-family: "HarmonyOS Sans SC"; font-style: normal; font-weight: 700; font-display: swap; src: url("./assets/fonts/HarmonyOS_Sans_SC_Bold.ttf") format("truetype"); }
+:root { --site-font: "Eudoxus Sans", "HarmonyOS Sans SC", "IBM Plex Sans JP", sans-serif; }
