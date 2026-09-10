@@ -1,4 +1,5 @@
 import type { ReviewState } from './types';
+import { mergeReleases } from './adminAlbums';
 
 export type DiscographyRelease = {
   id: string;
@@ -11,7 +12,7 @@ export type DiscographyRelease = {
 // Public title/cover/link associations read from Bandcamp on 2026-09-05.
 // This visual sample does not approve categories, summaries, translations or tracks.
 const entries = [
-  ['KAKUSATSU SHOUJO 4', 'album/kakusatsu-shoujo-4', '0209168015', '2026-07-20'],
+  ['KAKUSATSU SHOUJO 4', 'album/kakusatsu-shoujo-4', '0209168015', '2026-08-16'],
   ['thoughts 2', 'album/thoughts-2', '2124124055', '2026-04-26'],
   ['2000% INVASION', 'album/2000-invasion', '1622141907', '2025-10-26'],
   ['MOONSHINE #001', 'album/moonshine-001', '2585905353', '2025-10-26'],
@@ -47,7 +48,8 @@ export const discographyReview = {
 };
 
 // ISO dates sort chronologically; equal-date releases retain the official catalog order.
-export const discographyReleases = discographyReview.releases.toSorted((a, b) => b.releaseDate.localeCompare(a.releaseDate));
+// Admin-published releases overlay title/cover/date/link; unpublished entries keep the bundle.
+export const discographyReleases = mergeReleases(discographyReview.releases);
 export const releasesPerPage = 18;
 
 export const discographyCategories = ['all', 'compilation', 'ep', 'solo', 'single'] as const;
